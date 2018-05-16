@@ -1,0 +1,45 @@
+footer {
+	border-bottom: 50px solid #1a489c;
+
+	@media (max-width: 960px) {
+		padding: 0 20px;
+	}
+
+	.footer-images {
+		float: right;
+
+		i {
+			display: block;
+			margin: 0 auto;
+
+			&:first-child {
+				margin-bottom: 20px;
+			}
+		}
+
+		a {
+			display: block;
+			background: #403d3c;
+			color: #fff;
+			font-size: 12px;
+			padding: 10px 20px;
+			text-align: center;
+			max-width: 180px;
+			margin: 20px auto 0;
+		}
+	}
+
+	.footer-text{
+		float: left;
+		max-width: 660px;
+		font-size: 14px;
+		color: #403d3c;
+
+		p {
+			span {
+				text-align: center;
+				display: block;
+			}
+		}
+	}
+}

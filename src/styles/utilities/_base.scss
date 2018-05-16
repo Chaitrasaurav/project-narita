@@ -84,3 +84,8 @@ ul{
 	margin:0;
 	list-style: none;
 }
+
+.shell {
+	max-width: $desktop-max-width;
+	margin: 0 auto;
+}
