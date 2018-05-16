@@ -7,8 +7,8 @@ var rename = require('gulp-rename');
 var sass = require('gulp-sass');
 var cleanCSS = require('gulp-clean-css');
 var browserSync = require('browser-sync').create();
-var sprite = require('css-sprite').stream;
-var gulpif = require('gulp-if');
+var spritesmith = require('gulp.spritesmith');
+
  
 gulp.task('fileinclude', function() {
   gulp.src(['src/views/index.html'])
@@ -20,14 +20,11 @@ gulp.task('fileinclude', function() {
 });
 
 gulp.task('sprites', function () {
-  return gulp.src('src/images/*.*')
-    .pipe(sprite({
-      name: 'sprite',
-      style: 'sprite.scss',
-      cssPath: 'src/styles/modules/',
-      processor: 'scss'
-    }))
-    .pipe(gulpif('*.png', gulp.dest('src/dist/images/'), gulp.dest('src/styles/modules/')))
+  var spriteData = gulp.src('src/images/*.*').pipe(spritesmith({
+    imgName: 'sprite.png',
+    cssName: 'sprite.css'
+  }));
+  return spriteData.pipe(gulp.dest('src/dist/sprite/'));
 });
 
 gulp.task('scripts', function() {
