@@ -18,37 +18,43 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-arrow-left {
   background-image: url(sprite.png);
-  background-position: 0px -302px;
+  background-position: -604px -263px;
   width: 20px;
   height: 45px;
 }
 .icon-arrow-right {
   background-image: url(sprite.png);
-  background-position: -324px -217px;
+  background-position: -604px -219px;
   width: 23px;
   height: 44px;
 }
 .icon-hotel-image-footer {
   background-image: url(sprite.png);
-  background-position: -324px 0px;
+  background-position: -324px -219px;
   width: 280px;
   height: 164px;
 }
 .icon-logo-footer {
   background-image: url(sprite.png);
-  background-position: -324px -164px;
+  background-position: -324px -383px;
   width: 185px;
   height: 27px;
 }
 .icon-logo {
   background-image: url(sprite.png);
-  background-position: -324px -191px;
+  background-position: -509px -383px;
   width: 169px;
   height: 26px;
 }
 .icon-slider-badge {
   background-image: url(sprite.png);
-  background-position: 0px 0px;
+  background-position: 0px -219px;
   width: 324px;
   height: 302px;
+}
+.icon-travel-bg {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 725px;
+  height: 219px;
 }
