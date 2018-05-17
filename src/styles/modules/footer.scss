@@ -1,7 +1,7 @@
 footer {
 	border-bottom: 50px solid #1a489c;
 
-	@media (max-width: 960px) {
+	@media (max-width: 980px) {
 		padding: 0 20px;
 	}
 
@@ -29,7 +29,7 @@ footer {
 		}
 	}
 
-	.footer-text{
+	.footer-text {
 		float: left;
 		max-width: 660px;
 		font-size: 14px;

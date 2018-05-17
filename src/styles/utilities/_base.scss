@@ -1,33 +1,42 @@
 body {
-	margin: 0; 
-	padding: 0; 
-	font-size: 15px; 
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
 	line-height: 1.5;
 	font-family: $font-family-primary;
 	color: $text-color-base;
 }
 
-* {    
+* {
 	-webkit-overflow-scrolling: touch;
 	box-sizing: border-box;
-	&:focus{
-		outline:none;
+	&:focus {
+		outline: none;
 	}
 }
 
-a{
+a {
 	color: $text-color-base;
 	text-decoration: none;
-	&:hover, &:active, &:visited{
-		text-decoration: underline;
+	&:hover,
+	&:active,
+	&:visited {
+		text-decoration: none;
 	}
 }
 
-img{
-	display:inline-block;
+img {
+	display: inline-block;
 }
 
-article, aside, figcaption, figure, footer, header, nav, section {
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
 	display: block;
 }
 
@@ -35,53 +44,59 @@ a img {
 	border: none;
 }
 
-sup, sub {
+sup,
+sub {
 	line-height: 0;
 }
 
-i{
+i {
 	display: inline-block;
 }
 
-h1, h2, h3, h4, h5, h6{
-	margin:0;
-	padding:0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
 }
 
-h1{
+h1 {
 	font-size: 60px;
-	color:#ffffff;
+	color: #ffffff;
 	@media (max-width: 767px) {
-		font-size:30px;
+		font-size: 30px;
 	}
 }
 
-h2{
+h2 {
 	font-size: 36px;
 	@media (max-width: 767px) {
-		font-size:28px;
+		font-size: 28px;
 	}
 }
 
-h3{
-	font-size:18px;
+h3 {
+	font-size: 18px;
 	font-family: $font-family-primary;
 	color: $text-color-primary;
-	font-weight:400;
+	font-weight: 400;
 	@media (max-width: 767px) {
-		font-size:16px;
+		font-size: 16px;
 	}
 }
 
 .clearfix::after {
-  content:'';
-  clear: both;
-  display: block;
+	content: '';
+	clear: both;
+	display: block;
 }
 
-ul{
-	padding:0;
-	margin:0;
+ul {
+	padding: 0;
+	margin: 0;
 	list-style: none;
 }
 

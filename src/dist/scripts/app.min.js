@@ -1,1 +1,1 @@
-console.log("test");
+$(document).ready(function(){$(".stage-slider").slick({slidesToShow:1,slidesToScroll:1,arrows:!0,fade:!0,dots:!0}),$(".stage .slick-next").addClass("icon-arrow-right"),$(".stage .slick-prev").addClass("icon-arrow-left")});
