@@ -1,0 +1,63 @@
+.camp{
+	.first-section{
+		ul{
+			display:flex;
+			li {
+				width:50%;
+				i{
+					box-shadow: 5px 5px $text-color-primary;
+				}
+				.camp-info {
+					> span{
+						font-family: $font-family-secondary;
+						font-size: 30.4px;
+  						font-weight: bold;
+  						line-height: 0.89;
+  						letter-spacing: 1.1px;
+  						background: #ffffc1;
+  						width:98px;
+  						height: 98px;
+  						box-shadow: 5px 5px #1e489d;
+  						border-radius: 100px;
+  						display: inline-block;
+  						padding: 30px 0;
+    					text-align: center;
+    					bottom: 35px;
+    					position: relative;
+					}
+				}
+			}
+		}
+	}
+	.second-section{
+		ul{
+			display:flex;
+			li {
+				width:33%;
+
+				i{
+					box-shadow: 5px 5px $text-color-primary;
+				}
+				.camp-info {
+					> span{
+						font-family: $font-family-secondary;
+						font-size: 30.4px;
+  						font-weight: bold;
+  						line-height: 0.89;
+  						letter-spacing: 1.1px;
+  						background: #ffffc1;
+  						width:71px;
+  						height: 71px;
+  						box-shadow: 5px 5px #1e489d;
+  						border-radius: 100px;
+  						display: inline-block;
+  						padding: 20px 0;
+    					text-align: center;
+    					bottom: 35px;
+    					position: relative;
+					}
+				}
+			}
+		}
+	}
+}

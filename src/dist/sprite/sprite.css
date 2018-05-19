@@ -18,39 +18,117 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-arrow-left {
   background-image: url(sprite.png);
-  background-position: -604px -263px;
+  background-position: -803px -446px;
   width: 20px;
   height: 45px;
 }
 .icon-arrow-right {
   background-image: url(sprite.png);
-  background-position: -604px -219px;
+  background-position: -1002px -313px;
   width: 23px;
   height: 44px;
 }
-.icon-hotel-image-footer {
+.icon-attraction-1 {
+  background-image: url(sprite.png);
+  background-position: -725px -220px;
+  width: 277px;
+  height: 173px;
+}
+.icon-attraction-2 {
+  background-image: url(sprite.png);
+  background-position: 0px -521px;
+  width: 277px;
+  height: 173px;
+}
+.icon-attraction-3 {
+  background-image: url(sprite.png);
+  background-position: -277px -521px;
+  width: 277px;
+  height: 173px;
+}
+.icon-camp1 {
   background-image: url(sprite.png);
   background-position: -324px -219px;
+  width: 350px;
+  height: 220px;
+}
+.icon-camp2 {
+  background-image: url(sprite.png);
+  background-position: -725px 0px;
+  width: 350px;
+  height: 220px;
+}
+.icon-camp3 {
+  background-image: url(sprite.png);
+  background-position: -510px -694px;
+  width: 255px;
+  height: 160px;
+}
+.icon-camp4 {
+  background-image: url(sprite.png);
+  background-position: 0px -694px;
+  width: 255px;
+  height: 160px;
+}
+.icon-camp5 {
+  background-image: url(sprite.png);
+  background-position: -255px -694px;
+  width: 255px;
+  height: 160px;
+}
+.icon-hotel-image-footer {
+  background-image: url(sprite.png);
+  background-position: -554px -521px;
   width: 280px;
   height: 164px;
 }
+.icon-hotels-slider-bubble {
+  background-image: url(sprite.png);
+  background-position: -834px -521px;
+  width: 187px;
+  height: 134px;
+}
 .icon-logo-footer {
   background-image: url(sprite.png);
-  background-position: -324px -383px;
+  background-position: -725px -393px;
   width: 185px;
   height: 27px;
 }
 .icon-logo {
   background-image: url(sprite.png);
-  background-position: -509px -383px;
+  background-position: -725px -420px;
   width: 169px;
   height: 26px;
+}
+.icon-number-3 {
+  background-image: url(sprite.png);
+  background-position: -1002px -282px;
+  width: 49px;
+  height: 31px;
+}
+.icon-number-4 {
+  background-image: url(sprite.png);
+  background-position: -1002px -220px;
+  width: 49px;
+  height: 31px;
+}
+.icon-number-5 {
+  background-image: url(sprite.png);
+  background-position: -1002px -251px;
+  width: 49px;
+  height: 31px;
 }
 .icon-slider-badge {
   background-image: url(sprite.png);
   background-position: 0px -219px;
   width: 324px;
   height: 302px;
+}
+.icon-small-hotel-image {
+  background-image: url(sprite.png);
+  background-position: -725px -446px;
+  width: 78px;
+  height: 45px;
 }
 .icon-travel-bg {
   background-image: url(sprite.png);

@@ -1,0 +1,23 @@
+.other-attractions{
+	margin-bottom: 30px;
+	ul {
+		display: flex;
+
+		li {
+			width:29%;
+			margin-right: 5%;
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			p {
+				min-height:88px;
+			}
+
+			.button {
+				margin: 0 auto;
+			}
+		}
+	}
+}

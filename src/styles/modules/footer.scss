@@ -1,6 +1,11 @@
 footer {
 	border-bottom: 50px solid #1a489c;
 
+	.footer-wrapper{
+		border-top: 1px solid #949595;
+		padding-top:30px;
+	}
+
 	@media (max-width: 980px) {
 		padding: 0 20px;
 	}
@@ -17,14 +22,7 @@ footer {
 			}
 		}
 
-		a {
-			display: block;
-			background: #403d3c;
-			color: #fff;
-			font-size: 12px;
-			padding: 10px 20px;
-			text-align: center;
-			max-width: 180px;
+		.button {
 			margin: 20px auto 0;
 		}
 	}
@@ -34,12 +32,19 @@ footer {
 		max-width: 660px;
 		font-size: 14px;
 		color: #403d3c;
+		line-height: 1.57;
 
 		p {
+			display: inline-block;
 			span {
 				text-align: center;
 				display: block;
 			}
+		}
+
+		ul {
+			margin: 0 0 0 50px;
+			line-height: 1.29;
 		}
 	}
 }
