@@ -283,7 +283,7 @@ ul {
   font-size: 12px;
   padding: 10px 20px;
   text-align: center;
-  max-width: 180px;
+  max-width: 200px;
   border: 1px solid #c4c3c3; }
   .button span {
     padding: 0 10px; }
@@ -487,6 +487,196 @@ header {
       display: block;
       padding-top: 17px; }
 
+.section-yume {
+  background: url(../images/section-yume-pattern.png) repeat-x;
+  padding: 20px 0 0; }
+  .section-yume .section-yume-container {
+    background: url(../images/section-museum-pattern.png) repeat-x bottom #ffe6ee; }
+    .section-yume .section-yume-container .icon-yume-background {
+      margin: 0 auto;
+      display: block; }
+    .section-yume .section-yume-container .yume-description {
+      position: relative;
+      top: -66px;
+      max-width: 550px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 16px; }
+    .section-yume .section-yume-container .yume-contact {
+      border-top: 1px solid #a8a4a6;
+      padding: 30px 0;
+      font-size: 12px;
+      line-height: 1.5; }
+      .section-yume .section-yume-container .yume-contact .first-section {
+        width: 50%;
+        float: left; }
+      .section-yume .section-yume-container .yume-contact .second-section {
+        width: 30%;
+        float: left; }
+      .section-yume .section-yume-container .yume-contact .last-section {
+        width: 20%;
+        float: left; }
+    .section-yume .section-yume-container .yume-attraction1 .left-slide {
+      width: 50%;
+      float: left; }
+    .section-yume .section-yume-container .yume-attraction1 .right-slide {
+      width: 50%;
+      float: left; }
+    .section-yume .section-yume-container .yume-attraction1 h4 {
+      position: relative;
+      display: inline-block; }
+      .section-yume .section-yume-container .yume-attraction1 h4:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        background: #ff93b3;
+        height: 10px;
+        bottom: 5px;
+        right: 0;
+        opacity: 0.5; }
+    .section-yume .section-yume-container .yume-attraction1 span {
+      display: block; }
+    .section-yume .section-yume-container .yume-attraction2 .left-slide {
+      width: 50%;
+      float: left; }
+      .section-yume .section-yume-container .yume-attraction2 .left-slide i {
+        float: left; }
+    .section-yume .section-yume-container .yume-attraction2 .right-slide {
+      width: 50%;
+      float: left; }
+    .section-yume .section-yume-container .yume-attraction2 h4 {
+      position: relative;
+      display: inline-block; }
+      .section-yume .section-yume-container .yume-attraction2 h4:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        background: #ff93b3;
+        height: 10px;
+        bottom: 5px;
+        right: 0;
+        opacity: 0.5; }
+    .section-yume .section-yume-container .yume-attraction2 span {
+      display: block; }
+    .section-yume .section-yume-container .yume-attraction3 .left-slide {
+      width: 50%;
+      float: left; }
+    .section-yume .section-yume-container .yume-attraction3 .right-slide {
+      width: 50%;
+      float: left; }
+      .section-yume .section-yume-container .yume-attraction3 .right-slide div {
+        width: 30%;
+        float: left; }
+    .section-yume .section-yume-container .yume-attraction3 h4 {
+      position: relative;
+      display: inline-block; }
+      .section-yume .section-yume-container .yume-attraction3 h4:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        background: #ff93b3;
+        height: 10px;
+        bottom: 5px;
+        right: 0;
+        opacity: 0.5; }
+    .section-yume .section-yume-container .yume-attraction3 span {
+      display: block; }
+  .section-yume .section-museum-container {
+    background: url(../images/section-museum-bottom-pattern.png) repeat-x bottom #deeeff; }
+    .section-yume .section-museum-container .icon-museum-background {
+      margin: 0 auto;
+      display: block; }
+    .section-yume .section-museum-container .museum-description {
+      position: relative;
+      max-width: 550px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 16px;
+      position: relative; }
+      .section-yume .section-museum-container .museum-description i {
+        position: absolute;
+        left: -270px; }
+    .section-yume .section-museum-container .museum-contact {
+      border-top: 1px solid #a8a4a6;
+      padding: 30px 0;
+      font-size: 12px;
+      line-height: 1.5; }
+      .section-yume .section-museum-container .museum-contact .first-section {
+        width: 50%;
+        float: left; }
+      .section-yume .section-museum-container .museum-contact .second-section {
+        width: 30%;
+        float: left; }
+      .section-yume .section-museum-container .museum-contact .last-section {
+        width: 20%;
+        float: left; }
+    .section-yume .section-museum-container .museum-attraction1 .left-slide {
+      width: 50%;
+      float: left; }
+    .section-yume .section-museum-container .museum-attraction1 .right-slide {
+      width: 50%;
+      float: left; }
+    .section-yume .section-museum-container .museum-attraction1 h4 {
+      position: relative;
+      display: inline-block; }
+      .section-yume .section-museum-container .museum-attraction1 h4:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        background: #6fb4ff;
+        height: 10px;
+        bottom: 5px;
+        right: 0;
+        opacity: 0.5; }
+    .section-yume .section-museum-container .museum-attraction1 span {
+      display: block; }
+    .section-yume .section-museum-container .museum-attraction2 .left-slide {
+      width: 50%;
+      float: left; }
+    .section-yume .section-museum-container .museum-attraction2 .right-slide {
+      width: 50%;
+      float: left; }
+    .section-yume .section-museum-container .museum-attraction2 h4 {
+      position: relative;
+      display: inline-block; }
+      .section-yume .section-museum-container .museum-attraction2 h4:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        background: #6fb4ff;
+        height: 10px;
+        bottom: 5px;
+        right: 0;
+        opacity: 0.5; }
+    .section-yume .section-museum-container .museum-attraction2 span {
+      display: block; }
+    .section-yume .section-museum-container .museum-attraction3 {
+      position: relative; }
+      .section-yume .section-museum-container .museum-attraction3 .icon-aeroplane2 {
+        position: absolute;
+        left: -80px;
+        top: -35px; }
+      .section-yume .section-museum-container .museum-attraction3 .left-slide {
+        width: 50%;
+        float: left; }
+      .section-yume .section-museum-container .museum-attraction3 .right-slide {
+        width: 50%;
+        float: left; }
+      .section-yume .section-museum-container .museum-attraction3 h4 {
+        position: relative;
+        display: inline-block; }
+        .section-yume .section-museum-container .museum-attraction3 h4:after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          background: #6fb4ff;
+          height: 10px;
+          bottom: 5px;
+          right: 0;
+          opacity: 0.5; }
+      .section-yume .section-museum-container .museum-attraction3 span {
+        display: block; }
+
 .other-attractions {
   margin-bottom: 30px; }
   .other-attractions ul {
@@ -500,6 +690,79 @@ header {
         min-height: 88px; }
       .other-attractions ul li .button {
         margin: 0 auto; }
+
+.about {
+  background: url(../images/about-hotel-pattern.png) repeat-x #ffffea;
+  position: relative;
+  padding: 50px 0; }
+  .about .bubble-text {
+    position: absolute;
+    right: 0;
+    top: 0; }
+    .about .bubble-text span {
+      color: #ff4178;
+      font-size: 17px;
+      font-family: shingopro;
+      line-height: 1.18;
+      letter-spacing: 0.7px;
+      font-weight: 700;
+      width: 63px;
+      top: 72px;
+      position: absolute;
+      left: 19px; }
+  .about .about-info {
+    text-align: center; }
+    .about .about-info .first-line {
+      font-size: 17px;
+      font-weight: bold;
+      color: #ff4178;
+      line-height: 1.24;
+      letter-spacing: 1px;
+      background: #ffff96;
+      display: inline-block; }
+    .about .about-info .second-line {
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1.67;
+      letter-spacing: 0.9px;
+      color: #ff4178;
+      display: block; }
+    .about .about-info .last-line {
+      font-size: 25px;
+      border-bottom: 1px solid #88867e;
+      display: table;
+      margin: 0 auto; }
+  .about .about-description {
+    text-align: center;
+    max-width: 767px;
+    margin: 20px auto; }
+  .about .first-amenity .left-side {
+    width: 50%;
+    float: left; }
+  .about .first-amenity .right-side {
+    width: 50%;
+    float: left; }
+    .about .first-amenity .right-side a {
+      font-size: 15px;
+      color: #ffffff;
+      line-height: 1.33;
+      text-align: center;
+      background: #ff4178;
+      padding: 10px 20px;
+      max-width: 250px;
+      display: block; }
+  .about .second-amenity .left-side {
+    width: 50%;
+    float: left; }
+  .about .second-amenity .right-side {
+    width: 50%;
+    float: left; }
+  .about .third-amenity .left-side {
+    width: 50%;
+    float: left; }
+  .about .third-amenity .right-side {
+    width: 50%;
+    float: left; }
 
 .hotels-slider-wrapper {
   max-width: 1024px;
@@ -547,51 +810,193 @@ header {
     bottom: -45px;
     right: 40px; }
 
-.camp .first-section ul {
-  display: flex; }
-  .camp .first-section ul li {
-    width: 50%; }
-    .camp .first-section ul li i {
-      box-shadow: 5px 5px #ff4178; }
-    .camp .first-section ul li .camp-info > span {
-      font-family: shingopro;
-      font-size: 30.4px;
-      font-weight: bold;
-      line-height: 0.89;
-      letter-spacing: 1.1px;
-      background: #ffffc1;
-      width: 98px;
-      height: 98px;
-      box-shadow: 5px 5px #1e489d;
-      border-radius: 100px;
-      display: inline-block;
-      padding: 30px 0;
-      text-align: center;
-      bottom: 35px;
-      position: relative; }
+.camp .first-section {
+  font-family: shingopro; }
+  .camp .first-section ul {
+    display: flex; }
+    .camp .first-section ul li {
+      width: 35%;
+      margin: 0 10% 0 0; }
+      .camp .first-section ul li:first-child {
+        margin-left: 10%; }
+      .camp .first-section ul li i {
+        box-shadow: 5px 5px #ff4178; }
+      .camp .first-section ul li .camp-info > span {
+        font-size: 30.4px;
+        font-weight: bold;
+        line-height: 0.89;
+        letter-spacing: 1.1px;
+        background: #ffffc1;
+        width: 98px;
+        height: 98px;
+        box-shadow: 5px 5px #1e489d;
+        border-radius: 100px;
+        display: inline-block;
+        padding: 30px 0;
+        text-align: center;
+        float: left;
+        top: -35px;
+        position: relative;
+        margin: 0 20px 0 0; }
+      .camp .first-section ul li .camp-info p {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.2;
+        letter-spacing: 0.7px; }
+        .camp .first-section ul li .camp-info p span {
+          font-size: 13px;
+          font-weight: normal;
+          line-height: 2.07;
+          letter-spacing: 0.5px; }
+        .camp .first-section ul li .camp-info p .second-line {
+          line-height: 2.07;
+          letter-spacing: 0.5px;
+          font-size: 13px;
+          display: block; }
 
-.camp .second-section ul {
-  display: flex; }
-  .camp .second-section ul li {
-    width: 33%; }
-    .camp .second-section ul li i {
-      box-shadow: 5px 5px #ff4178; }
-    .camp .second-section ul li .camp-info > span {
-      font-family: shingopro;
-      font-size: 30.4px;
-      font-weight: bold;
-      line-height: 0.89;
-      letter-spacing: 1.1px;
-      background: #ffffc1;
-      width: 71px;
-      height: 71px;
-      box-shadow: 5px 5px #1e489d;
-      border-radius: 100px;
+.camp .second-section {
+  font-family: shingopro; }
+  .camp .second-section ul {
+    display: flex; }
+    .camp .second-section ul li {
+      width: 27%;
+      position: relative;
+      margin: 0 3%; }
+      .camp .second-section ul li i {
+        box-shadow: 5px 5px #ff4178; }
+      .camp .second-section ul li .camp-info > span {
+        font-size: 30.4px;
+        font-weight: bold;
+        line-height: 0.89;
+        letter-spacing: 1.1px;
+        background: #ffffc1;
+        width: 71px;
+        height: 71px;
+        box-shadow: 5px 5px #1e489d;
+        border-radius: 100px;
+        display: inline-block;
+        padding: 20px 0;
+        text-align: center;
+        float: left;
+        top: -35px;
+        position: relative;
+        margin: 0 20px 0 0; }
+      .camp .second-section ul li .camp-info p {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1.27;
+        letter-spacing: 0.4px; }
+        .camp .second-section ul li .camp-info p span {
+          font-size: 9.8px;
+          font-weight: normal;
+          line-height: 2.07;
+          letter-spacing: 0.3px;
+          display: block; }
+      .camp .second-section ul li h3 {
+        font-size: 46.1px;
+        font-weight: bold;
+        line-height: 1.27;
+        letter-spacing: 1.4px;
+        color: #ffffff;
+        position: absolute;
+        top: 44px;
+        left: 55px; }
+      .camp .second-section ul li .info-wrapper p {
+        max-width: 85px;
+        float: left;
+        padding-left: 10px; }
+        .camp .second-section ul li .info-wrapper p:first-child {
+          font-size: 13px;
+          width: 80px;
+          padding-left: 0; }
+
+.camp .camp-bottom-section .camp-bottom-info {
+  padding: 15px 0 85px;
+  position: relative; }
+  .camp .camp-bottom-section .camp-bottom-info p {
+    font-size: 20px;
+    color: #ff4178;
+    display: table;
+    margin: 0 auto;
+    border-bottom: 2px solid #ff4178;
+    position: relative; }
+    .camp .camp-bottom-section .camp-bottom-info p:after {
+      content: '';
+      border: solid #ff4178;
+      border-width: 0 2px 2px 0;
       display: inline-block;
-      padding: 20px 0;
-      text-align: center;
-      bottom: 35px;
-      position: relative; }
+      padding: 5px;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      position: absolute;
+      left: 50%;
+      bottom: -7px; }
+    .camp .camp-bottom-section .camp-bottom-info p:before {
+      content: '';
+      position: absolute;
+      height: 2px;
+      width: 12px;
+      background: #ffffff;
+      bottom: -2px;
+      left: 50%; }
+  .camp .camp-bottom-section .camp-bottom-info .button {
+    margin: 20px auto 0; }
+  .camp .camp-bottom-section .camp-bottom-info i {
+    position: absolute; }
+    .camp .camp-bottom-section .camp-bottom-info i:first-child {
+      left: 12%; }
+    .camp .camp-bottom-section .camp-bottom-info i:last-child {
+      right: 0;
+      bottom: 0; }
+
+.camp .camp-title {
+  font-family: shingopro;
+  position: relative; }
+  .camp .camp-title .bubble-text {
+    color: #ff4178;
+    font-size: 17px;
+    font-family: shingopro;
+    line-height: 1.18;
+    letter-spacing: 0.7px;
+    font-weight: 700;
+    width: 63px;
+    top: 27px;
+    position: absolute;
+    left: 13px; }
+  .camp .camp-title .icon-camp-title-bubble {
+    float: left; }
+  .camp .camp-title .camp-title-info i {
+    position: absolute;
+    right: 0;
+    top: 0; }
+  .camp .camp-title .camp-title-info p {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.43;
+    letter-spacing: 0.1px;
+    width: 40%;
+    float: left;
+    padding: 0 0 0 60px; }
+    .camp .camp-title .camp-title-info p:last-child {
+      font-size: 18px;
+      line-height: 2.05;
+      padding: 0; }
+      .camp .camp-title .camp-title-info p:last-child span {
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 1.02;
+        letter-spacing: 3.1px;
+        position: relative;
+        display: inline-block; }
+        .camp .camp-title .camp-title-info p:last-child span:after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          background: #f6f639;
+          height: 20px;
+          bottom: -4px;
+          right: 0;
+          opacity: 0.5; }
 
 footer {
   border-bottom: 50px solid #1a489c; }

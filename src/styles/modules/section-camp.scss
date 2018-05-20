@@ -1,15 +1,21 @@
 .camp{
 	.first-section{
+		font-family: $font-family-secondary;
 		ul{
 			display:flex;
 			li {
-				width:50%;
+				width:35%;
+				margin: 0 10% 0 0;
+
+				&:first-child {
+					margin-left: 10%;
+				}
+
 				i{
 					box-shadow: 5px 5px $text-color-primary;
 				}
 				.camp-info {
-					> span{
-						font-family: $font-family-secondary;
+					> span{						
 						font-size: 30.4px;
   						font-weight: bold;
   						line-height: 0.89;
@@ -22,25 +28,49 @@
   						display: inline-block;
   						padding: 30px 0;
     					text-align: center;
-    					bottom: 35px;
+    					float:left;
+    					top: -35px;
     					position: relative;
+    					margin: 0 20px 0 0;
+					}
+
+					p {
+						font-size: 20px;
+  						font-weight: bold;
+  						line-height: 1.2;
+  						letter-spacing: 0.7px;
+
+  						span {
+  							font-size: 13px;
+							font-weight: normal;
+							line-height: 2.07;
+							letter-spacing: 0.5px;
+  						}
+
+  						.second-line {
+  							line-height: 2.07;
+  							letter-spacing: 0.5px;
+  							font-size:13px;
+  							display: block;
+  						}
 					}
 				}
 			}
 		}
 	}
 	.second-section{
+		font-family: $font-family-secondary;
 		ul{
 			display:flex;
 			li {
-				width:33%;
-
+				width:27%;
+				position: relative;
+				margin: 0 3%;
 				i{
 					box-shadow: 5px 5px $text-color-primary;
 				}
 				.camp-info {
 					> span{
-						font-family: $font-family-secondary;
 						font-size: 30.4px;
   						font-weight: bold;
   						line-height: 0.89;
@@ -53,11 +83,166 @@
   						display: inline-block;
   						padding: 20px 0;
     					text-align: center;
-    					bottom: 35px;
+    					float:left;
+    					top: -35px;
     					position: relative;
+    					margin: 0 20px 0 0;
+					}
+
+					p {
+						font-size: 12px;
+  						font-weight: bold;
+  						line-height: 1.27;
+  						letter-spacing: 0.4px;
+
+  						span {
+  							font-size: 9.8px;
+							font-weight: normal;
+							line-height: 2.07;
+							letter-spacing: 0.3px;
+							display: block;
+  						}
+					}
+				}
+
+				h3 {
+					font-size: 46.1px;
+  					font-weight: bold;
+  					line-height: 1.27;
+  					letter-spacing: 1.4px;
+  					color: #ffffff;
+  					position: absolute;
+				    top: 44px;
+				    left: 55px;
+				}
+
+				.info-wrapper {
+					p {
+						max-width: 85px;
+						float: left;
+						padding-left: 10px;
+						&:first-child{
+							font-size: 13px;
+    						width: 80px;
+							padding-left: 0;
+						}
 					}
 				}
 			}
+		}
+	}
+
+	.camp-bottom-section{
+		.camp-bottom-info{
+			padding: 15px 0 85px;
+			position: relative;
+			p {
+				font-size: 20px;
+				color: $text-color-primary;
+				display: table;
+    			margin: 0 auto;
+   				border-bottom: 2px solid #ff4178;
+   				position: relative;
+   				&:after{
+   					content: '';
+   					border: solid #ff4178;
+				    border-width: 0 2px 2px 0;
+				    display: inline-block;
+				    padding: 5px;
+				    transform: rotate(45deg);
+    				-webkit-transform: rotate(45deg);
+    				position: absolute;
+    				left: 50%;
+    				bottom: -7px;
+   				}
+   				&:before{
+   					content: '';
+   					position: absolute;
+   					height: 2px;
+   					width:12px;
+   					background: #ffffff;
+   					bottom:-2px;
+   					left:50%;
+   				}
+			}
+
+			.button{
+				margin: 20px auto 0;
+			}
+
+			i{
+				position: absolute;
+    			&:first-child{
+    				left: 12%;
+    			}
+    			&:last-child{
+    				right:0;
+    				bottom:0;
+    			}
+			}
+		}
+	}
+
+	.camp-title {
+		font-family: $font-family-secondary;
+		position: relative;
+		.bubble-text {
+			color: $text-color-primary;
+			font-size:17px;
+			font-family: $font-family-secondary;
+			line-height: 1.18;
+  			letter-spacing: 0.7px;
+  			font-weight: 700;
+  			width:63px;
+  			top: 27px;
+		    position: absolute;
+		    left: 13px;
+		}
+		.icon-camp-title-bubble{
+			float: left;
+		}
+
+		.camp-title-info{
+
+			i{
+				position: absolute;
+			    right: 0;
+			    top: 0;
+			}
+
+  			p{
+  				font-size: 21px;
+	  			font-weight: bold;
+	  			line-height: 1.43;
+	  			letter-spacing: 0.1px;
+	  			width: 40%;
+    			float: left;
+    			padding:0 0 0 60px;
+  				&:last-child{
+  					font-size: 18px;
+  					line-height: 2.05;
+  					padding: 0;
+  					span{
+  						font-size: 44px;
+			  			font-weight: 700;
+			  			line-height: 1.02;
+			  			letter-spacing: 3.1px;
+			  			position: relative;
+			  			display: inline-block;
+
+			  			&:after{
+			  				content: '';
+			  				position: absolute;
+			  				width: 100%;
+			  				background: #f6f639;
+			  				height: 20px;
+			  				bottom: -4px;
+						    right: 0;
+						    opacity: 0.5;
+			  			}
+  					}
+  				}
+  			}
 		}
 	}
 }
