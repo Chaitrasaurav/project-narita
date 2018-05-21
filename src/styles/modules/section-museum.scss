@@ -1,265 +1,272 @@
-.section-yume{
-	background: url(../images/section-yume-pattern.png) repeat-x ;
-	padding:20px 0 0;
-	.section-yume-container{
+.section-yume {
+	background: url(../images/section-yume-pattern.png) repeat-x;
+	padding: 20px 0 0;
+	.section-yume-container {
 		background: url(../images/section-museum-pattern.png) repeat-x bottom #ffe6ee;
 
-		.icon-yume-background{
-			margin: 0 auto;
-    		display: block;
+		.icon-yume-background {
+			margin: 41px auto 0;
+			display: block;
 		}
-		.yume-description{
+		.yume-description {
 			position: relative;
-		    top: -66px;
-		    max-width: 550px;
-		    margin: 0 auto;
-		    text-align: center;
-		    font-size:16px;
+			top: -55px;
+			max-width: 550px;
+			margin: 0 auto;
+			text-align: center;
+			font-size: 16px;
 		}
 
-		.yume-contact{
+		.yume-contact {
 			border-top: 1px solid #a8a4a6;
-			padding:30px 0;
+			padding: 30px 0;
 			font-size: 12px;
-			line-height:1.5;
+			line-height: 1.5;
 
 			.first-section {
-				width:50%;
-				float:left;
+				width: 50%;
+				float: left;
 			}
 
 			.second-section {
-				width:30%;
-				float:left;
+				width: 30%;
+				float: left;
 			}
 
 			.last-section {
-				width:20%;
-				float:left;
+				width: 20%;
+				float: left;
 			}
 		}
 
-		.yume-attraction1{
+		.yume-attraction1 {
 			.left-slide {
-				width:50%;
+				width: 48%;
 				float: left;
+
+				i {
+					top: -34px;
+					position: relative;
+					left: 12%;
+				}
 			}
 			.right-slide {
-				width:50%;
+				width: 50%;
 				float: left;
+				padding: 5px 0 0;
 			}
-			h4{
+			h4 {
 				position: relative;
 				display: inline-block;
-				&:after{
-	  				content: '';
-	  				position: absolute;
-	  				width: 100%;
-	  				background: #ff93b3;
-	  				height: 10px;
-	  				bottom: 5px;
-				    right: 0;
-				    opacity: 0.5;
-	  			}
+				&:after {
+					content: '';
+					position: absolute;
+					width: 100%;
+					background: #ff93b3;
+					height: 10px;
+					bottom: 5px;
+					right: 0;
+					opacity: 0.5;
+				}
 			}
-			span{
+			span {
 				display: block;
 			}
 		}
 
-		.yume-attraction2{
+		.yume-attraction2 {
 			.left-slide {
-				width:50%;
+				width: 50%;
 				float: left;
 
-				i{
+				i {
 					float: left;
 				}
 			}
 			.right-slide {
-				width:50%;
+				width: 50%;
 				float: left;
 			}
-			h4{
+			h4 {
 				position: relative;
 				display: inline-block;
-				&:after{
-	  				content: '';
-	  				position: absolute;
-	  				width: 100%;
-	  				background: #ff93b3;
-	  				height: 10px;
-	  				bottom: 5px;
-				    right: 0;
-				    opacity: 0.5;
-	  			}
+				&:after {
+					content: '';
+					position: absolute;
+					width: 100%;
+					background: #ff93b3;
+					height: 10px;
+					bottom: 5px;
+					right: 0;
+					opacity: 0.5;
+				}
 			}
-			span{
+			span {
 				display: block;
 			}
 		}
 
-		.yume-attraction3{
+		.yume-attraction3 {
 			.left-slide {
-				width:50%;
+				width: 50%;
 				float: left;
 			}
 			.right-slide {
-				width:50%;
+				width: 50%;
 				float: left;
 				div {
-					width:30%;
+					width: 30%;
 					float: left;
 				}
 			}
-			h4{
+			h4 {
 				position: relative;
 				display: inline-block;
-				&:after{
-	  				content: '';
-	  				position: absolute;
-	  				width: 100%;
-	  				background: #ff93b3;
-	  				height: 10px;
-	  				bottom: 5px;
-				    right: 0;
-				    opacity: 0.5;
-	  			}
+				&:after {
+					content: '';
+					position: absolute;
+					width: 100%;
+					background: #ff93b3;
+					height: 10px;
+					bottom: 5px;
+					right: 0;
+					opacity: 0.5;
+				}
 			}
-			span{
+			span {
 				display: block;
 			}
 		}
 	}
 
-	.section-museum-container{
+	.section-museum-container {
 		background: url(../images/section-museum-bottom-pattern.png) repeat-x bottom #deeeff;
 
-		.icon-museum-background{
+		.icon-museum-background {
 			margin: 0 auto;
-    		display: block;
+			display: block;
 		}
-		.museum-description{
+		.museum-description {
 			position: relative;
-		    max-width: 550px;
-		    margin: 0 auto;
-		    text-align: center;
-		    font-size:16px;
-		    position: relative;
-		    i{
-		    	position: absolute;
-    			left: -270px;
-		    }
+			max-width: 550px;
+			margin: 0 auto;
+			text-align: center;
+			font-size: 16px;
+			position: relative;
+			i {
+				position: absolute;
+				left: -270px;
+			}
 		}
 
-		.museum-contact{
+		.museum-contact {
 			border-top: 1px solid #a8a4a6;
-			padding:30px 0;
+			padding: 30px 0;
 			font-size: 12px;
-			line-height:1.5;
+			line-height: 1.5;
 
 			.first-section {
-				width:50%;
-				float:left;
+				width: 50%;
+				float: left;
 			}
 
 			.second-section {
-				width:30%;
-				float:left;
+				width: 30%;
+				float: left;
 			}
 
 			.last-section {
-				width:20%;
-				float:left;
+				width: 20%;
+				float: left;
 			}
 		}
 
-		.museum-attraction1{
+		.museum-attraction1 {
 			.left-slide {
-				width:50%;
+				width: 50%;
 				float: left;
 			}
 			.right-slide {
-				width:50%;
+				width: 50%;
 				float: left;
 			}
-			h4{
+			h4 {
 				position: relative;
 				display: inline-block;
-				&:after{
-	  				content: '';
-	  				position: absolute;
-	  				width: 100%;
-	  				background: #6fb4ff;
-	  				height: 10px;
-	  				bottom: 5px;
-				    right: 0;
-				    opacity: 0.5;
-	  			}
+				&:after {
+					content: '';
+					position: absolute;
+					width: 100%;
+					background: #6fb4ff;
+					height: 10px;
+					bottom: 5px;
+					right: 0;
+					opacity: 0.5;
+				}
 			}
-			span{
+			span {
 				display: block;
 			}
 		}
 
-		.museum-attraction2{
+		.museum-attraction2 {
 			.left-slide {
-				width:50%;
+				width: 50%;
 				float: left;
 			}
 			.right-slide {
-				width:50%;
+				width: 50%;
 				float: left;
 			}
-			h4{
+			h4 {
 				position: relative;
 				display: inline-block;
-				&:after{
-	  				content: '';
-	  				position: absolute;
-	  				width: 100%;
-	  				background: #6fb4ff;
-	  				height: 10px;
-	  				bottom: 5px;
-				    right: 0;
-				    opacity: 0.5;
-	  			}
+				&:after {
+					content: '';
+					position: absolute;
+					width: 100%;
+					background: #6fb4ff;
+					height: 10px;
+					bottom: 5px;
+					right: 0;
+					opacity: 0.5;
+				}
 			}
-			span{
+			span {
 				display: block;
 			}
 		}
 
-		.museum-attraction3{
+		.museum-attraction3 {
 			position: relative;
-			.icon-aeroplane2{
+			.icon-aeroplane2 {
 				position: absolute;
-			    left: -80px;
-			    top: -35px;
+				left: -80px;
+				top: -35px;
 			}
 			.left-slide {
-				width:50%;
+				width: 50%;
 				float: left;
 			}
 			.right-slide {
-				width:50%;
+				width: 50%;
 				float: left;
 			}
-			h4{
+			h4 {
 				position: relative;
 				display: inline-block;
-				&:after{
-	  				content: '';
-	  				position: absolute;
-	  				width: 100%;
-	  				background: #6fb4ff;
-	  				height: 10px;
-	  				bottom: 5px;
-				    right: 0;
-				    opacity: 0.5;
-	  			}
+				&:after {
+					content: '';
+					position: absolute;
+					width: 100%;
+					background: #6fb4ff;
+					height: 10px;
+					bottom: 5px;
+					right: 0;
+					opacity: 0.5;
+				}
 			}
-			span{
+			span {
 				display: block;
 			}
 		}

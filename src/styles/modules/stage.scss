@@ -7,7 +7,7 @@
 
 	.slick-arrow {
 		position: absolute;
-		top: 40%;
+		top: 42%;
 		z-index: 1;
 		font-size: 0;
 		border: none;
@@ -15,11 +15,11 @@
 	}
 
 	.slick-prev {
-		left: 20px;
+		left: 10px;
 	}
 
 	.slick-next {
-		right: 20px;
+		right: 10px;
 	}
 
 	.slider-badge {
@@ -37,7 +37,7 @@
 
 	.slick-dots {
 		position: relative;
-		bottom: 80px;
+		bottom: 65px;
 		display: table;
 		margin: 0 auto;
 		width: auto;
