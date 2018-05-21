@@ -502,8 +502,73 @@ header {
   padding: 20px 0; }
   .sche .sche-container {
     background: url(../images/sche-container-pattern.png) repeat;
-    margin-bottom: -40px;
-    padding: 100px 0; }
+    margin-bottom: -40px; }
+  .sche .sche1-wrapper {
+    max-width: 812px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 2px solid #2b2826;
+    box-shadow: 5px 5px #ff4178; }
+    .sche .sche1-wrapper .sche1-container {
+      border: 1px solid #575453;
+      margin: 5px; }
+      .sche .sche1-wrapper .sche1-container span {
+        font-size: 22px;
+        line-height: 2.86;
+        color: #000000;
+        text-transform: uppercase;
+        display: table;
+        text-align: center;
+        padding: 5px 20px;
+        background: #ffff96;
+        margin: 0 auto; }
+      .sche .sche1-wrapper .sche1-container p {
+        font-size: 16px;
+        line-height: 1.75;
+        text-align: center;
+        max-width: 661px;
+        margin: 0 auto; }
+      .sche .sche1-wrapper .sche1-container .icon-sche1 {
+        display: block;
+        margin: 0 auto;
+        top: -30px;
+        position: relative; }
+      .sche .sche1-wrapper .sche1-container .icon-sche1-wave {
+        display: block;
+        margin: 0 auto; }
+  .sche .sche2-wrapper {
+    max-width: 812px;
+    margin: 20px auto;
+    background: #ffffff;
+    border: 2px solid #2b2826;
+    box-shadow: 5px 5px #007bff; }
+    .sche .sche2-wrapper .sche2-container {
+      border: 1px solid #575453;
+      margin: 5px; }
+      .sche .sche2-wrapper .sche2-container span {
+        font-size: 22px;
+        line-height: 2.86;
+        color: #000000;
+        text-transform: uppercase;
+        display: table;
+        text-align: center;
+        padding: 5px 20px;
+        background: #ffff96;
+        margin: 0 auto; }
+      .sche .sche2-wrapper .sche2-container p {
+        font-size: 16px;
+        line-height: 1.75;
+        text-align: center;
+        max-width: 661px;
+        margin: 0 auto; }
+      .sche .sche2-wrapper .sche2-container .icon-sche2 {
+        display: block;
+        margin: 0 auto;
+        top: -30px;
+        position: relative; }
+      .sche .sche2-wrapper .sche2-container .icon-sche2-wave {
+        display: block;
+        margin: 0 auto; }
 
 .section-yume {
   background: url(../images/section-yume-pattern.png) repeat-x;

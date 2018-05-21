@@ -18,31 +18,31 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-about-hotel-bubble {
   background-image: url(sprite.png);
-  background-position: 0px -2074px;
+  background-position: -2363px 0px;
   width: 319px;
   height: 145px;
 }
 .icon-about-hotel-image1 {
   background-image: url(sprite.png);
-  background-position: -390px -1304px;
+  background-position: 0px -1729px;
   width: 355px;
   height: 271px;
 }
 .icon-about-hotel-image2 {
   background-image: url(sprite.png);
-  background-position: -1000px -1599px;
+  background-position: -404px -2000px;
   width: 358px;
   height: 143px;
 }
 .icon-about-hotel-image3 {
   background-image: url(sprite.png);
-  background-position: 0px -1304px;
+  background-position: -1086px -1304px;
   width: 390px;
   height: 295px;
 }
 .icon-about-hotel-image4 {
   background-image: url(sprite.png);
-  background-position: -1092px -1085px;
+  background-position: 0px -2000px;
   width: 404px;
   height: 190px;
 }
@@ -54,13 +54,13 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-aeroplane {
   background-image: url(sprite.png);
-  background-position: -2324px -1160px;
+  background-position: -2363px -1447px;
   width: 270px;
   height: 70px;
 }
 .icon-aeroplane2 {
   background-image: url(sprite.png);
-  background-position: -831px -1901px;
+  background-position: 0px -2190px;
   width: 357px;
   height: 132px;
 }
@@ -84,139 +84,139 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-amenity2 {
   background-image: url(sprite.png);
-  background-position: -1107px -1304px;
+  background-position: -717px -1729px;
   width: 404px;
   height: 221px;
 }
 .icon-amenity3-title {
   background-image: url(sprite.png);
-  background-position: -1727px -1188px;
+  background-position: -1123px -2000px;
   width: 340px;
   height: 109px;
 }
 .icon-amenity3 {
   background-image: url(sprite.png);
-  background-position: -1358px -1599px;
+  background-position: -762px -2000px;
   width: 361px;
   height: 131px;
 }
 .icon-arrow-left {
   background-image: url(sprite.png);
-  background-position: -2579px -208px;
+  background-position: -2643px -189px;
   width: 20px;
   height: 45px;
 }
 .icon-arrow-right {
   background-image: url(sprite.png);
-  background-position: -2579px -164px;
+  background-position: -2643px -145px;
   width: 23px;
   height: 44px;
 }
 .icon-attraction-1 {
   background-image: url(sprite.png);
-  background-position: -277px -1901px;
+  background-position: -2061px -1552px;
   width: 277px;
   height: 173px;
 }
 .icon-attraction-2 {
   background-image: url(sprite.png);
-  background-position: -554px -1901px;
+  background-position: -2061px -1379px;
   width: 277px;
   height: 173px;
 }
 .icon-attraction-3 {
   background-image: url(sprite.png);
-  background-position: 0px -1901px;
+  background-position: -2061px -1725px;
   width: 277px;
   height: 173px;
 }
 .icon-camp-bubble {
   background-image: url(sprite.png);
-  background-position: -2324px -1020px;
+  background-position: -2363px -1307px;
   width: 172px;
   height: 140px;
 }
 .icon-camp-girl {
   background-image: url(sprite.png);
-  background-position: -674px -1599px;
+  background-position: -1727px -1073px;
   width: 326px;
   height: 193px;
 }
 .icon-camp-title-bubble {
   background-image: url(sprite.png);
-  background-position: -2496px -1020px;
+  background-position: -2583px -931px;
   width: 85px;
   height: 80px;
 }
 .icon-camp-title-lines {
   background-image: url(sprite.png);
-  background-position: -2511px -886px;
+  background-position: -2558px -789px;
   width: 75px;
   height: 114px;
 }
 .icon-camp1 {
   background-image: url(sprite.png);
-  background-position: -1511px -1304px;
+  background-position: -1121px -1729px;
   width: 350px;
   height: 220px;
 }
 .icon-camp2 {
   background-image: url(sprite.png);
-  background-position: -324px -1599px;
+  background-position: -1471px -1729px;
   width: 350px;
   height: 220px;
 }
 .icon-camp3 {
   background-image: url(sprite.png);
-  background-position: -2324px -164px;
+  background-position: -2363px -309px;
   width: 255px;
   height: 160px;
 }
 .icon-camp4 {
   background-image: url(sprite.png);
-  background-position: -2324px -484px;
+  background-position: -2363px -469px;
   width: 255px;
   height: 160px;
 }
 .icon-camp5 {
   background-image: url(sprite.png);
-  background-position: -2324px -324px;
+  background-position: -2363px -629px;
   width: 255px;
   height: 160px;
 }
 .icon-harinezumi {
   background-image: url(sprite.png);
-  background-position: -2324px -769px;
+  background-position: -2363px -1056px;
   width: 235px;
   height: 117px;
 }
 .icon-hotel-image-footer {
   background-image: url(sprite.png);
-  background-position: -2324px 0px;
+  background-position: -2363px -145px;
   width: 280px;
   height: 164px;
 }
 .icon-hotels-slider-bubble {
   background-image: url(sprite.png);
-  background-position: -2324px -886px;
+  background-position: -2363px -1173px;
   width: 187px;
   height: 134px;
 }
 .icon-logo-footer {
   background-image: url(sprite.png);
-  background-position: -2324px -1230px;
+  background-position: -2443px -1517px;
   width: 185px;
   height: 27px;
 }
 .icon-logo {
   background-image: url(sprite.png);
-  background-position: -2324px -1257px;
+  background-position: -2443px -1544px;
   width: 169px;
   height: 26px;
 }
 .icon-lunch {
   background-image: url(sprite.png);
-  background-position: -2324px -644px;
+  background-position: -2363px -931px;
   width: 220px;
   height: 125px;
 }
@@ -228,55 +228,145 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-museum-image1 {
   background-image: url(sprite.png);
-  background-position: -745px -1304px;
+  background-position: -355px -1729px;
   width: 362px;
   height: 248px;
 }
 .icon-museum-image2 {
   background-image: url(sprite.png);
-  background-position: -1727px 0px;
+  background-position: 0px -1304px;
   width: 362px;
   height: 425px;
 }
 .icon-museum-image3 {
   background-image: url(sprite.png);
-  background-position: -1727px -833px;
+  background-position: -724px -1304px;
   width: 362px;
   height: 355px;
 }
 .icon-museum-image4 {
   background-image: url(sprite.png);
-  background-position: -725px -1085px;
+  background-position: -1231px -1085px;
   width: 367px;
   height: 215px;
 }
 .icon-number-3 {
   background-image: url(sprite.png);
-  background-position: -2544px -706px;
+  background-position: -2618px -371px;
   width: 49px;
   height: 31px;
 }
 .icon-number-4 {
   background-image: url(sprite.png);
-  background-position: -2544px -644px;
+  background-position: -2618px -340px;
   width: 49px;
   height: 31px;
 }
 .icon-number-5 {
   background-image: url(sprite.png);
-  background-position: -2544px -675px;
+  background-position: -2618px -309px;
   width: 49px;
   height: 31px;
 }
+.icon-sche-aeroplane {
+  background-image: url(sprite.png);
+  background-position: -2550px -1256px;
+  width: 106px;
+  height: 35px;
+}
+.icon-sche-bottom-bubble {
+  background-image: url(sprite.png);
+  background-position: -2535px -1307px;
+  width: 145px;
+  height: 119px;
+}
+.icon-sche-image1 {
+  background-image: url(sprite.png);
+  background-position: -2061px -295px;
+  width: 301px;
+  height: 265px;
+}
+.icon-sche-image2 {
+  background-image: url(sprite.png);
+  background-position: -1727px -465px;
+  width: 331px;
+  height: 306px;
+}
+.icon-sche-image3 {
+  background-image: url(sprite.png);
+  background-position: -2061px -1179px;
+  width: 276px;
+  height: 200px;
+}
+.icon-sche-image4 {
+  background-image: url(sprite.png);
+  background-position: -1476px -1304px;
+  width: 366px;
+  height: 265px;
+}
+.icon-sche-image5 {
+  background-image: url(sprite.png);
+  background-position: -725px -1085px;
+  width: 506px;
+  height: 217px;
+}
+.icon-sche-image6 {
+  background-image: url(sprite.png);
+  background-position: -2061px 0px;
+  width: 302px;
+  height: 295px;
+}
+.icon-sche-image7 {
+  background-image: url(sprite.png);
+  background-position: -1727px 0px;
+  width: 334px;
+  height: 465px;
+}
+.icon-sche-lines {
+  background-image: url(sprite.png);
+  background-position: -2363px -789px;
+  width: 195px;
+  height: 142px;
+}
+.icon-sche-text-bubble {
+  background-image: url(sprite.png);
+  background-position: -2550px -1173px;
+  width: 131px;
+  height: 83px;
+}
+.icon-sche1-wave {
+  background-image: url(sprite.png);
+  background-position: -2363px -1590px;
+  width: 190px;
+  height: 13px;
+}
+.icon-sche1 {
+  background-image: url(sprite.png);
+  background-position: -2598px -1056px;
+  width: 80px;
+  height: 73px;
+}
+.icon-sche2-wave {
+  background-image: url(sprite.png);
+  background-position: -2443px -1570px;
+  width: 190px;
+  height: 13px;
+}
+.icon-sche2 {
+  background-image: url(sprite.png);
+  background-position: -2363px -1517px;
+  width: 80px;
+  height: 73px;
+}
 .icon-slider-badge {
   background-image: url(sprite.png);
-  background-position: 0px -1599px;
+  background-position: -1727px -771px;
   width: 324px;
   height: 302px;
 }
 .icon-small-hotel-image {
   background-image: url(sprite.png);
-  background-position: -2496px -1100px;
+  background-position: -2583px -1011px;
   width: 78px;
   height: 45px;
 }
@@ -300,13 +390,13 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-yume-image2 {
   background-image: url(sprite.png);
-  background-position: -1727px -425px;
+  background-position: -362px -1304px;
   width: 362px;
   height: 408px;
 }
 .icon-yume-image3 {
   background-image: url(sprite.png);
-  background-position: -2089px 0px;
+  background-position: -2061px -560px;
   width: 235px;
   height: 299px;
 }
@@ -318,7 +408,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-yume-image5 {
   background-image: url(sprite.png);
-  background-position: -2089px -299px;
+  background-position: -2061px -859px;
   width: 174px;
   height: 320px;
 }
