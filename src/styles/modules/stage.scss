@@ -36,11 +36,9 @@
 	}
 
 	.slick-dots {
-		position: relative;
-		bottom: 65px;
-		display: table;
-		margin: 0 auto;
-		width: auto;
+		position: absolute;
+		bottom: 10%;
+		left: 46%;
 
 		li {
 			display: block;
