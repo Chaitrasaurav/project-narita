@@ -887,12 +887,12 @@ header {
         float: left; }
         .section-yume .section-yume-container .yume-contact .last-section .button {
           margin: 10px; }
-    .section-yume .section-yume-container .yume-attraction1 .left-slide {
+    .section-yume .section-yume-container .yume-attraction1 .left-side {
       width: 43%;
       float: left;
       margin-top: -37px;
       margin-left: 56px; }
-    .section-yume .section-yume-container .yume-attraction1 .right-slide {
+    .section-yume .section-yume-container .yume-attraction1 .right-side {
       width: 50%;
       float: left;
       padding: 5px 0 0;
@@ -912,20 +912,20 @@ header {
         opacity: 0.5; }
     .section-yume .section-yume-container .yume-attraction1 span {
       display: block; }
-    .section-yume .section-yume-container .yume-attraction2 .left-slide {
+    .section-yume .section-yume-container .yume-attraction2 .left-side {
       width: 55%;
       float: left; }
-      .section-yume .section-yume-container .yume-attraction2 .left-slide img {
+      .section-yume .section-yume-container .yume-attraction2 .left-side img {
         float: left;
         margin-left: 70px;
         margin-top: -26px;
         margin-right: 0; }
-      .section-yume .section-yume-container .yume-attraction2 .left-slide .attraction2-description {
+      .section-yume .section-yume-container .yume-attraction2 .left-side .attraction2-description {
         max-width: 220px;
         float: left;
         margin-left: -27px;
         margin-top: 9px; }
-    .section-yume .section-yume-container .yume-attraction2 .right-slide {
+    .section-yume .section-yume-container .yume-attraction2 .right-side {
       width: 45%;
       float: left;
       margin-top: -144px; }
@@ -947,20 +947,20 @@ header {
       text-align: right; }
     .section-yume .section-yume-container .yume-attraction3 {
       margin-top: 39px; }
-      .section-yume .section-yume-container .yume-attraction3 .left-slide {
+      .section-yume .section-yume-container .yume-attraction3 .left-side {
         width: 49%;
         float: left; }
-        .section-yume .section-yume-container .yume-attraction3 .left-slide img {
+        .section-yume .section-yume-container .yume-attraction3 .left-side img {
           margin-left: 70px; }
-      .section-yume .section-yume-container .yume-attraction3 .right-slide {
+      .section-yume .section-yume-container .yume-attraction3 .right-side {
         width: 51%;
         float: left;
         margin: 10px 0 0; }
-        .section-yume .section-yume-container .yume-attraction3 .right-slide .attraction3-description {
+        .section-yume .section-yume-container .yume-attraction3 .right-side .attraction3-description {
           max-width: 295px;
           float: left;
           font-size: 14px; }
-        .section-yume .section-yume-container .yume-attraction3 .right-slide img {
+        .section-yume .section-yume-container .yume-attraction3 .right-side img {
           margin-top: -52px;
           margin-left: -48px; }
       .section-yume .section-yume-container .yume-attraction3 h4 {
@@ -978,27 +978,30 @@ header {
       .section-yume .section-yume-container .yume-attraction3 span {
         display: block; }
   .section-yume .section-museum-container {
-    background: url(../images/section-museum-bottom-pattern.png) repeat-x bottom #deeeff; }
-    .section-yume .section-museum-container .icon-museum-background {
+    background: url(../images/section-museum-bottom-pattern.png) repeat-x bottom #deeeff;
+    padding: 62px 0 0; }
+    .section-yume .section-museum-container .museum-main-image {
       margin: 0 auto;
       display: block; }
     .section-yume .section-museum-container .museum-description {
       position: relative;
       max-width: 550px;
-      margin: 0 auto;
+      margin: 37px auto 54px;
       text-align: center;
       font-size: 16px;
-      position: relative; }
+      position: relative;
+      padding: 0 0 0 30px; }
       .section-yume .section-museum-container .museum-description i {
         position: absolute;
-        left: -270px; }
+        left: -238px;
+        top: -17px; }
     .section-yume .section-museum-container .museum-contact {
       border-top: 1px solid #a8a4a6;
       font-size: 12px;
       line-height: 1.5;
       max-width: 800px;
-      margin: 44px auto 0;
-      padding: 32px 20px 80px; }
+      margin: 6px auto 0;
+      padding: 32px 20px 67px; }
       .section-yume .section-museum-container .museum-contact .first-section {
         width: 45%;
         float: left; }
@@ -1014,12 +1017,15 @@ header {
         float: left; }
         .section-yume .section-museum-container .museum-contact .last-section .button {
           margin: 10px; }
-    .section-yume .section-museum-container .museum-attraction1 .left-slide {
-      width: 50%;
+    .section-yume .section-museum-container .museum-attraction1 .left-side {
+      width: 49%;
       float: left; }
-    .section-yume .section-museum-container .museum-attraction1 .right-slide {
-      width: 50%;
-      float: left; }
+      .section-yume .section-museum-container .museum-attraction1 .left-side img {
+        margin-left: 80px; }
+    .section-yume .section-museum-container .museum-attraction1 .right-side {
+      width: 36%;
+      float: left;
+      margin-top: 10px; }
     .section-yume .section-museum-container .museum-attraction1 h4 {
       position: relative;
       display: inline-block; }
@@ -1034,12 +1040,17 @@ header {
         opacity: 0.5; }
     .section-yume .section-museum-container .museum-attraction1 span {
       display: block; }
-    .section-yume .section-museum-container .museum-attraction2 .left-slide {
-      width: 50%;
+    .section-yume .section-museum-container .museum-attraction2 .left-side {
+      width: 52%;
+      float: left;
+      margin: 61px 0 0;
+      text-align: right; }
+    .section-yume .section-museum-container .museum-attraction2 .right-side {
+      width: 48%;
       float: left; }
-    .section-yume .section-museum-container .museum-attraction2 .right-slide {
-      width: 50%;
-      float: left; }
+      .section-yume .section-museum-container .museum-attraction2 .right-side img {
+        margin-left: 28px;
+        margin-top: -112px; }
     .section-yume .section-museum-container .museum-attraction2 h4 {
       position: relative;
       display: inline-block; }
@@ -1060,12 +1071,24 @@ header {
         position: absolute;
         left: -80px;
         top: -35px; }
-      .section-yume .section-museum-container .museum-attraction3 .left-slide {
-        width: 50%;
+      .section-yume .section-museum-container .museum-attraction3 .left-side {
+        width: 49%;
         float: left; }
-      .section-yume .section-museum-container .museum-attraction3 .right-slide {
-        width: 50%;
-        float: left; }
+        .section-yume .section-museum-container .museum-attraction3 .left-side img {
+          margin-top: -91px;
+          margin-left: 77px; }
+          .section-yume .section-museum-container .museum-attraction3 .left-side img:first-child {
+            margin-top: -103px;
+            margin-left: -8px; }
+      .section-yume .section-museum-container .museum-attraction3 .right-side {
+        width: 51%;
+        float: left;
+        margin: 55px 0 0; }
+        .section-yume .section-museum-container .museum-attraction3 .right-side p {
+          max-width: 223px; }
+        .section-yume .section-museum-container .museum-attraction3 .right-side img {
+          margin-top: -100px;
+          margin-left: 64px; }
       .section-yume .section-museum-container .museum-attraction3 h4 {
         position: relative;
         display: inline-block; }
@@ -1082,27 +1105,39 @@ header {
         display: block; }
 
 .other-attractions {
-  margin-bottom: 30px; }
+  margin-bottom: 100px;
+  margin-top: 50px; }
+  .other-attractions .attractions-container {
+    margin-top: 36px; }
   .other-attractions ul {
-    display: flex; }
+    display: flex;
+    max-width: 870px;
+    margin: 0 auto; }
     .other-attractions ul li {
-      width: 29%;
-      margin-right: 5%; }
+      width: 33%;
+      margin-right: 20px; }
       .other-attractions ul li:last-child {
         margin-right: 0; }
       .other-attractions ul li p {
-        min-height: 88px; }
+        min-height: 94px;
+        margin-top: 6px;
+        line-height: 1.3; }
       .other-attractions ul li .button {
-        margin: 0 auto; }
+        margin: 0 auto;
+        max-width: 175px; }
+      .other-attractions ul li h4 {
+        margin: 6px 0; }
+        .other-attractions ul li h4 i {
+          position: relative;
+          top: 2px; }
 
 .about {
   background: url(../images/about-hotel-pattern.png) repeat-x #ffffea;
-  position: relative;
-  padding: 50px 0; }
+  padding: 50px 0 58px; }
   .about .bubble-text {
     position: absolute;
-    right: 0;
-    top: 0; }
+    right: 16px;
+    top: -25px; }
     .about .bubble-text span {
       color: #ff4178;
       font-size: 17px;
@@ -1115,7 +1150,10 @@ header {
       position: absolute;
       left: 19px; }
   .about .about-info {
-    text-align: center; }
+    text-align: center;
+    font-family: shingopro;
+    padding: 40px 0 11px;
+    position: relative; }
     .about .about-info .first-line {
       font-size: 17px;
       font-weight: bold;
@@ -1130,7 +1168,8 @@ header {
       line-height: 1.67;
       letter-spacing: 0.9px;
       color: #ff4178;
-      display: block; }
+      display: block;
+      margin: 10px 0 15px; }
     .about .about-info .last-line {
       font-size: 25px;
       border-bottom: 1px solid #88867e;
@@ -1142,7 +1181,12 @@ header {
     margin: 20px auto; }
   .about .first-amenity .left-side {
     width: 50%;
-    float: left; }
+    float: left;
+    margin-top: 62px;
+    padding-left: 78px;
+    padding-right: 20px; }
+    .about .first-amenity .left-side img:first-child {
+      margin-bottom: 26px; }
   .about .first-amenity .right-side {
     width: 50%;
     float: left; }
@@ -1153,20 +1197,39 @@ header {
       text-align: center;
       background: #ff4178;
       padding: 10px 20px;
-      max-width: 250px;
-      display: block; }
-  .about .second-amenity .left-side {
-    width: 50%;
-    float: left; }
-  .about .second-amenity .right-side {
-    width: 50%;
-    float: left; }
-  .about .third-amenity .left-side {
-    width: 50%;
-    float: left; }
-  .about .third-amenity .right-side {
-    width: 50%;
-    float: left; }
+      max-width: 274px;
+      display: block;
+      margin-top: -22px;
+      margin-left: 9px; }
+    .about .first-amenity .right-side img {
+      margin-top: -13px;
+      margin-left: 8px; }
+  .about .second-amenity {
+    margin-top: 45px; }
+    .about .second-amenity .left-side {
+      width: 41%;
+      float: left;
+      margin-top: 90px;
+      margin-left: 83px; }
+    .about .second-amenity .right-side {
+      width: 50%;
+      float: left;
+      padding-right: 7%; }
+      .about .second-amenity .right-side .amenity2-title {
+        margin-top: -33px; }
+  .about .third-amenity {
+    margin-top: 12px; }
+    .about .third-amenity .left-side {
+      width: 50%;
+      float: left;
+      margin-top: 70px;
+      padding-left: 83px;
+      padding-right: 25px; }
+      .about .third-amenity .left-side img:last-child {
+        margin: 10px 0; }
+    .about .third-amenity .right-side {
+      width: 50%;
+      float: left; }
 
 .hotels-slider-wrapper {
   max-width: 1024px;
@@ -1179,15 +1242,15 @@ header {
       max-width: 100%; }
     .hotels-slider-wrapper .hotels-slider .slick-arrow {
       position: absolute;
-      top: 40%;
+      top: 43%;
       z-index: 1;
       font-size: 0;
       border: none;
       background-color: transparent; }
     .hotels-slider-wrapper .hotels-slider .slick-prev {
-      left: 20px; }
+      left: 10px; }
     .hotels-slider-wrapper .hotels-slider .slick-next {
-      right: 20px; }
+      right: 10px; }
     .hotels-slider-wrapper .hotels-slider .slick-dots {
       position: relative;
       bottom: 40px;
@@ -1211,8 +1274,8 @@ header {
         background: #1e489d; }
   .hotels-slider-wrapper i {
     position: absolute;
-    bottom: -45px;
-    right: 40px; }
+    bottom: -53px;
+    right: 18px; }
 
 .camp .first-section {
   font-family: shingopro; }

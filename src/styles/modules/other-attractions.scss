@@ -1,22 +1,40 @@
-.other-attractions{
-	margin-bottom: 30px;
+.other-attractions {
+	margin-bottom: 100px;
+	margin-top: 50px;
+
+	.attractions-container {
+		margin-top: 36px;
+	}
 	ul {
 		display: flex;
+		max-width: 870px;
+		margin: 0 auto;
 
 		li {
-			width:29%;
-			margin-right: 5%;
+			width: 33%;
+			margin-right: 20px;
 
 			&:last-child {
 				margin-right: 0;
 			}
 
 			p {
-				min-height:88px;
+				min-height: 94px;
+				margin-top: 6px;
+				line-height: 1.3;
 			}
 
 			.button {
 				margin: 0 auto;
+				max-width: 175px;
+			}
+
+			h4 {
+				margin: 6px 0;
+				i {
+					position: relative;
+					top: 2px;
+				}
 			}
 		}
 	}

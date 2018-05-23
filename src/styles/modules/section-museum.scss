@@ -22,13 +22,13 @@
 			font-size: 12px;
 			line-height: 1.5;
 			max-width: 800px;
-    		margin: 44px auto 0;
-    		padding: 32px 20px 80px;
+			margin: 44px auto 0;
+			padding: 32px 20px 80px;
 
 			.first-section {
 				width: 45%;
 				float: left;
-				p{
+				p {
 					margin: 3px 0;
 				}
 			}
@@ -36,7 +36,7 @@
 			.second-section {
 				width: 30%;
 				float: left;
-				p{
+				p {
 					margin: 34px 0 0;
 				}
 			}
@@ -45,20 +45,20 @@
 				width: 25%;
 				float: left;
 
-				.button{
+				.button {
 					margin: 10px;
 				}
 			}
 		}
 
 		.yume-attraction1 {
-			.left-slide {
+			.left-side {
 				width: 43%;
 				float: left;
 				margin-top: -37px;
-    			margin-left: 56px;
+				margin-left: 56px;
 			}
-			.right-slide {
+			.right-side {
 				width: 50%;
 				float: left;
 				padding: 5px 0 0;
@@ -67,7 +67,7 @@
 			h4 {
 				position: relative;
 				display: inline-block;
-				font-size:22px;
+				font-size: 22px;
 				&:after {
 					content: '';
 					position: absolute;
@@ -85,24 +85,24 @@
 		}
 
 		.yume-attraction2 {
-			.left-slide {
+			.left-side {
 				width: 55%;
 				float: left;
-				img{
+				img {
 					float: left;
-				    margin-left: 70px;
-				    margin-top: -26px;
-				    margin-right: 0;
+					margin-left: 70px;
+					margin-top: -26px;
+					margin-right: 0;
 				}
 
-				.attraction2-description{
+				.attraction2-description {
 					max-width: 220px;
-				    float: left;
-				    margin-left: -27px;
-				    margin-top: 9px;
+					float: left;
+					margin-left: -27px;
+					margin-top: 9px;
 				}
 			}
-			.right-slide {
+			.right-side {
 				width: 45%;
 				float: left;
 				margin-top: -144px;
@@ -110,7 +110,7 @@
 			h4 {
 				position: relative;
 				display: inline-block;
-				font-size:22px;
+				font-size: 22px;
 				&:after {
 					content: '';
 					position: absolute;
@@ -130,27 +130,27 @@
 
 		.yume-attraction3 {
 			margin-top: 39px;
-			.left-slide {
+			.left-side {
 				width: 49%;
 				float: left;
 
-				img{
+				img {
 					margin-left: 70px;
 				}
 			}
-			.right-slide {
+			.right-side {
 				width: 51%;
 				float: left;
 				margin: 10px 0 0;
 				.attraction3-description {
-				    max-width: 295px;
+					max-width: 295px;
 					float: left;
 					font-size: 14px;
 				}
 
-				img{
+				img {
 					margin-top: -52px;
-   					margin-left: -48px;
+					margin-left: -48px;
 				}
 			}
 			h4 {
@@ -175,21 +175,24 @@
 
 	.section-museum-container {
 		background: url(../images/section-museum-bottom-pattern.png) repeat-x bottom #deeeff;
+		padding: 62px 0 0;
 
-		.icon-museum-background {
+		.museum-main-image {
 			margin: 0 auto;
 			display: block;
 		}
 		.museum-description {
 			position: relative;
 			max-width: 550px;
-			margin: 0 auto;
+			margin: 37px auto 54px;
 			text-align: center;
 			font-size: 16px;
 			position: relative;
+			padding: 0 0 0 30px;
 			i {
 				position: absolute;
-				left: -270px;
+				left: -238px;
+				top: -17px;
 			}
 		}
 
@@ -198,13 +201,13 @@
 			font-size: 12px;
 			line-height: 1.5;
 			max-width: 800px;
-    		margin: 44px auto 0;
-    		padding: 32px 20px 80px;
+			margin: 6px auto 0;
+			padding: 32px 20px 67px;
 
 			.first-section {
 				width: 45%;
 				float: left;
-				p{
+				p {
 					margin: 3px 0;
 				}
 			}
@@ -212,7 +215,7 @@
 			.second-section {
 				width: 30%;
 				float: left;
-				p{
+				p {
 					margin: 34px 0 0;
 				}
 			}
@@ -221,20 +224,24 @@
 				width: 25%;
 				float: left;
 
-				.button{
+				.button {
 					margin: 10px;
 				}
 			}
 		}
 
 		.museum-attraction1 {
-			.left-slide {
-				width: 50%;
+			.left-side {
+				width: 49%;
 				float: left;
+				img {
+					margin-left: 80px;
+				}
 			}
-			.right-slide {
-				width: 50%;
+			.right-side {
+				width: 36%;
 				float: left;
+				margin-top: 10px;
 			}
 			h4 {
 				position: relative;
@@ -256,13 +263,20 @@
 		}
 
 		.museum-attraction2 {
-			.left-slide {
-				width: 50%;
+			.left-side {
+				width: 52%;
 				float: left;
+				margin: 61px 0 0;
+				text-align: right;
 			}
-			.right-slide {
-				width: 50%;
+			.right-side {
+				width: 48%;
 				float: left;
+
+				img {
+					margin-left: 28px;
+					margin-top: -112px;
+				}
 			}
 			h4 {
 				position: relative;
@@ -290,13 +304,32 @@
 				left: -80px;
 				top: -35px;
 			}
-			.left-slide {
-				width: 50%;
+			.left-side {
+				width: 49%;
 				float: left;
+
+				img {
+					margin-top: -91px;
+					margin-left: 77px;
+					&:first-child {
+						margin-top: -103px;
+						margin-left: -8px;
+					}
+				}
 			}
-			.right-slide {
-				width: 50%;
+			.right-side {
+				width: 51%;
 				float: left;
+				margin: 55px 0 0;
+
+				p {
+					max-width: 223px;
+				}
+
+				img {
+					margin-top: -100px;
+					margin-left: 64px;
+				}
 			}
 			h4 {
 				position: relative;

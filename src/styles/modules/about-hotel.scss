@@ -1,46 +1,49 @@
-.about{
-	background: url(../images/about-hotel-pattern.png) repeat-x  #ffffea;
-	position: relative;
-    padding: 50px 0;
+.about {
+	background: url(../images/about-hotel-pattern.png) repeat-x #ffffea;
+
+	padding: 50px 0 58px;
 
 	.bubble-text {
 		position: absolute;
-		right:0;
-		top:0;
-		span{
+		right: 16px;
+		top: -25px;
+		span {
 			color: $text-color-primary;
-			font-size:17px;
+			font-size: 17px;
 			font-family: $font-family-secondary;
 			line-height: 1.18;
 			letter-spacing: 0.7px;
 			font-weight: 700;
-			width:63px;
+			width: 63px;
 			top: 72px;
-		    position: absolute;
-		    left: 19px;
+			position: absolute;
+			left: 19px;
 		}
 	}
 
-	.about-info{
+	.about-info {
 		text-align: center;
-
-		.first-line{
+		font-family: $font-family-secondary;
+		padding: 40px 0 11px;
+		position: relative;
+		.first-line {
 			font-size: 17px;
-  			font-weight: bold;
-  			color: $text-color-primary;
-  			line-height: 1.24;
-  			letter-spacing: 1px;
-  			background: #ffff96;
-  			display: inline-block;
+			font-weight: bold;
+			color: $text-color-primary;
+			line-height: 1.24;
+			letter-spacing: 1px;
+			background: #ffff96;
+			display: inline-block;
 		}
 
 		.second-line {
 			font-size: 18px;
-  			font-weight: bold;
-  			line-height: 1.67;
-  			letter-spacing: 0.9px;
-  			color: $text-color-primary;
-  			display: block;
+			font-weight: bold;
+			line-height: 1.67;
+			letter-spacing: 0.9px;
+			color: $text-color-primary;
+			display: block;
+			margin: 10px 0 15px;
 		}
 
 		.last-line {
@@ -51,53 +54,85 @@
 		}
 	}
 
-	.about-description{
+	.about-description {
 		text-align: center;
 		max-width: 767px;
 		margin: 20px auto;
 	}
 
-	.first-amenity{
-		.left-side{
-			width:50%;
-			float:left;
-		}
-		.right-side{
-			width:50%;
-			float:left;
+	.first-amenity {
+		.left-side {
+			width: 50%;
+			float: left;
+			margin-top: 62px;
+			padding-left: 78px;
+			padding-right: 20px;
 
-			a{
+			img {
+				&:first-child {
+					margin-bottom: 26px;
+				}
+			}
+		}
+		.right-side {
+			width: 50%;
+			float: left;
+
+			a {
 				font-size: 15px;
 				color: #ffffff;
 				line-height: 1.33;
 				text-align: center;
 				background: $text-color-primary;
 				padding: 10px 20px;
-			    max-width: 250px;
-			    display: block;
+				max-width: 274px;
+				display: block;
+				margin-top: -22px;
+				margin-left: 9px;
+			}
+
+			img {
+				margin-top: -13px;
+				margin-left: 8px;
 			}
 		}
 	}
 
-	.second-amenity{
-		.left-side{
-			width:50%;
-			float:left;
+	.second-amenity {
+		margin-top: 45px;
+		.left-side {
+			width: 41%;
+			float: left;
+			margin-top: 90px;
+			margin-left: 83px;
 		}
-		.right-side{
-			width:50%;
-			float:left;
+		.right-side {
+			width: 50%;
+			float: left;
+			padding-right: 7%;
+			.amenity2-title {
+				margin-top: -33px;
+			}
 		}
 	}
 
-	.third-amenity{
-		.left-side{
-			width:50%;
-			float:left;
+	.third-amenity {
+		margin-top: 12px;
+		.left-side {
+			width: 50%;
+			float: left;
+			margin-top: 70px;
+			padding-left: 83px;
+			padding-right: 25px;
+			img {
+				&:last-child {
+					margin: 10px 0;
+				}
+			}
 		}
-		.right-side{
-			width:50%;
-			float:left;
+		.right-side {
+			width: 50%;
+			float: left;
 		}
 	}
 }
