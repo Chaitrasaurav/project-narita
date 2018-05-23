@@ -388,7 +388,8 @@ header {
     line-height: 1.02;
     letter-spacing: 3.1px;
     position: relative;
-    display: inline-block; }
+    display: table;
+    margin: 0 auto; }
     .travel .intro-description .second-line:after {
       content: '';
       position: absolute;
@@ -406,7 +407,8 @@ header {
     display: inline-block;
     color: #00000c;
     letter-spacing: -1.5px;
-    margin: 5px 0 0 -40px; }
+    margin: 5px 0 0 -40px;
+    clear: both; }
     .travel .intro-description .third-line:after {
       content: '';
       position: absolute;

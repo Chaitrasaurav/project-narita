@@ -52,7 +52,8 @@
 			line-height: 1.02;
 			letter-spacing: 3.1px;
 			position: relative;
-			display: inline-block;
+			display: table;
+			margin:0 auto;
 
 			&:after {
 				content: '';
@@ -75,6 +76,7 @@
 			color: $text-color-base;
 			letter-spacing: -1.5px;
 			margin: 5px 0 0 -40px;
+			clear: both;
 
 			&:after {
 				content: '';
