@@ -1233,7 +1233,7 @@ header {
 
 .hotels-slider-wrapper {
   max-width: 1024px;
-  margin: 0 auto 45px;
+  margin: 0 auto 30px;
   position: relative; }
   .hotels-slider-wrapper .hotels-slider {
     position: relative; }
@@ -1279,106 +1279,112 @@ header {
 
 .camp .first-section {
   font-family: shingopro; }
-  .camp .first-section ul {
-    display: flex; }
-    .camp .first-section ul li {
-      width: 35%;
-      margin: 0 10% 0 0; }
-      .camp .first-section ul li:first-child {
-        margin-left: 10%; }
-      .camp .first-section ul li i {
-        box-shadow: 5px 5px #ff4178; }
-      .camp .first-section ul li .camp-info > span {
-        font-size: 30.4px;
-        font-weight: bold;
-        line-height: 0.89;
-        letter-spacing: 1.1px;
-        background: #ffffc1;
-        width: 98px;
-        height: 98px;
-        box-shadow: 5px 5px #1e489d;
-        border-radius: 100px;
-        display: inline-block;
-        padding: 30px 0;
-        text-align: center;
-        float: left;
-        top: -35px;
-        position: relative;
-        margin: 0 20px 0 0; }
-      .camp .first-section ul li .camp-info p {
-        font-size: 20px;
-        font-weight: bold;
-        line-height: 1.2;
-        letter-spacing: 0.7px; }
-        .camp .first-section ul li .camp-info p span {
-          font-size: 13px;
-          font-weight: normal;
-          line-height: 2.07;
-          letter-spacing: 0.5px; }
-        .camp .first-section ul li .camp-info p .second-line {
-          line-height: 2.07;
-          letter-spacing: 0.5px;
-          font-size: 13px;
-          display: block; }
-
-.camp .second-section {
-  font-family: shingopro; }
-  .camp .second-section ul {
-    display: flex; }
-    .camp .second-section ul li {
-      width: 27%;
+  .camp .first-section ul li {
+    width: 37%;
+    margin: 44px 3.5% 0 0;
+    float: left; }
+    .camp .first-section ul li:first-child {
+      margin-left: 12%; }
+    .camp .first-section ul li img {
+      box-shadow: 5px 5px #ff4178; }
+    .camp .first-section ul li .camp-info > span {
+      font-size: 30.4px;
+      font-weight: bold;
+      line-height: 0.89;
+      letter-spacing: 1.1px;
+      background: #ffffc1;
+      width: 98px;
+      height: 98px;
+      box-shadow: 5px 5px #1e489d;
+      border-radius: 100px;
+      display: inline-block;
+      padding: 30px 0;
+      text-align: center;
+      float: left;
+      top: -26px;
       position: relative;
-      margin: 0 3%; }
-      .camp .second-section ul li i {
-        box-shadow: 5px 5px #ff4178; }
-      .camp .second-section ul li .camp-info > span {
-        font-size: 30.4px;
-        font-weight: bold;
-        line-height: 0.89;
-        letter-spacing: 1.1px;
-        background: #ffffc1;
-        width: 71px;
-        height: 71px;
-        box-shadow: 5px 5px #1e489d;
-        border-radius: 100px;
-        display: inline-block;
-        padding: 20px 0;
-        text-align: center;
-        float: left;
-        top: -35px;
-        position: relative;
-        margin: 0 20px 0 0; }
-      .camp .second-section ul li .camp-info p {
-        font-size: 12px;
-        font-weight: bold;
-        line-height: 1.27;
-        letter-spacing: 0.4px; }
-        .camp .second-section ul li .camp-info p span {
-          font-size: 9.8px;
-          font-weight: normal;
-          line-height: 2.07;
-          letter-spacing: 0.3px;
-          display: block; }
-      .camp .second-section ul li h3 {
-        font-size: 46.1px;
-        font-weight: bold;
-        line-height: 1.27;
-        letter-spacing: 1.4px;
-        color: #ffffff;
-        position: absolute;
-        top: 44px;
-        left: 55px; }
-      .camp .second-section ul li .info-wrapper p {
-        max-width: 85px;
-        float: left;
-        padding-left: 10px; }
-        .camp .second-section ul li .info-wrapper p:first-child {
-          font-size: 13px;
-          width: 80px;
-          padding-left: 0; }
+      margin: 0 25px 0 0; }
+    .camp .first-section ul li .camp-info p {
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1.2;
+      letter-spacing: 0.7px;
+      margin-top: 16px; }
+      .camp .first-section ul li .camp-info p span {
+        font-size: 13px;
+        font-weight: normal;
+        line-height: 2.07;
+        letter-spacing: 0.5px; }
+      .camp .first-section ul li .camp-info p .second-line {
+        line-height: 1.07;
+        letter-spacing: 0.5px;
+        font-size: 13px;
+        display: block; }
+  .camp .first-section ul .first-element {
+    margin-left: 8.5% !important; }
+  .camp .first-section ul .second-section {
+    width: 27%;
+    position: relative;
+    margin: 37px 0 0 14px; }
+    .camp .first-section ul .second-section:last-child .camp-info > span {
+      top: -15px; }
+    .camp .first-section ul .second-section:last-child p {
+      margin: 6px 0 0; }
+    .camp .first-section ul .second-section img {
+      box-shadow: 5px 5px #ff4178; }
+    .camp .first-section ul .second-section .camp-info > span {
+      font-size: 25.4px;
+      font-weight: bold;
+      line-height: 0.89;
+      letter-spacing: 1.1px;
+      background: #ffffc1;
+      width: 71px;
+      height: 71px;
+      box-shadow: 5px 5px #1e489d;
+      border-radius: 100px;
+      display: inline-block;
+      padding: 20px 0;
+      text-align: center;
+      float: left;
+      top: -10px;
+      position: relative;
+      margin: 0 20px 0 0; }
+    .camp .first-section ul .second-section .camp-info p {
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 1.27;
+      letter-spacing: 0.4px; }
+      .camp .first-section ul .second-section .camp-info p span {
+        font-size: 9.8px;
+        font-weight: normal;
+        line-height: 2.07;
+        letter-spacing: 0.3px;
+        display: block; }
+    .camp .first-section ul .second-section h3 {
+      font-size: 46.1px;
+      font-weight: bold;
+      line-height: 1.27;
+      letter-spacing: 1.4px;
+      color: #ffffff;
+      position: absolute;
+      top: 44px;
+      left: 55px; }
+    .camp .first-section ul .second-section .info-wrapper p {
+      max-width: 85px;
+      float: left;
+      padding-left: 10px;
+      margin: 10px 0 0; }
+      .camp .first-section ul .second-section .info-wrapper p:first-child {
+        font-size: 13px;
+        width: 80px;
+        padding-left: 0; }
+
+.camp .camp-bottom-section > p {
+  padding-left: 80px;
+  margin-bottom: 8px; }
 
 .camp .camp-bottom-section .camp-bottom-info {
-  padding: 15px 0 85px;
+  padding: 0 0 90px;
   position: relative; }
   .camp .camp-bottom-section .camp-bottom-info p {
     font-size: 20px;
@@ -1386,7 +1392,8 @@ header {
     display: table;
     margin: 0 auto;
     border-bottom: 2px solid #ff4178;
-    position: relative; }
+    position: relative;
+    padding: 0 20px 4px; }
     .camp .camp-bottom-section .camp-bottom-info p:after {
       content: '';
       border: solid #ff4178;
@@ -1396,7 +1403,7 @@ header {
       transform: rotate(45deg);
       -webkit-transform: rotate(45deg);
       position: absolute;
-      left: 50%;
+      left: 48%;
       bottom: -7px; }
     .camp .camp-bottom-section .camp-bottom-info p:before {
       content: '';
@@ -1405,15 +1412,17 @@ header {
       width: 12px;
       background: #ffffff;
       bottom: -2px;
-      left: 50%; }
+      left: 48%; }
   .camp .camp-bottom-section .camp-bottom-info .button {
-    margin: 20px auto 0; }
+    margin: 26px auto 0;
+    padding: 10px 15px;
+    max-width: 174px; }
   .camp .camp-bottom-section .camp-bottom-info i {
     position: absolute; }
     .camp .camp-bottom-section .camp-bottom-info i:first-child {
-      left: 12%; }
+      left: 15%; }
     .camp .camp-bottom-section .camp-bottom-info i:last-child {
-      right: 0;
+      right: 59px;
       bottom: 0; }
 
 .camp .camp-title {
@@ -1430,24 +1439,29 @@ header {
     top: 27px;
     position: absolute;
     left: 13px; }
+  .camp .camp-title .bubble-text-wrap {
+    position: absolute;
+    left: 105px;
+    top: 15px; }
   .camp .camp-title .icon-camp-title-bubble {
     float: left; }
   .camp .camp-title .camp-title-info i {
     position: absolute;
-    right: 0;
-    top: 0; }
+    right: 102px;
+    top: 17px; }
   .camp .camp-title .camp-title-info p {
     font-size: 21px;
     font-weight: bold;
     line-height: 1.43;
     letter-spacing: 0.1px;
-    width: 40%;
+    width: 44%;
     float: left;
-    padding: 0 0 0 60px; }
+    padding: 25px 0 0 197px; }
     .camp .camp-title .camp-title-info p:last-child {
       font-size: 18px;
       line-height: 2.05;
-      padding: 0; }
+      padding: 0;
+      width: 40%; }
       .camp .camp-title .camp-title-info p:last-child span {
         font-size: 44px;
         font-weight: 700;
@@ -1466,7 +1480,8 @@ header {
           opacity: 0.5; }
 
 footer {
-  border-bottom: 50px solid #1a489c; }
+  border-bottom: 73px solid #1a489c;
+  padding-bottom: 36px; }
   footer .footer-wrapper {
     border-top: 1px solid #949595;
     padding-top: 30px; }
@@ -1474,25 +1489,30 @@ footer {
     footer {
       padding: 0 20px; } }
   footer .footer-images {
-    float: right; }
+    float: right;
+    margin-right: 60px;
+    margin-top: 3px; }
     footer .footer-images i {
       display: block;
       margin: 0 auto; }
       footer .footer-images i:first-child {
         margin-bottom: 20px; }
     footer .footer-images .button {
-      margin: 20px auto 0; }
+      margin: 36px auto 0;
+      max-width: 180px; }
   footer .footer-text {
     float: left;
     max-width: 660px;
     font-size: 14px;
     color: #403d3c;
-    line-height: 1.57; }
+    line-height: 1.57;
+    margin-left: 99px; }
     footer .footer-text p {
-      display: inline-block; }
+      display: inline-block;
+      margin: 4px 0 3px; }
       footer .footer-text p span {
         text-align: center;
         display: block; }
     footer .footer-text ul {
-      margin: 0 0 0 50px;
+      margin: 0 0 0 70px;
       line-height: 1.29; }

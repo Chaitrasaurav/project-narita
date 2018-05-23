@@ -1,5 +1,6 @@
 footer {
-	border-bottom: 50px solid #1a489c;
+	border-bottom: 73px solid #1a489c;
+    padding-bottom: 36px;
 
 	.footer-wrapper{
 		border-top: 1px solid #949595;
@@ -12,6 +13,8 @@ footer {
 
 	.footer-images {
 		float: right;
+		margin-right: 60px;
+    	margin-top: 3px;
 
 		i {
 			display: block;
@@ -23,7 +26,8 @@ footer {
 		}
 
 		.button {
-			margin: 20px auto 0;
+			margin: 36px auto 0;
+			max-width: 180px;
 		}
 	}
 
@@ -33,9 +37,11 @@ footer {
 		font-size: 14px;
 		color: #403d3c;
 		line-height: 1.57;
+		margin-left: 99px;
 
 		p {
 			display: inline-block;
+			margin: 4px 0 3px;
 			span {
 				text-align: center;
 				display: block;
@@ -43,7 +49,7 @@ footer {
 		}
 
 		ul {
-			margin: 0 0 0 50px;
+			margin: 0 0 0 70px;
 			line-height: 1.29;
 		}
 	}
