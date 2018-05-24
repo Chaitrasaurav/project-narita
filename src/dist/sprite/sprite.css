@@ -18,175 +18,133 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-aeroplane {
   background-image: url(sprite.png);
-  background-position: -769px -439px;
+  background-position: -827px -412px;
   width: 270px;
   height: 70px;
 }
 .icon-arrow-left {
   background-image: url(sprite.png);
-  background-position: -1315px -184px;
+  background-position: -1126px -263px;
   width: 20px;
   height: 45px;
 }
 .icon-arrow-right {
   background-image: url(sprite.png);
-  background-position: -1315px -140px;
+  background-position: -1126px -219px;
   width: 23px;
   height: 44px;
 }
 .icon-camp-bubble {
   background-image: url(sprite.png);
-  background-position: -1170px 0px;
+  background-position: -445px -554px;
   width: 172px;
   height: 140px;
 }
 .icon-camp-girl {
   background-image: url(sprite.png);
-  background-position: -795px -521px;
+  background-position: -445px -219px;
   width: 326px;
   height: 193px;
 }
 .icon-camp-title-bubble {
   background-image: url(sprite.png);
-  background-position: -1245px -342px;
+  background-position: -445px -694px;
   width: 85px;
   height: 80px;
 }
 .icon-camp-title-lines {
   background-image: url(sprite.png);
-  background-position: -1170px -342px;
+  background-position: -1051px -219px;
   width: 75px;
   height: 114px;
 }
-.icon-camp1 {
-  background-image: url(sprite.png);
-  background-position: -445px -521px;
-  width: 350px;
-  height: 220px;
-}
-.icon-camp2 {
-  background-image: url(sprite.png);
-  background-position: -769px -219px;
-  width: 350px;
-  height: 220px;
-}
-.icon-camp3 {
-  background-image: url(sprite.png);
-  background-position: -280px -782px;
-  width: 255px;
-  height: 160px;
-}
-.icon-camp4 {
-  background-image: url(sprite.png);
-  background-position: -535px -782px;
-  width: 255px;
-  height: 160px;
-}
-.icon-camp5 {
-  background-image: url(sprite.png);
-  background-position: -790px -782px;
-  width: 255px;
-  height: 160px;
-}
 .icon-hotel-image-footer {
   background-image: url(sprite.png);
-  background-position: 0px -782px;
+  background-position: -771px -219px;
   width: 280px;
   height: 164px;
 }
 .icon-hotels-slider-bubble {
   background-image: url(sprite.png);
-  background-position: -195px -946px;
+  background-position: -640px -412px;
   width: 187px;
   height: 134px;
 }
 .icon-logo-footer {
   background-image: url(sprite.png);
-  background-position: -795px -714px;
+  background-position: -771px -383px;
   width: 185px;
   height: 27px;
 }
-.icon-logo {
-  background-image: url(sprite.png);
-  background-position: -1170px -602px;
-  width: 169px;
-  height: 26px;
-}
 .icon-number-3 {
   background-image: url(sprite.png);
-  background-position: -1282px -487px;
+  background-position: -1097px -412px;
   width: 49px;
   height: 31px;
 }
 .icon-number-4 {
   background-image: url(sprite.png);
-  background-position: -1282px -456px;
+  background-position: -1097px -443px;
   width: 49px;
   height: 31px;
 }
 .icon-number-5 {
   background-image: url(sprite.png);
-  background-position: -1245px -422px;
+  background-position: -905px -482px;
   width: 49px;
   height: 31px;
 }
 .icon-sche-aeroplane {
   background-image: url(sprite.png);
-  background-position: -1170px -628px;
+  background-position: -1051px -333px;
   width: 106px;
   height: 35px;
 }
 .icon-sche-bottom-bubble {
   background-image: url(sprite.png);
-  background-position: -1170px -140px;
+  background-position: -617px -554px;
   width: 145px;
   height: 119px;
 }
 .icon-sche-lines {
   background-image: url(sprite.png);
-  background-position: 0px -946px;
+  background-position: -445px -412px;
   width: 195px;
   height: 142px;
 }
 .icon-sche-text-bubble {
   background-image: url(sprite.png);
-  background-position: -1170px -259px;
+  background-position: -762px -554px;
   width: 131px;
   height: 83px;
 }
 .icon-sche1-wave {
   background-image: url(sprite.png);
-  background-position: -980px -727px;
+  background-position: -956px -383px;
   width: 190px;
   height: 13px;
 }
 .icon-sche1 {
   background-image: url(sprite.png);
-  background-position: -1170px -456px;
+  background-position: -1005px -554px;
   width: 112px;
   height: 73px;
 }
 .icon-sche2-wave {
   background-image: url(sprite.png);
-  background-position: -980px -714px;
+  background-position: -956px -396px;
   width: 190px;
   height: 13px;
 }
 .icon-sche2 {
   background-image: url(sprite.png);
-  background-position: -1170px -529px;
+  background-position: -893px -554px;
   width: 112px;
   height: 73px;
 }
-.icon-slider-badge {
-  background-image: url(sprite.png);
-  background-position: -445px -219px;
-  width: 324px;
-  height: 302px;
-}
 .icon-small-hotel-image {
   background-image: url(sprite.png);
-  background-position: -1170px -663px;
+  background-position: -827px -482px;
   width: 78px;
   height: 45px;
 }

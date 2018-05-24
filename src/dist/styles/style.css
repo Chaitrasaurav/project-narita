@@ -291,8 +291,19 @@ ul {
 header {
   background: #1a489c;
   padding: 6px 0; }
-  header i {
-    margin: 0 7px; }
+  header img {
+    margin: 0px 2px 7px;
+    display: block;
+    max-width: 100%; }
+    @media (max-width: 767px) {
+      header img {
+        display: none; } }
+  header .logo-mobile {
+    display: none; }
+    @media (max-width: 767px) {
+      header .logo-mobile {
+        display: block;
+        margin: 0; } }
   @media (max-width: 980px) {
     header {
       padding: 20px 20px; } }
@@ -317,7 +328,8 @@ header {
     position: absolute;
     top: 15%;
     z-index: 1;
-    left: 5%; }
+    left: 50px;
+    width: 32%; }
   .stage .slider3 .slider-badge,
   .stage .slider4 .slider-badge {
     right: 5%;
@@ -326,6 +338,9 @@ header {
     position: absolute;
     bottom: 10%;
     left: 46%; }
+    @media (max-width: 767px) {
+      .stage .slick-dots {
+        bottom: 13%; } }
     .stage .slick-dots li {
       display: block;
       float: left;
@@ -336,11 +351,20 @@ header {
       margin: 0 10px;
       border-radius: 100px;
       cursor: pointer; }
+      @media (max-width: 767px) {
+        .stage .slick-dots li {
+          width: 8px;
+          height: 8px;
+          margin: 0 5px; } }
       .stage .slick-dots li button {
         background: none;
         border: none; }
     .stage .slick-dots li.slick-active {
       background: #1e489d; }
+
+@media (max-width: 980px) {
+  .travel {
+    padding: 0 20px; } }
 
 .travel .travel-description {
   text-align: center;
@@ -356,7 +380,10 @@ header {
 
 .travel .travel-intro {
   position: relative;
-  margin: 40px auto 30px; }
+  background: url(../images/travel-bg.png) no-repeat center;
+  max-width: 730px;
+  margin: 0 auto;
+  padding: 63px 0; }
   .travel .travel-intro .bubble-text {
     color: #ff4178;
     font-size: 17px;
@@ -365,7 +392,7 @@ header {
     letter-spacing: 0.7px;
     font-weight: 700;
     width: 63px;
-    top: 40px;
+    top: 75px;
     position: absolute;
     left: 72px; }
 
@@ -379,8 +406,7 @@ header {
     font-size: 13px;
     font-weight: 500;
     line-height: 1.85;
-    letter-spacing: 1px;
-    padding-top: 25px; }
+    letter-spacing: 1px; }
   .travel .intro-description .second-line {
     color: #ff4178;
     font-size: 44px;
@@ -422,7 +448,7 @@ header {
   .travel .intro-description .last-line {
     font-size: 16px;
     font-weight: 300;
-    line-height: 2.31;
+    line-height: 2;
     color: #00000c;
     margin-left: -40px; }
     .travel .intro-description .last-line span {
@@ -462,6 +488,9 @@ header {
     border-bottom-left-radius: 100px;
     max-width: 157px;
     max-height: 116px; }
+    @media (max-width: 767px) {
+      .travel .travel-container .travel-offer {
+        display: none; } }
     .travel .travel-container .travel-offer span {
       background: #ffff96;
       display: block;
@@ -504,6 +533,12 @@ header {
     background: url(../images/sche-container-pattern.png) repeat;
     margin-bottom: -40px;
     padding: 40px 0 80px; }
+    @media (max-width: 980px) {
+      .sche .sche-container {
+        padding: 40px 20px 80px; } }
+    @media (max-width: 800px) {
+      .sche .sche-container img {
+        max-width: 100%; } }
   .sche .sche1-wrapper {
     max-width: 800px;
     margin: 0 auto;

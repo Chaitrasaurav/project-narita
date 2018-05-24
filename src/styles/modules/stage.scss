@@ -26,7 +26,8 @@
 		position: absolute;
 		top: 15%;
 		z-index: 1;
-		left: 5%;
+		left: 50px;
+		width: 32%;
 	}
 
 	.slider3 .slider-badge,
@@ -40,6 +41,10 @@
 		bottom: 10%;
 		left: 46%;
 
+		@media (max-width: 767px) {
+			bottom: 13%;
+		}
+
 		li {
 			display: block;
 			float: left;
@@ -50,6 +55,11 @@
 			margin: 0 10px;
 			border-radius: 100px;
 			cursor: pointer;
+			@media (max-width: 767px) {
+				width: 8px;
+				height: 8px;
+				margin: 0 5px;
+			}
 
 			button {
 				background: none;
