@@ -1,4 +1,7 @@
 .camp{
+	@media (max-width: 980px) {
+		padding: 0 20px;
+	}
 	.first-section{
 		font-family: $font-family-secondary;
 		ul{
@@ -6,13 +9,23 @@
 				width: 37%;
     			margin: 44px 3.5% 0 0;
 				float: left;
-
+				@media (max-width: 767px) {
+					width: 100%;
+					margin:0;
+					float: none;
+				}
 				&:first-child {
 					margin-left: 12%;
+					@media (max-width: 767px) {
+						margin-left:0;
+					}
 				}
 
 				img{
 					box-shadow: 5px 5px $text-color-primary;
+					@media (max-width: 767px) {
+						max-width: 100%;
+					}
 				}
 				.camp-info {
 					> span{						
@@ -40,6 +53,9 @@
   						line-height: 1.2;
   						letter-spacing: 0.7px;
   						margin-top: 16px;
+  						@media (max-width: 767px) {
+  							font-size: 19px;
+  						}
 
   						span {
   							font-size: 13px;
@@ -59,12 +75,18 @@
 			}
 			.first-element{
 				margin-left: 8.5% !important;
+				@media (max-width: 767px) {
+					margin-left: 0 !important;
+				}
 			}
 			.second-section {
 				width: 27%;
 			    position: relative;
 			    margin: 37px 0 0 14px;
-
+			    @media (max-width: 767px) {
+			    	width: 100%;
+			    	margin:0;
+			    }
 			    &:last-child{
 			    	.camp-info>span{
 			    		top: -15px;
@@ -138,6 +160,35 @@
 					}
 				}
 			}
+
+			.slick-dots {
+				position: relative;
+			    bottom: 0;
+			    left: auto;
+			    margin: 15px 0 30px;
+			    display: table;
+			    margin: 15px auto;
+
+				li {
+					display: block;
+					float: left;
+					background: #d6d7ec;
+					font-size: 0;
+					width: 12px;
+					height: 12px;
+					margin: 0 10px;
+					border-radius: 100px;
+					cursor: pointer;
+
+					button {
+						background: none;
+						border: none;
+					}
+				}
+				li.slick-active {
+					background: #1e489d;
+				}
+			}
 		}
 	}
 
@@ -145,10 +196,16 @@
 		> p {
 			padding-left: 80px;
 			margin-bottom: 8px;
+			@media (max-width: 767px) {
+     			padding-left: 0;
+			}
 		}
 		.camp-bottom-info{
 			padding: 0 0 90px;
 			position: relative;
+			@media (max-width: 767px) {
+				padding: 0;
+			}
 			p {
 				font-size: 20px;
 				color: $text-color-primary;
@@ -188,12 +245,21 @@
 
 			i{
 				position: absolute;
+				@media (max-width: 767px) {
+					position: relative;
+				}
     			&:first-child{
     				left: 15%;
+    				@media (max-width: 767px) {
+    					display: none;
+    				}
     			}
     			&:last-child{
     			    right: 59px;
     				bottom: 0;
+    				@media (max-width: 767px) {
+    					right: 0;
+    				}
     			}
 			}
 		}
@@ -219,6 +285,10 @@
 			position: absolute;
 		    left: 105px;
 		    top: 15px;
+		    @media (max-width: 767px) {
+		    	left: 0;
+    			top: -72px;
+		    }
 		}
 		.icon-camp-title-bubble{
 			float: left;
@@ -230,6 +300,11 @@
 				position: absolute;
 			 	right: 102px;
     			top: 17px;
+    			@media (max-width: 767px) {
+    				right: 0;
+    				bottom: 0;
+    				top: auto;
+    			}
 			}
 
   			p{
@@ -240,11 +315,19 @@
 	  			width: 44%;
 			    float: left;
 			    padding: 25px 0 0 197px;
+			    @media (max-width: 767px) {
+			    	width: 100%;
+			    	float: none;
+			    	padding: 0;
+			    }
   				&:last-child{
   					font-size: 18px;
   					line-height: 2.05;
   					padding: 0;
   					width:40%;
+  					@media (max-width: 767px) {
+  						width: 100%;
+  					}
   					span{
   						font-size: 44px;
 			  			font-weight: 700;

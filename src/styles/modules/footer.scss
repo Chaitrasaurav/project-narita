@@ -15,6 +15,10 @@ footer {
 		float: right;
 		margin-right: 60px;
     	margin-top: 3px;
+    	@media (max-width: 767px) {
+    		float: none;
+    		margin-right: 0;
+    	}
 
 		i {
 			display: block;
@@ -38,7 +42,10 @@ footer {
 		color: #403d3c;
 		line-height: 1.57;
 		margin-left: 99px;
-
+		@media (max-width: 767px) {
+			margin-left: 0;
+			float: none;
+		}
 		p {
 			display: inline-block;
 			margin: 4px 0 3px;
@@ -51,6 +58,9 @@ footer {
 		ul {
 			margin: 0 0 0 70px;
 			line-height: 1.29;
+			@media (max-width: 767px) {
+				margin:0;
+			}
 		}
 	}
 }

@@ -19,6 +19,15 @@ $(document).ready(function() {
 	});
 
 	$('.hotels-slider .slick-next').addClass('icon-arrow-right');
-	$('.hotels-slider .slick-prev').addClass('icon-arrow-left');
+
+	if ($(window).width() < 768) {
+		$('.camp ul').slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			arrows: false,
+			fade: true,
+			dots: true
+		});
+	}
 	
 });

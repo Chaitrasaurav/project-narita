@@ -1,12 +1,20 @@
 .section-yume {
 	background: url(../images/section-yume-pattern.png) repeat-x;
 	padding: 20px 0 0;
+
 	.section-yume-container {
 		background: url(../images/section-museum-pattern.png) repeat-x bottom #ffe6ee;
+		@media (max-width: 980px) {
+			padding: 0 20px 0;
+		}
 
 		.yume-main-image {
 			margin: 41px auto 0;
 			display: block;
+			@media (max-width: 767px) {
+				margin: 25px auto 0;
+    			max-width: 100%;
+			}
 		}
 		.yume-description {
 			position: relative;
@@ -15,6 +23,10 @@
 			margin: 0 auto;
 			text-align: center;
 			font-size: 16px;
+			@media (max-width: 767px) {
+				margin: 20px auto 45px;
+				top: 0;
+			}
 		}
 
 		.yume-contact {
@@ -28,6 +40,10 @@
 			.first-section {
 				width: 45%;
 				float: left;
+				@media (max-width: 767px) {
+					width: 100%;
+					float:none;
+				}
 				p {
 					margin: 3px 0;
 				}
@@ -36,15 +52,25 @@
 			.second-section {
 				width: 30%;
 				float: left;
+				@media (max-width: 767px) {
+					width: 100%;
+					float:none;
+				}
 				p {
 					margin: 34px 0 0;
+					@media (max-width: 767px) {
+						margin: 10px 0 0;
+					}
 				}
 			}
 
 			.last-section {
 				width: 25%;
 				float: left;
-
+				@media (max-width: 767px) {
+					width: 100%;
+					float:none;
+				}
 				.button {
 					margin: 10px;
 				}
@@ -57,12 +83,31 @@
 				float: left;
 				margin-top: -37px;
 				margin-left: 56px;
+				@media (max-width: 767px) {
+					width: 100%;
+					float: none;
+					margin-top: 0;
+					margin-left: 0;
+				}
+				img{
+					@media (max-width: 767px) {
+						display: block;
+						max-width: 100%;
+						margin: 0 auto;
+					}
+				}
 			}
 			.right-side {
 				width: 50%;
 				float: left;
 				padding: 5px 0 0;
 				max-width: 257px;
+				@media (max-width: 767px) {
+					width: 100%;
+					float: none;
+					padding: 0;
+					margin-top: -25px;
+				}
 			}
 			h4 {
 				position: relative;
@@ -85,14 +130,29 @@
 		}
 
 		.yume-attraction2 {
+			@media (max-width: 767px) {
+				display: flex;
+    			flex-flow: column-reverse;
+			}
 			.left-side {
 				width: 55%;
 				float: left;
+				@media (max-width: 767px) {
+					width:100%;
+					float:none;
+				}
 				img {
 					float: left;
 					margin-left: 70px;
 					margin-top: -26px;
 					margin-right: 0;
+					@media (max-width: 767px) {
+						max-width: 100%;
+    					width: 40%;
+    					margin-left: 0;
+					    margin-top: 0;
+					    margin-right: 0;
+					}
 				}
 
 				.attraction2-description {
@@ -100,12 +160,28 @@
 					float: left;
 					margin-left: -27px;
 					margin-top: 9px;
+					@media (max-width: 767px) {
+						width: 60%;
+					}
 				}
 			}
 			.right-side {
 				width: 45%;
 				float: left;
 				margin-top: -144px;
+				@media (max-width: 767px) {
+					width:100%;
+					float:none;
+					margin-top:0;
+				}
+
+				img{
+					@media (max-width: 767px) {
+						display: block;
+					    max-width: 100%;
+					    margin: -60px auto 0;
+					}
+				}
 			}
 			h4 {
 				position: relative;
@@ -133,15 +209,29 @@
 			.left-side {
 				width: 49%;
 				float: left;
+				@media (max-width: 767px) {
+					width:100%;
+					float:none;
+				}
 
 				img {
 					margin-left: 70px;
+					@media (max-width: 767px) {
+						margin-left: 0;
+					    display: block;
+					    margin: 0 auto;
+					    max-width: 100%;
+					}
 				}
 			}
 			.right-side {
 				width: 51%;
 				float: left;
 				margin: 10px 0 0;
+				@media (max-width: 767px) {
+					width:100%;
+					float:none;
+				}
 				.attraction3-description {
 					max-width: 295px;
 					float: left;
@@ -151,6 +241,13 @@
 				img {
 					margin-top: -52px;
 					margin-left: -48px;
+					@media (max-width: 767px) {
+						margin-top: 0;
+					    margin-left: 0;
+					    display: block;
+					    max-width: 100%;
+					    margin: 0 auto;
+					}
 				}
 			}
 			h4 {
@@ -176,10 +273,19 @@
 	.section-museum-container {
 		background: url(../images/section-museum-bottom-pattern.png) repeat-x bottom #deeeff;
 		padding: 62px 0 0;
+		@media (max-width: 980px) {
+			padding: 62px 20px 0;
+		}
+		@media (max-width: 767px) {
+			padding: 30px 20px 0;
+		}
 
 		.museum-main-image {
 			margin: 0 auto;
 			display: block;
+			@media (max-width: 767px) {
+				max-width: 100%;
+			}
 		}
 		.museum-description {
 			position: relative;
@@ -189,10 +295,18 @@
 			font-size: 16px;
 			position: relative;
 			padding: 0 0 0 30px;
+			@media (max-width: 767px) {
+				padding: 70px 0 0 0;
+				margin: 37px auto 25px;
+			}
 			i {
 				position: absolute;
 				left: -238px;
 				top: -17px;
+				@media (max-width: 767px) {
+					left:0;
+					top:0;
+				}
 			}
 		}
 
@@ -207,6 +321,10 @@
 			.first-section {
 				width: 45%;
 				float: left;
+				@media (max-width: 767px) {
+					width: 100%;
+					float: none;
+				}
 				p {
 					margin: 3px 0;
 				}
@@ -215,15 +333,25 @@
 			.second-section {
 				width: 30%;
 				float: left;
+				@media (max-width: 767px) {
+					width: 100%;
+					float: none;
+				}
 				p {
 					margin: 34px 0 0;
+					@media (max-width: 767px) {
+						margin:10px 0 0;
+					}
 				}
 			}
 
 			.last-section {
 				width: 25%;
 				float: left;
-
+				@media (max-width: 767px) {
+					width: 100%;
+					float: none;
+				}
 				.button {
 					margin: 10px;
 				}
@@ -234,14 +362,28 @@
 			.left-side {
 				width: 49%;
 				float: left;
+				@media (max-width: 767px) {
+					width: 100%;
+					float: none;
+				}
 				img {
 					margin-left: 80px;
+					@media (max-width: 767px) {
+						margin-left: 0;
+					    max-width: 100%;
+					    margin: 0 auto;
+					    display: block;
+					}
 				}
 			}
 			.right-side {
 				width: 36%;
 				float: left;
 				margin-top: 10px;
+				@media (max-width: 767px) {
+					width: 100%;
+					float: none;
+				}
 			}
 			h4 {
 				position: relative;
@@ -263,19 +405,38 @@
 		}
 
 		.museum-attraction2 {
+			@media (max-width: 767px) {
+				display: flex;
+    			flex-flow: column-reverse;
+			}
 			.left-side {
 				width: 52%;
 				float: left;
 				margin: 61px 0 0;
 				text-align: right;
+				@media (max-width: 767px) {
+					width:100%;
+					float: none;
+					margin:0;
+				}
 			}
 			.right-side {
 				width: 48%;
 				float: left;
-
+				@media (max-width: 767px) {
+					width:100%;
+					float: none;
+				}
 				img {
 					margin-left: 28px;
 					margin-top: -112px;
+					@media (max-width: 767px) {
+						margin-left:0;
+						margin-top:0;
+						display: block;
+						margin:0 auto;
+						max-width: 100%;
+					}
 				}
 			}
 			h4 {
@@ -303,17 +464,36 @@
 				position: absolute;
 				left: -80px;
 				top: -35px;
+				@media (max-width: 767px) {
+					left:0;
+					top:0;
+				}
 			}
 			.left-side {
 				width: 49%;
 				float: left;
+				@media (max-width: 767px) {
+					width: 100%;
+					float: none;
+				}
 
 				img {
 					margin-top: -91px;
 					margin-left: 77px;
+					@media (max-width: 767px) {
+						margin-top: -24px;
+					    margin-left: 0;
+					    display: block;
+					    max-width: 100%;
+					}
 					&:first-child {
 						margin-top: -103px;
 						margin-left: -8px;
+						@media (max-width: 767px) {
+							margin-top:0;
+							margin-left:0;
+							max-width: 100%;
+						}
 					}
 				}
 			}
@@ -321,6 +501,10 @@
 				width: 51%;
 				float: left;
 				margin: 55px 0 0;
+				@media (max-width: 767px) {
+					width: 100%;
+					float: none;
+				}
 
 				p {
 					max-width: 223px;
@@ -329,6 +513,12 @@
 				img {
 					margin-top: -100px;
 					margin-left: 64px;
+					@media (max-width: 767px) {
+						margin-top: 0;
+					    margin-left: 0;
+					    display: block;
+					    max-width: 100%;
+					}
 				}
 			}
 			h4 {
