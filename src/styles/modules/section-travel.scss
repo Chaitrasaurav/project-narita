@@ -7,11 +7,11 @@
 		max-width: 865px;
 		margin: 0 auto;
 		font-size: 16px;
-		line-height: 1.4;
-		padding: 37px 0 0;
+		line-height: 2.5;
+		padding: 37px 0 17px;
 		span {
 			border-bottom: 2px dashed $text-color-secondary;
-			display: block;
+			display: inline;
 			margin-bottom: 19px;
 		}
 	}

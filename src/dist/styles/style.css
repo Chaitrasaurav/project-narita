@@ -371,11 +371,11 @@ header {
   max-width: 865px;
   margin: 0 auto;
   font-size: 16px;
-  line-height: 1.4;
-  padding: 37px 0 0; }
+  line-height: 2.5;
+  padding: 37px 0 17px; }
   .travel .travel-description span {
     border-bottom: 2px dashed #007bff;
-    display: block;
+    display: inline;
     margin-bottom: 19px; }
 
 .travel .travel-intro {
