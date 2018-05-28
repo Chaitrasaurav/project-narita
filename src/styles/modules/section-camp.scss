@@ -24,7 +24,7 @@
 				img{
 					box-shadow: 5px 5px $text-color-primary;
 					@media (max-width: 767px) {
-						max-width: 100%;
+						width: 100%;
 					}
 				}
 				.camp-info {
@@ -258,7 +258,9 @@
     			    right: 59px;
     				bottom: 0;
     				@media (max-width: 767px) {
-    					right: 0;
+    					right: auto;
+					    display: table;
+					    margin: 30px auto 0;
     				}
     			}
 			}

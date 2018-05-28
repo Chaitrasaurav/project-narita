@@ -5,6 +5,10 @@
 .popup-container {
     background: #fff;
     border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    color: #213046;
 
     h4 {
         font-size: 20px;
@@ -27,11 +31,45 @@
         }
     }
 
+    .text-input{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.02;
+        letter-spacing: 3.1px;
+        position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            background: #f6f639;
+            height: 10px;
+            bottom: -4px;
+            right: 0;
+            opacity: 0.5;
+        }
+    }
+
     .form-btn {
         background: #cccccc;
+        color: #6b7380;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        padding: 10px;
+        min-width: 150px;
+        margin: 20px auto 0;
+        display: block;
+        cursor: default;
     }
     .form-btn.active {
-        background: #fed25e;
+        background: #fad25d;
+        color: #213046;
+        cursor: pointer;
+    }
+
+    form{
+        padding: 20px;
     }
 }
 .mfp-bg {
@@ -58,7 +96,7 @@
 
 .popup-description {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
     span {
         border-bottom: 2px dashed #007bff;

@@ -976,7 +976,7 @@ header {
       @media (max-width: 767px) {
         .section-yume .section-yume-container .yume-attraction1 .left-side img {
           display: block;
-          max-width: 100%;
+          width: 100%;
           margin: 0 auto; } }
     .section-yume .section-yume-container .yume-attraction1 .right-side {
       width: 50%;
@@ -1022,7 +1022,7 @@ header {
         margin-right: 0; }
         @media (max-width: 767px) {
           .section-yume .section-yume-container .yume-attraction2 .left-side img {
-            max-width: 100%;
+            width: 100%;
             width: 40%;
             margin-left: 0;
             margin-top: 0;
@@ -1047,7 +1047,7 @@ header {
       @media (max-width: 767px) {
         .section-yume .section-yume-container .yume-attraction2 .right-side img {
           display: block;
-          max-width: 100%;
+          width: 100%;
           margin: -60px auto 0; } }
     .section-yume .section-yume-container .yume-attraction2 h4 {
       position: relative;
@@ -1081,7 +1081,7 @@ header {
               margin-left: 0;
               display: block;
               margin: 0 auto;
-              max-width: 100%; } }
+              width: 100%; } }
       .section-yume .section-yume-container .yume-attraction3 .right-side {
         width: 51%;
         float: left;
@@ -1103,7 +1103,8 @@ header {
               margin-left: 0;
               display: block;
               max-width: 100%;
-              margin: 0 auto; } }
+              margin: 0 auto;
+              clear: both; } }
       .section-yume .section-yume-container .yume-attraction3 h4 {
         position: relative;
         display: inline-block; }
@@ -1202,7 +1203,7 @@ header {
         @media (max-width: 767px) {
           .section-yume .section-museum-container .museum-attraction1 .left-side img {
             margin-left: 0;
-            max-width: 100%;
+            width: 100%;
             margin: 0 auto;
             display: block; } }
     .section-yume .section-museum-container .museum-attraction1 .right-side {
@@ -1257,7 +1258,7 @@ header {
             margin-top: 0;
             display: block;
             margin: 0 auto;
-            max-width: 100%; } }
+            width: 100%; } }
     .section-yume .section-museum-container .museum-attraction2 h4 {
       position: relative;
       display: inline-block; }
@@ -1297,7 +1298,7 @@ header {
               margin-top: -24px;
               margin-left: 0;
               display: block;
-              max-width: 100%; } }
+              width: 100%; } }
           .section-yume .section-museum-container .museum-attraction3 .left-side img:first-child {
             margin-top: -103px;
             margin-left: -8px; }
@@ -1305,7 +1306,7 @@ header {
               .section-yume .section-museum-container .museum-attraction3 .left-side img:first-child {
                 margin-top: 0;
                 margin-left: 0;
-                max-width: 100%; } }
+                width: 100%; } }
       .section-yume .section-museum-container .museum-attraction3 .right-side {
         width: 51%;
         float: left;
@@ -1324,7 +1325,8 @@ header {
               margin-top: 0;
               margin-left: 0;
               display: block;
-              max-width: 100%; } }
+              max-width: 100%;
+              clear: both; } }
       .section-yume .section-museum-container .museum-attraction3 h4 {
         position: relative;
         display: inline-block; }
@@ -1388,7 +1390,7 @@ header {
       @media (max-width: 767px) {
         .other-attractions ul li img {
           display: block;
-          max-width: 100%;
+          width: 100%;
           margin: 0 auto; } }
 
 .about {
@@ -1504,7 +1506,7 @@ header {
         .about .first-amenity .right-side img {
           margin-top: 0;
           margin-left: 0;
-          max-width: 100%; } }
+          width: 100%; } }
   .about .second-amenity {
     margin-top: 45px; }
     @media (max-width: 767px) {
@@ -1521,6 +1523,9 @@ header {
           float: none;
           margin-top: 0;
           margin-left: 0; } }
+      @media (max-width: 767px) {
+        .about .second-amenity .left-side img {
+          width: 100%; } }
     .about .second-amenity .right-side {
       width: 50%;
       float: left;
@@ -1562,6 +1567,9 @@ header {
         .about .third-amenity .right-side {
           width: 100%;
           float: none; } }
+      @media (max-width: 767px) {
+        .about .third-amenity .right-side img {
+          width: 100%; } }
 
 .hotels-slider-wrapper {
   max-width: 1024px;
@@ -1572,6 +1580,9 @@ header {
     .hotels-slider-wrapper .hotels-slider img {
       margin: 0 auto;
       max-width: 100%; }
+      @media (max-width: 767px) {
+        .hotels-slider-wrapper .hotels-slider img {
+          width: 100%; } }
     .hotels-slider-wrapper .hotels-slider .slick-arrow {
       position: absolute;
       top: 43%;
@@ -1644,7 +1655,7 @@ header {
       box-shadow: 5px 5px #ff4178; }
       @media (max-width: 767px) {
         .camp .first-section ul li img {
-          max-width: 100%; } }
+          width: 100%; } }
     .camp .first-section ul li .camp-info > span {
       font-size: 30.4px;
       font-weight: bold;
@@ -1828,7 +1839,9 @@ header {
       bottom: 0; }
       @media (max-width: 767px) {
         .camp .camp-bottom-section .camp-bottom-info i:last-child {
-          right: 0; } }
+          right: auto;
+          display: table;
+          margin: 30px auto 0; } }
 
 .camp .camp-title {
   font-family: shingopro;
@@ -1926,6 +1939,9 @@ footer {
     footer .footer-images .button {
       margin: 36px auto 0;
       max-width: 180px; }
+      @media (max-width: 767px) {
+        footer .footer-images .button {
+          margin: 36px auto; } }
   footer .footer-text {
     float: left;
     max-width: 660px;
@@ -1955,7 +1971,11 @@ footer {
 
 .popup-container {
   background: #fff;
-  border-radius: 10px; }
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  color: #213046; }
   .popup-container h4 {
     font-size: 20px;
     font-weight: 700;
@@ -1973,10 +1993,38 @@ footer {
       bottom: -4px;
       right: 0;
       opacity: 0.5; }
+  .popup-container .text-input {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.02;
+    letter-spacing: 3.1px;
+    position: relative; }
+    .popup-container .text-input:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      background: #f6f639;
+      height: 10px;
+      bottom: -4px;
+      right: 0;
+      opacity: 0.5; }
   .popup-container .form-btn {
-    background: #cccccc; }
+    background: #cccccc;
+    color: #6b7380;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    min-width: 150px;
+    margin: 20px auto 0;
+    display: block;
+    cursor: default; }
   .popup-container .form-btn.active {
-    background: #fed25e; }
+    background: #fad25d;
+    color: #213046;
+    cursor: pointer; }
+  .popup-container form {
+    padding: 20px; }
 
 .mfp-bg {
   background: #666566;
@@ -1998,7 +2046,7 @@ footer {
 
 .popup-description {
   max-width: 500px;
-  margin: 0 auto;
+  margin: 20px auto;
   text-align: center; }
   .popup-description span {
     border-bottom: 2px dashed #007bff;

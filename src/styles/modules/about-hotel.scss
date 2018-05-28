@@ -136,7 +136,7 @@
 				@media (max-width: 767px) {
 					margin-top:0;
 					margin-left:0;
-					max-width: 100%;
+					width: 100%;
 				}
 			}
 		}
@@ -159,6 +159,12 @@
 				float: none;
 				margin-top: 0;
 				margin-left: 0;
+			}
+
+			img{
+				@media (max-width: 767px) {
+					width: 100%;
+				}
 			}
 		}
 		.right-side {
@@ -211,6 +217,11 @@
 			@media (max-width: 767px) {
 				width: 100%;
 				float: none;
+			}
+			img{
+				@media (max-width: 767px) {
+					width: 100%;
+				}
 			}
 		}
 	}
