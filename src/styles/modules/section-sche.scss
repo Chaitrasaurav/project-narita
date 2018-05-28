@@ -14,6 +14,10 @@
 				max-width: 100%;
 			}
 		}
+
+		.activity-wrapper {
+			font-family: orator;
+		}
 	}
 
 	.sche1-wrapper {
@@ -77,6 +81,7 @@
 				position: relative;
 				left: 87px;
 				top: -30px;
+				font-family: $font-family-primary;
 				span {
 					position: absolute;
 					left: 9%;
@@ -90,6 +95,7 @@
 				position: relative;
 				left: 84px;
 				top: 30px;
+				font-family: $font-family-primary;
 				span {
 					position: absolute;
 					left: 10%;
@@ -294,6 +300,7 @@
 				position: relative;
 				top: -30px;
 				left: 92px;
+				font-family: $font-family-primary;
 				span {
 					position: absolute;
 					left: 10%;
@@ -313,6 +320,7 @@
 				position: relative;
 				margin-top: 154px;
 				left: 92px;
+				font-family: $font-family-primary;
 				span {
 					position: absolute;
 					left: 10%;

@@ -29,5 +29,9 @@ $(document).ready(function() {
 			dots: true
 		});
 	}
-	
+
+	$('.btn-ajax').magnificPopup({
+		type: 'inline',
+		enableEscapeKey: true
+	});
 });

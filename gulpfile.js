@@ -43,7 +43,11 @@ gulp.task('scripts', function() {
 
 gulp.task('vendorScripts', function() {
   gulp
-    .src(['src/scripts/vendor/jquery.min.js', 'src/scripts/vendor/slick.min.js'])
+    .src([
+      'src/scripts/vendor/jquery.min.js',
+      'src/scripts/vendor/slick.min.js',
+      'src/scripts/vendor/jquery.magnific-popup.min.js'
+    ])
     .pipe(concat('vendor.js'))
     .pipe(uglify())
     .pipe(gulp.dest('src/dist/scripts/'))

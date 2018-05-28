@@ -201,6 +201,12 @@ th {
   font-weight: normal;
   src: url("../fonts/mistral.ttf") format("truetype"); }
 
+@font-face {
+  font-family: "orator";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OratorStd.otf") format("opentype"); }
+
 body {
   margin: 0;
   padding: 0;
@@ -539,6 +545,8 @@ header {
     @media (max-width: 800px) {
       .sche .sche-container img {
         max-width: 100%; } }
+    .sche .sche-container .activity-wrapper {
+      font-family: orator; }
   .sche .sche1-wrapper {
     max-width: 800px;
     margin: 0 auto;
@@ -588,7 +596,8 @@ header {
       .sche .sche1-wrapper .sche1-container .day1 {
         position: relative;
         left: 87px;
-        top: -30px; }
+        top: -30px;
+        font-family: hirakakupro; }
         .sche .sche1-wrapper .sche1-container .day1 span {
           position: absolute;
           left: 9%;
@@ -598,7 +607,8 @@ header {
       .sche .sche1-wrapper .sche1-container .day2 {
         position: relative;
         left: 84px;
-        top: 30px; }
+        top: 30px;
+        font-family: hirakakupro; }
         .sche .sche1-wrapper .sche1-container .day2 span {
           position: absolute;
           left: 10%;
@@ -751,7 +761,8 @@ header {
       .sche .sche2-wrapper .sche2-container .day1 {
         position: relative;
         top: -30px;
-        left: 92px; }
+        left: 92px;
+        font-family: hirakakupro; }
         .sche .sche2-wrapper .sche2-container .day1 span {
           position: absolute;
           left: 10%;
@@ -765,7 +776,8 @@ header {
       .sche .sche2-wrapper .sche2-container .day2 {
         position: relative;
         margin-top: 154px;
-        left: 92px; }
+        left: 92px;
+        font-family: hirakakupro; }
         .sche .sche2-wrapper .sche2-container .day2 span {
           position: absolute;
           left: 10%;
@@ -1937,3 +1949,57 @@ footer {
       @media (max-width: 767px) {
         footer .footer-text ul {
           margin: 0; } }
+
+.mfp-hide {
+  display: none; }
+
+.popup-container {
+  background: #fff;
+  border-radius: 10px; }
+  .popup-container h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.02;
+    letter-spacing: 3.1px;
+    position: relative;
+    display: table;
+    margin: 0 auto; }
+    .popup-container h4:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      background: #f6f639;
+      height: 10px;
+      bottom: -4px;
+      right: 0;
+      opacity: 0.5; }
+  .popup-container .form-btn {
+    background: #cccccc; }
+  .popup-container .form-btn.active {
+    background: #fed25e; }
+
+.mfp-bg {
+  background: #666566;
+  opacity: 0.9; }
+
+.popup-title {
+  background: #1f3147;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; }
+  .popup-title p {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px; }
+    .popup-title p span {
+      display: block;
+      font-size: 12px; }
+
+.popup-description {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center; }
+  .popup-description span {
+    border-bottom: 2px dashed #007bff;
+    display: inline; }
