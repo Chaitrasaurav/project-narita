@@ -35,15 +35,18 @@ $(document).ready(function() {
 		enableEscapeKey: true
 	});
 
-	$('.form-btn').on('click', function(){
-		if ($("input[type=radio]:checked").length <= 0) {
-		    $("input[type=radio]").addClass('error');
-		} else if($('#firstName').val() === ""){
-			$('#firstName').addClass('error');
-		} else if($('#lastName').val() === ""){
-			$('#lastName').addClass('error');
-		} else{
-			$('.form-btn').addClass('active');
-		}
+	$('.check').change(function() {
+	    if ($('.check:checked').length && $('#firstName').val() !== "" && $('#lastName').val() !== "") {
+	        $('.form-btn').addClass('active');
+	    } else {
+	        $('.form-btn').removeClass('active');
+	    }
+	});
+	$("input").blur(function(){
+	    if ($('.check:checked').length && $('#firstName').val() !== "" && $('#lastName').val() !== "") {
+	        $('.form-btn').addClass('active');
+	    } else {
+	        $('.form-btn').removeClass('active');
+	    }
 	});
 });
