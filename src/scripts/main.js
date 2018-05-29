@@ -19,6 +19,7 @@ $(document).ready(function() {
 	});
 
 	$('.hotels-slider .slick-next').addClass('icon-arrow-right');
+	$('.hotels-slider .slick-prev').addClass('icon-arrow-left');
 
 	if ($(window).width() < 768) {
 		$('.camp ul').slick({
@@ -48,4 +49,9 @@ $(document).ready(function() {
 	        $('.form-btn').removeClass('active');
 	    }
 	});
+
+	$("img.lazy").lazyload({
+         effect : "fadeIn"
+     });
+	
 });

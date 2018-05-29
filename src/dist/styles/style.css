@@ -1519,7 +1519,8 @@ header {
           margin-left: 0; } }
     .about .first-amenity .right-side img {
       margin-top: -13px;
-      margin-left: 8px; }
+      margin-left: 8px;
+      max-width: 100%; }
       @media (max-width: 767px) {
         .about .first-amenity .right-side img {
           margin-top: 0;
