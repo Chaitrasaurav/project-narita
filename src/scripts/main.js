@@ -30,16 +30,15 @@ $(document).ready(function() {
 		});
 	}
 
-	$('.btn-ajax').magnificPopup({
-		type: 'inline',
-		enableEscapeKey: true
-	});
-
 	$('.check').change(function() {
 	    if ($('.check:checked').length && $('#firstName').val() !== "" && $('#lastName').val() !== "") {
 	        $('.form-btn').addClass('active');
 	    } else {
 	        $('.form-btn').removeClass('active');
+	    }
+	    $('.check').prev('label').removeClass('active');
+	    if ($('.check:checked')){
+	    	$(this).prev('label').addClass('active');
 	    }
 	});
 	$("input").blur(function(){
