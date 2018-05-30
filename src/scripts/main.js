@@ -32,26 +32,25 @@ $(document).ready(function() {
 	}
 
 	$('.check').change(function() {
-	    if ($('.check:checked').length && $('#firstName').val() !== "" && $('#lastName').val() !== "") {
-	        $('.form-btn').addClass('active');
-	    } else {
-	        $('.form-btn').removeClass('active');
-	    }
-	    $('.check').prev('label').removeClass('active');
-	    if ($('.check:checked')){
-	    	$(this).prev('label').addClass('active');
-	    }
+		if ($('.check:checked').length && $('#firstName').val() !== '' && $('#lastName').val() !== '') {
+			$('.form-btn').addClass('active');
+		} else {
+			$('.form-btn').removeClass('active');
+		}
+		$('.check')
+			.prev('label')
+			.removeClass('active');
+		if ($('.check:checked')) {
+			$(this)
+				.prev('label')
+				.addClass('active');
+		}
 	});
-	$("input").blur(function(){
-	    if ($('.check:checked').length && $('#firstName').val() !== "" && $('#lastName').val() !== "") {
-	        $('.form-btn').addClass('active');
-	    } else {
-	        $('.form-btn').removeClass('active');
-	    }
+	$('input').blur(function() {
+		if ($('.check:checked').length && $('#firstName').val() !== '' && $('#lastName').val() !== '') {
+			$('.form-btn').addClass('active');
+		} else {
+			$('.form-btn').removeClass('active');
+		}
 	});
-
-	$("img.lazy").lazyload({
-         effect : "fadeIn"
-     });
-	
 });

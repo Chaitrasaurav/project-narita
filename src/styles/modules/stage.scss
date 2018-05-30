@@ -24,10 +24,14 @@
 
 	.slider-badge {
 		position: absolute;
-		top: 15%;
+		top: 0;
 		z-index: 1;
 		left: 50px;
 		width: 32%;
+		img {
+			max-width: 100%;
+			width: auto;
+		}
 	}
 
 	.slider3 .slider-badge,
@@ -38,7 +42,7 @@
 
 	.slick-dots {
 		position: absolute;
-		bottom: 10%;
+		bottom: 16%;
 		left: 46%;
 
 		@media (max-width: 767px) {
