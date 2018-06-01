@@ -1381,9 +1381,11 @@ header {
           float: none; } }
       .section-yume .section-museum-container .museum-attraction1 .left-side img {
         margin-left: 80px; }
+        @media (max-width: 900px) {
+          .section-yume .section-museum-container .museum-attraction1 .left-side img {
+            margin-left: 0; } }
         @media (max-width: 767px) {
           .section-yume .section-museum-container .museum-attraction1 .left-side img {
-            margin-left: 0;
             width: 100%;
             margin: 0 auto;
             display: block; } }
@@ -1433,6 +1435,9 @@ header {
       .section-yume .section-museum-container .museum-attraction2 .right-side img {
         margin-left: 28px;
         margin-top: -112px; }
+        @media (max-width: 900px) {
+          .section-yume .section-museum-container .museum-attraction2 .right-side img {
+            margin-left: 0; } }
         @media (max-width: 767px) {
           .section-yume .section-museum-container .museum-attraction2 .right-side img {
             margin-left: 0;
@@ -1474,6 +1479,9 @@ header {
         .section-yume .section-museum-container .museum-attraction3 .left-side img {
           margin-top: -91px;
           margin-left: 77px; }
+          @media (max-width: 900px) {
+            .section-yume .section-museum-container .museum-attraction3 .left-side img {
+              margin-left: 0; } }
           @media (max-width: 767px) {
             .section-yume .section-museum-container .museum-attraction3 .left-side img {
               margin-top: -24px;
@@ -1501,6 +1509,9 @@ header {
         .section-yume .section-museum-container .museum-attraction3 .right-side img {
           margin-top: -100px;
           margin-left: 64px; }
+          @media (max-width: 900px) {
+            .section-yume .section-museum-container .museum-attraction3 .right-side img {
+              margin-left: 0; } }
           @media (max-width: 767px) {
             .section-yume .section-museum-container .museum-attraction3 .right-side img {
               margin-top: 0;

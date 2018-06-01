@@ -371,8 +371,10 @@
 				}
 				img {
 					margin-left: 80px;
-					@media (max-width: 767px) {
+					@media (max-width: 900px) {
 						margin-left: 0;
+					}
+					@media (max-width: 767px) {						
 						width: 100%;
 						margin: 0 auto;
 						display: block;
@@ -433,6 +435,9 @@
 				img {
 					margin-left: 28px;
 					margin-top: -112px;
+					@media (max-width: 900px) {
+						margin-left: 0;
+					}
 					@media (max-width: 767px) {
 						margin-left: 0;
 						margin-top: 0;
@@ -483,6 +488,9 @@
 				img {
 					margin-top: -91px;
 					margin-left: 77px;
+					@media (max-width: 900px) {
+						margin-left: 0;
+					}
 					@media (max-width: 767px) {
 						margin-top: -24px;
 						margin-left: 0;
@@ -516,6 +524,9 @@
 				img {
 					margin-top: -100px;
 					margin-left: 64px;
+					@media (max-width: 900px) {
+						margin-left: 0;
+					}
 					@media (max-width: 767px) {
 						margin-top: 0;
 						margin-left: 0;
