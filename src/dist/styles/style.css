@@ -228,7 +228,8 @@ a {
     text-decoration: none; }
 
 img {
-  display: inline-block; }
+  display: inline-block;
+  max-width: 100%; }
 
 article,
 aside,
@@ -308,7 +309,7 @@ ul {
 
 @media (max-width: 767px) {
   .desktop {
-    display: none; } }
+    display: none !important; } }
 
 .mobile {
   display: none; }
@@ -398,6 +399,10 @@ header {
   font-size: 16px;
   line-height: 2.7;
   padding: 37px 0 17px; }
+  @media (max-width: 767px) {
+    .travel .travel-description {
+      text-align: left;
+      padding: 10px 0 17px; } }
   .travel .travel-description span {
     border-bottom: 2px dashed #007bff;
     display: inline;
@@ -409,6 +414,20 @@ header {
   max-width: 730px;
   margin: 0 auto;
   padding: 62px 0; }
+  @media (max-width: 767px) {
+    .travel .travel-intro {
+      background: url(../images/travel-bg-mobile.jpg) no-repeat center;
+      max-width: 350px;
+      padding: 0 0;
+      min-height: 192px;
+      margin: 0 auto 20px; } }
+  @media (max-width: 408px) {
+    .travel .travel-intro {
+      background: url(../images/travel-bg-mobile.jpg) no-repeat top center;
+      max-width: 280px;
+      min-height: 160px;
+      background-size: 100%;
+      margin: 0 auto; } }
   .travel .travel-intro .bubble-text {
     color: #ff4178;
     font-size: 17px;
@@ -420,6 +439,17 @@ header {
     top: 75px;
     position: absolute;
     left: 72px; }
+    @media (max-width: 767px) {
+      .travel .travel-intro .bubble-text {
+        left: 10px;
+        top: 47px;
+        font-size: 13px; } }
+    @media (max-width: 408px) {
+      .travel .travel-intro .bubble-text {
+        left: 4px;
+        top: 33px;
+        font-size: 11px;
+        width: 50px; } }
 
 .travel .intro-description {
   text-align: center;
@@ -431,7 +461,15 @@ header {
     font-size: 13px;
     font-weight: 500;
     line-height: 1.85;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    color: #00000c; }
+    @media (max-width: 767px) {
+      .travel .intro-description .first-line {
+        padding: 7px 0 10px; } }
+    @media (max-width: 408px) {
+      .travel .intro-description .first-line {
+        padding: 3px 0 15px;
+        font-size: 10px; } }
   .travel .intro-description .second-line {
     color: #ff4178;
     font-size: 44px;
@@ -441,6 +479,14 @@ header {
     position: relative;
     display: table;
     margin: 0 auto; }
+    @media (max-width: 767px) {
+      .travel .intro-description .second-line {
+        left: 26px;
+        position: relative;
+        font-size: 26px; } }
+    @media (max-width: 408px) {
+      .travel .intro-description .second-line {
+        font-size: 20px; } }
     .travel .intro-description .second-line:after {
       content: '';
       position: absolute;
@@ -450,6 +496,9 @@ header {
       bottom: -4px;
       right: 0;
       opacity: 0.5; }
+      @media (max-width: 767px) {
+        .travel .intro-description .second-line:after {
+          height: 15px; } }
   .travel .intro-description .third-line {
     font-size: 27px;
     font-weight: 700;
@@ -460,6 +509,13 @@ header {
     letter-spacing: -1.5px;
     margin: 5px 0 0 -40px;
     clear: both; }
+    @media (max-width: 767px) {
+      .travel .intro-description .third-line {
+        margin: 5px 0 0 45px;
+        font-size: 19px; } }
+    @media (max-width: 408px) {
+      .travel .intro-description .third-line {
+        font-size: 14px; } }
     .travel .intro-description .third-line:after {
       content: '';
       position: absolute;
@@ -476,6 +532,13 @@ header {
     line-height: 2;
     color: #00000c;
     margin-left: -40px; }
+    @media (max-width: 767px) {
+      .travel .intro-description .last-line {
+        padding-left: 42px;
+        margin-left: 0; } }
+    @media (max-width: 408px) {
+      .travel .intro-description .last-line {
+        font-size: 11px; } }
     .travel .intro-description .last-line span {
       display: block;
       font-size: 13px;
@@ -483,6 +546,9 @@ header {
       letter-spacing: 1.2px;
       position: relative;
       line-height: 1.3; }
+      @media (max-width: 767px) {
+        .travel .intro-description .last-line span {
+          left: -13px; } }
       .travel .intro-description .last-line span:after {
         content: '';
         position: absolute;
@@ -493,6 +559,9 @@ header {
         border-right: 10px solid transparent;
         border-top: 10px solid #007bff;
         left: 48%; }
+        @media (max-width: 408px) {
+          .travel .intro-description .last-line span:after {
+            display: none; } }
 
 .travel .travel-container {
   position: relative;
@@ -592,6 +661,9 @@ header {
         text-align: center;
         max-width: 661px;
         margin: 0 auto; }
+        @media (max-width: 767px) {
+          .sche .sche1-wrapper .sche1-container p {
+            padding: 0 20px; } }
       .sche .sche1-wrapper .sche1-container .icon-sche1 {
         display: block;
         margin: 0 auto;
@@ -614,23 +686,41 @@ header {
         left: 87px;
         top: -30px;
         font-family: hirakakupro; }
+        @media (max-width: 767px) {
+          .sche .sche1-wrapper .sche1-container .day1 {
+            display: table;
+            margin: 0 auto;
+            left: 0;
+            top: 0; } }
         .sche .sche1-wrapper .sche1-container .day1 span {
           position: absolute;
           left: 9%;
           top: 30px;
           font-weight: bold;
           color: #524f4e; }
+          @media (max-width: 767px) {
+            .sche .sche1-wrapper .sche1-container .day1 span {
+              left: 28%; } }
       .sche .sche1-wrapper .sche1-container .day2 {
         position: relative;
         left: 84px;
         top: 30px;
         font-family: hirakakupro; }
+        @media (max-width: 767px) {
+          .sche .sche1-wrapper .sche1-container .day2 {
+            display: table;
+            margin: 0 auto;
+            left: 0;
+            top: 0; } }
         .sche .sche1-wrapper .sche1-container .day2 span {
           position: absolute;
           left: 10%;
           top: 30px;
           font-weight: bold;
           color: #524f4e; }
+          @media (max-width: 767px) {
+            .sche .sche1-wrapper .sche1-container .day2 span {
+              left: 28%; } }
       .sche .sche1-wrapper .sche1-container .icon-timeline {
         display: block;
         position: absolute;
@@ -638,6 +728,10 @@ header {
       .sche .sche1-wrapper .sche1-container .left-side {
         width: 50%;
         float: left; }
+        @media (max-width: 767px) {
+          .sche .sche1-wrapper .sche1-container .left-side {
+            width: 100%;
+            float: none; } }
         .sche .sche1-wrapper .sche1-container .left-side .first-section {
           font-size: 17px;
           color: #000000;
@@ -685,9 +779,16 @@ header {
             position: absolute;
             right: -124px;
             top: 38px; }
+            @media (max-width: 767px) {
+              .sche .sche1-wrapper .sche1-container .left-side .last-section .icon-sche-lines {
+                right: 0; } }
       .sche .sche1-wrapper .sche1-container .right-side {
         width: 50%;
         float: left; }
+        @media (max-width: 767px) {
+          .sche .sche1-wrapper .sche1-container .right-side {
+            width: 100%;
+            float: none; } }
         .sche .sche1-wrapper .sche1-container .right-side .first-section {
           font-size: 15px;
           color: #000000;
@@ -736,6 +837,12 @@ header {
       position: absolute;
       bottom: -58px;
       right: -33px; }
+      @media (max-width: 900px) {
+        .sche .sche1-wrapper .icon-sche-bottom-bubble {
+          right: 0; } }
+    .sche .sche1-wrapper .icon-timeline-mobile {
+      position: absolute;
+      left: 20px; }
   .sche .sche2-wrapper {
     max-width: 812px;
     margin: 112px auto 0;
@@ -743,6 +850,9 @@ header {
     border: 2px solid #2b2826;
     box-shadow: 5px 5px #007bff;
     position: relative; }
+    .sche .sche2-wrapper .icon-timeline-blue-mobile {
+      position: absolute;
+      left: 20px; }
     .sche .sche2-wrapper .sche2-container {
       border: 1px solid #575453;
       margin: 5px;
@@ -765,6 +875,9 @@ header {
         text-align: center;
         max-width: 661px;
         margin: 0 auto; }
+        @media (max-width: 767px) {
+          .sche .sche2-wrapper .sche2-container p {
+            padding: 0 20px; } }
       .sche .sche2-wrapper .sche2-container .icon-sche2 {
         display: block;
         margin: 0 auto;
@@ -787,27 +900,48 @@ header {
         top: -30px;
         left: 92px;
         font-family: hirakakupro; }
+        @media (max-width: 767px) {
+          .sche .sche2-wrapper .sche2-container .day1 {
+            display: table;
+            margin: 0 auto;
+            left: 0;
+            top: 0; } }
         .sche .sche2-wrapper .sche2-container .day1 span {
           position: absolute;
           left: 10%;
           top: 30px;
           font-weight: bold;
           color: #524f4e; }
+          @media (max-width: 767px) {
+            .sche .sche2-wrapper .sche2-container .day1 span {
+              left: 28%; } }
         .sche .sche2-wrapper .sche2-container .day1 .icon-sche-bottom-bubble {
           position: absolute;
           left: -120px;
           bottom: -139px; }
+          @media (max-width: 767px) {
+            .sche .sche2-wrapper .sche2-container .day1 .icon-sche-bottom-bubble {
+              left: 0; } }
       .sche .sche2-wrapper .sche2-container .day2 {
         position: relative;
         margin-top: 154px;
         left: 92px;
         font-family: hirakakupro; }
+        @media (max-width: 767px) {
+          .sche .sche2-wrapper .sche2-container .day2 {
+            display: table;
+            margin: 0 auto;
+            left: 0;
+            top: 0; } }
         .sche .sche2-wrapper .sche2-container .day2 span {
           position: absolute;
           left: 10%;
           top: 30px;
           font-weight: bold;
           color: #524f4e; }
+          @media (max-width: 767px) {
+            .sche .sche2-wrapper .sche2-container .day2 span {
+              left: 28%; } }
       .sche .sche2-wrapper .sche2-container .icon-timeline-blue {
         display: block;
         position: absolute;
@@ -815,6 +949,10 @@ header {
       .sche .sche2-wrapper .sche2-container .left-side {
         width: 50%;
         float: left; }
+        @media (max-width: 767px) {
+          .sche .sche2-wrapper .sche2-container .left-side {
+            width: 100%;
+            float: none; } }
         .sche .sche2-wrapper .sche2-container .left-side .first-section {
           font-size: 15px;
           color: #000000;
@@ -865,6 +1003,10 @@ header {
       .sche .sche2-wrapper .sche2-container .right-side {
         width: 50%;
         float: left; }
+        @media (max-width: 767px) {
+          .sche .sche2-wrapper .sche2-container .right-side {
+            width: 100%;
+            float: none; } }
         .sche .sche2-wrapper .sche2-container .right-side .first-section {
           font-size: 15px;
           color: #000000;
@@ -932,6 +1074,9 @@ header {
             position: absolute;
             bottom: -14px;
             right: -42px; }
+            @media (max-width: 900px) {
+              .sche .sche2-wrapper .sche2-container .right-side .last-section .icon-sche-bottom-bubble {
+                right: 0; } }
 
 .section-yume {
   background: url(../images/section-yume-pattern.png) repeat-x;
@@ -2109,8 +2254,7 @@ footer {
         @media (max-width: 470px) {
           .radio-control label div span {
             margin-left: 30px;
-            margin-right: 7px;
-            top: 16px; } }
+            margin-right: 7px; } }
       .radio-control label div img {
         float: left;
         margin-left: 50px; }
@@ -2124,9 +2268,9 @@ footer {
         @media (max-width: 767px) {
           .radio-control label div p {
             margin: 0; } }
-        @media (max-width: 470px) {
+        @media (max-width: 380px) {
           .radio-control label div p {
-            max-width: 120px;
+            max-width: 180px;
             font-size: 12px; } }
   .radio-control input {
     position: absolute;

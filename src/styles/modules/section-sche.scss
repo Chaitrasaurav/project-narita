@@ -53,6 +53,9 @@
 				text-align: center;
 				max-width: 661px;
 				margin: 0 auto;
+				@media (max-width: 767px) {
+					padding: 0 20px;
+				}
 			}
 
 			.icon-sche1 {
@@ -82,12 +85,21 @@
 				left: 87px;
 				top: -30px;
 				font-family: $font-family-primary;
+				@media (max-width: 767px) {
+					display: table;
+    				margin: 0 auto;
+    				left: 0;
+    				top: 0;
+				}
 				span {
 					position: absolute;
 					left: 9%;
 					top: 30px;
 					font-weight: bold;
 					color: #524f4e;
+					@media (max-width: 767px) {
+						left: 28%;
+					}
 				}
 			}
 
@@ -96,12 +108,21 @@
 				left: 84px;
 				top: 30px;
 				font-family: $font-family-primary;
+				@media (max-width: 767px) {
+					display: table;
+    				margin: 0 auto;
+    				left: 0;
+    				top: 0;
+				}
 				span {
 					position: absolute;
 					left: 10%;
 					top: 30px;
 					font-weight: bold;
 					color: #524f4e;
+					@media (max-width: 767px) {
+						left: 28%;
+					}
 				}
 			}
 
@@ -114,6 +135,10 @@
 			.left-side {
 				width: 50%;
 				float: left;
+				@media (max-width: 767px) {
+					width:100%;
+					float:none;
+				}
 				.first-section {
 					font-size: 17px;
 					color: #000000;
@@ -173,6 +198,9 @@
 						position: absolute;
 						right: -124px;
 						top: 38px;
+						@media (max-width: 767px) {
+							right: 0;
+						}
 					}
 				}
 			}
@@ -180,6 +208,10 @@
 			.right-side {
 				width: 50%;
 				float: left;
+				@media (max-width: 767px) {
+					width:100%;
+					float:none;
+				}
 				.first-section {
 					font-size: 15px;
 					color: #000000;
@@ -243,6 +275,13 @@
 			position: absolute;
 			bottom: -58px;
 			right: -33px;
+			@media (max-width: 900px) {
+				right: 0;
+			}
+		}
+		.icon-timeline-mobile{
+			position: absolute;
+			left: 20px;
 		}
 	}
 	.sche2-wrapper {
@@ -252,6 +291,11 @@
 		border: 2px solid #2b2826;
 		box-shadow: 5px 5px #007bff;
 		position: relative;
+
+		.icon-timeline-blue-mobile{
+			position: absolute;
+			left: 20px;
+		}
 
 		.sche2-container {
 			border: 1px solid #575453;
@@ -278,6 +322,9 @@
 				text-align: center;
 				max-width: 661px;
 				margin: 0 auto;
+				@media (max-width: 767px) {
+					padding: 0 20px;
+				}
 			}
 
 			.icon-sche2 {
@@ -307,18 +354,30 @@
 				top: -30px;
 				left: 92px;
 				font-family: $font-family-primary;
+				@media (max-width: 767px) {
+					display: table;
+    				margin: 0 auto;
+    				left: 0;
+    				top: 0;
+				}
 				span {
 					position: absolute;
 					left: 10%;
 					top: 30px;
 					font-weight: bold;
 					color: #524f4e;
+					@media (max-width: 767px) {
+						left:28%;
+					}
 				}
 
 				.icon-sche-bottom-bubble {
 					position: absolute;
 					left: -120px;
 					bottom: -139px;
+					@media (max-width: 767px) {
+						left: 0;
+					}
 				}
 			}
 
@@ -327,12 +386,21 @@
 				margin-top: 154px;
 				left: 92px;
 				font-family: $font-family-primary;
+				@media (max-width: 767px) {
+					display: table;
+    				margin: 0 auto;
+    				left: 0;
+    				top: 0;
+				}
 				span {
 					position: absolute;
 					left: 10%;
 					top: 30px;
 					font-weight: bold;
 					color: #524f4e;
+					@media (max-width: 767px) {
+						left:28%;
+					}
 				}
 			}
 
@@ -345,6 +413,10 @@
 			.left-side {
 				width: 50%;
 				float: left;
+				@media (max-width: 767px) {
+					width:100%;
+					float:none;
+				}
 				.first-section {
 					font-size: 15px;
 					color: #000000;
@@ -413,6 +485,10 @@
 			.right-side {
 				width: 50%;
 				float: left;
+				@media (max-width: 767px) {
+					width:100%;
+					float:none;
+				}
 				.first-section {
 					font-size: 15px;
 					color: #000000;
@@ -498,6 +574,9 @@
 						position: absolute;
 						bottom: -14px;
 						right: -42px;
+						@media (max-width: 900px) {
+							right: 0;
+						}
 					}
 				}
 			}

@@ -108,4 +108,13 @@ $(document).ready(function() {
 			$('.form-btn').removeClass('active');
 		}
 	});
+
+	if ($(window).width() < 768) {
+		$('.sche1-wrapper .right-side .first-section').insertBefore($('.sche1-wrapper .left-side .first-section'));
+		$('.sche1-wrapper .right-side .last-section').insertBefore($('.sche1-wrapper .left-side .last-section'));
+		$('.sche2-wrapper .right-side .first-section').insertBefore($('.sche2-wrapper .left-side .day2'));
+		$('.sche2-wrapper .left-side .last-section').insertAfter($('.sche2-wrapper .right-side .last-section'));
+		$('.section-yume .yume-contact .last-section img').insertBefore($('.section-yume .yume-contact .first-section'));
+		$('.section-museum .museum-contact .last-section img').insertBefore($('.section-museum .museum-contact .first-section'));
+	}
 });

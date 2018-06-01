@@ -121,7 +121,6 @@
                 @media (max-width: 470px) {
                     margin-left: 30px;
                     margin-right: 7px;
-                    top: 16px;
                 }
             }
             img {
@@ -138,8 +137,8 @@
                 @media (max-width: 767px) {
                     margin: 0;
                 }
-                @media (max-width: 470px) {
-                    max-width: 120px;
+                @media (max-width: 380px) {
+                    max-width: 180px;
                     font-size: 12px;
                 }
             }
