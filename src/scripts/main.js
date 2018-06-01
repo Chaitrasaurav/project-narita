@@ -42,7 +42,12 @@ $(document).ready(function() {
 	}
 
 	$('.check').change(function() {
-		if ($('.check:checked').length && $('form .error').length === 0 {
+		if (
+			$('.check:checked').length &&
+			$('form .error').length === 0 &&
+			$('#name').val() !== '' &&
+			$('#email').val() !== ''
+		) {
 			$('.form-btn').addClass('active');
 		} else {
 			$('.form-btn').removeClass('active');
@@ -58,7 +63,13 @@ $(document).ready(function() {
 	});
 
 	$('#name').blur(function() {
-		if ($('#name').val() !== '' && $('form .error').length === 0) {
+		if ($('#name').val() === '') {
+			$(this).addClass('error');
+		} else {
+			$(this).removeClass('error');
+		}
+
+		if ($('#name').val() !== '' && $('form .error').length === 0 && $('#email').val() !== '') {
 			$('.form-btn').addClass('active');
 		} else {
 			$('.form-btn').removeClass('active');
@@ -66,7 +77,32 @@ $(document).ready(function() {
 	});
 
 	$('#email').blur(function() {
-		if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(this.val()) && $('form .error').length === 0) {
+		if ($('#email').val() === '') {
+			$(this).addClass('error');
+		} else {
+			$(this).removeClass('error');
+		}
+
+		if (
+			/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test($('#email').val()) &&
+			$('form .error').length === 0 &&
+			$('#name').val() !== '' &&
+			$('form .error').length === 0
+		) {
+			$('.form-btn').addClass('active');
+		} else {
+			$('.form-btn').removeClass('active');
+		}
+	});
+
+	$('#privacyPolicy').change(function() {
+		if ($('#privacyPolicy:checked').length === 0) {
+			$(this).addClass('error');
+		} else {
+			$(this).removeClass('error');
+		}
+
+		if ($('#name').val() !== '' && $('#privacyPolicy:checked').length !== 0 && $('#email').val() !== '') {
 			$('.form-btn').addClass('active');
 		} else {
 			$('.form-btn').removeClass('active');

@@ -16,11 +16,11 @@
         	<h4>ご希望のコース</h4>
         	<form name="mainForm" id="mainForm" class="clearfix">
 				<div class="radio-control">
-					<label for="activity1"><div>
+					<label for="activity1" class="active"><div>
 						<img src="images/radio1.png" />
 						<span>A賞</span> <p>マイステイズ プレミア成田一泊 ＋タイ旅行</p></div>
 					</label>
-					<input class="check" type="radio" id="activity1" name="hotel" placeholder="マイステイズ プレミア成田一泊 ＋タイ旅行" />
+					<input class="check" type="radio" id="activity1" name="hotel" placeholder="マイステイズ プレミア成田一泊 ＋タイ旅行" checked />
 				</div>
 				<div class="radio-control">
 					<label for="activity2"><div>
@@ -61,8 +61,8 @@
 					</div>
 				</div>
 				<div class="checkbox-control">					
-					<input type="checkbox" id="privacyPolicy" name="privacyPolicy" placeholder="privacyPolicy" />
-					<label for="privacyPolicy">応募規約・プライバシーポリシーに同意の上、応募します。</label>
+					<input type="checkbox" id="privacyPolicy" name="privacyPolicy" placeholder="privacyPolicy" checked />
+					<label for="privacyPolicy">* 応募規約・プライバシーポリシーに同意の上、応募します。</label>
 				</div>
 				<button type="button" class="form-btn">応募する</button>
 			</form>

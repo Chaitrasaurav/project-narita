@@ -2163,6 +2163,8 @@ footer {
         .input-wrapper .input-control input {
           width: 100%;
           min-width: auto; } }
+    .input-wrapper .input-control input.error {
+      border: 1px solid red; }
   .input-wrapper .input-control:first-child input {
     margin-right: 20px; }
 
@@ -2172,6 +2174,8 @@ footer {
   .checkbox-control input {
     width: 16px;
     height: 16px; }
+  .checkbox-control input.error {
+    outline: 1px solid red; }
 
 .form-title {
   background: #1f3147; }
