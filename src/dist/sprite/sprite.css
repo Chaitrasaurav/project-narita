@@ -18,19 +18,31 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-aeroplane {
   background-image: url(sprite.png);
-  background-position: -771px 0px;
+  background-position: -64px -782px;
   width: 270px;
   height: 70px;
 }
+.icon-arrow-left-mobile {
+  background-image: url(sprite.png);
+  background-position: -748px -193px;
+  width: 8px;
+  height: 17px;
+}
 .icon-arrow-left {
   background-image: url(sprite.png);
-  background-position: -934px -372px;
+  background-position: -725px -237px;
   width: 20px;
   height: 45px;
 }
+.icon-arrow-right-mobile {
+  background-image: url(sprite.png);
+  background-position: -756px -193px;
+  width: 7px;
+  height: 17px;
+}
 .icon-arrow-right {
   background-image: url(sprite.png);
-  background-position: -1014px -189px;
+  background-position: -725px -193px;
   width: 23px;
   height: 44px;
 }
@@ -48,13 +60,13 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-camp-title-bubble {
   background-image: url(sprite.png);
-  background-position: -771px -345px;
+  background-position: -64px -925px;
   width: 85px;
   height: 80px;
 }
 .icon-camp-title-lines {
   background-image: url(sprite.png);
-  background-position: -916px -70px;
+  background-position: -632px -499px;
   width: 75px;
   height: 114px;
 }
@@ -72,37 +84,37 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-logo-footer {
   background-image: url(sprite.png);
-  background-position: -856px -345px;
+  background-position: -334px -782px;
   width: 185px;
   height: 27px;
 }
 .icon-number-3 {
   background-image: url(sprite.png);
-  background-position: -991px -101px;
+  background-position: -707px -530px;
   width: 49px;
   height: 31px;
 }
 .icon-number-4 {
   background-image: url(sprite.png);
-  background-position: -991px -70px;
+  background-position: -707px -499px;
   width: 49px;
   height: 31px;
 }
 .icon-number-5 {
   background-image: url(sprite.png);
-  background-position: -991px -132px;
+  background-position: -707px -561px;
   width: 49px;
   height: 31px;
 }
 .icon-sche-aeroplane {
   background-image: url(sprite.png);
-  background-position: -883px -272px;
+  background-position: -640px -440px;
   width: 106px;
   height: 35px;
 }
 .icon-sche-bottom-bubble {
   background-image: url(sprite.png);
-  background-position: -771px -70px;
+  background-position: -617px -633px;
   width: 145px;
   height: 119px;
 }
@@ -114,45 +126,57 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-sche-text-bubble {
   background-image: url(sprite.png);
-  background-position: -771px -189px;
+  background-position: -640px -357px;
   width: 131px;
   height: 83px;
 }
 .icon-sche1-wave {
   background-image: url(sprite.png);
-  background-position: -771px -425px;
+  background-position: -519px -782px;
   width: 190px;
   height: 13px;
 }
 .icon-sche1 {
   background-image: url(sprite.png);
-  background-position: -902px -189px;
+  background-position: -176px -852px;
   width: 112px;
   height: 73px;
 }
 .icon-sche2-wave {
   background-image: url(sprite.png);
-  background-position: -771px -438px;
+  background-position: -519px -795px;
   width: 190px;
   height: 13px;
 }
 .icon-sche2 {
   background-image: url(sprite.png);
-  background-position: -771px -272px;
+  background-position: -64px -852px;
   width: 112px;
   height: 73px;
 }
 .icon-small-hotel-image {
   background-image: url(sprite.png);
-  background-position: -856px -372px;
+  background-position: -288px -852px;
   width: 78px;
   height: 45px;
+}
+.icon-timeline-blue-mobile {
+  background-image: url(sprite.png);
+  background-position: 0px -782px;
+  width: 32px;
+  height: 979px;
 }
 .icon-timeline-blue {
   background-image: url(sprite.png);
   background-position: -223px 0px;
   width: 222px;
   height: 782px;
+}
+.icon-timeline-mobile {
+  background-image: url(sprite.png);
+  background-position: -32px -782px;
+  width: 32px;
+  height: 837px;
 }
 .icon-timeline {
   background-image: url(sprite.png);

@@ -7,8 +7,13 @@ $(document).ready(function() {
 		dots: true
 	});
 
-	$('.stage .slick-next').addClass('icon-arrow-right');
-	$('.stage .slick-prev').addClass('icon-arrow-left');
+	if ($(window).width() < 768) {
+		$('.stage .slick-next').addClass('icon-arrow-right-mobile');
+		$('.stage .slick-prev').addClass('icon-arrow-left-mobile');
+	} else {
+		$('.stage .slick-next').addClass('icon-arrow-right');
+		$('.stage .slick-prev').addClass('icon-arrow-left');
+	}
 
 	$('.hotels-slider').slick({
 		slidesToShow: 1,
@@ -18,8 +23,13 @@ $(document).ready(function() {
 		dots: true
 	});
 
-	$('.hotels-slider .slick-next').addClass('icon-arrow-right');
-	$('.hotels-slider .slick-prev').addClass('icon-arrow-left');
+	if ($(window).width() < 768) {
+		$('.hotels-slider .slick-next').addClass('icon-arrow-right-mobile');
+		$('.hotels-slider .slick-prev').addClass('icon-arrow-left-mobile');
+	} else {
+		$('.hotels-slider .slick-next').addClass('icon-arrow-right');
+		$('.hotels-slider .slick-prev').addClass('icon-arrow-left');
+	}
 
 	if ($(window).width() < 768) {
 		$('.camp ul').slick({
@@ -32,7 +42,7 @@ $(document).ready(function() {
 	}
 
 	$('.check').change(function() {
-		if ($('.check:checked').length && $('#firstName').val() !== '' && $('#lastName').val() !== '') {
+		if ($('.check:checked').length && $('form .error').length === 0 {
 			$('.form-btn').addClass('active');
 		} else {
 			$('.form-btn').removeClass('active');
@@ -46,8 +56,17 @@ $(document).ready(function() {
 				.addClass('active');
 		}
 	});
-	$('input').blur(function() {
-		if ($('.check:checked').length && $('#firstName').val() !== '' && $('#lastName').val() !== '') {
+
+	$('#name').blur(function() {
+		if ($('#name').val() !== '' && $('form .error').length === 0) {
+			$('.form-btn').addClass('active');
+		} else {
+			$('.form-btn').removeClass('active');
+		}
+	});
+
+	$('#email').blur(function() {
+		if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(this.val()) && $('form .error').length === 0) {
 			$('.form-btn').addClass('active');
 		} else {
 			$('.form-btn').removeClass('active');

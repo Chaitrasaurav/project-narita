@@ -11,52 +11,43 @@
 <body>
 	<header>
 	<div class="shell">
-		<img src="images/logo.png" />
-		<img src="images/logo-mobile.png" class="logo-mobile" />
+		<img src="images/logo-mobile.png" />
 	</div>
 </header>
 	<section class="stage">
 	<ul class="stage-slider">
-		<li class="slider1">
-			<img
-				data-srcset="images/slider-1-mobile.jpg 767w,
-					images/slider-1.jpg 1024w"
-				data-src="images/slider-1.jpg"
-				class="lazyload" 
-			/>	
+		<li class="slider1">	
+			<picture>
+			  <source media="(max-width: 767px)" srcset="images/slider-1-mobile.jpg">
+			  <img src="images/slider-1.jpg">
+			</picture>
 			<div class="slider-badge">
 				<img src="images/slider-badge.png" class="lazyload" />
 			</div>
 		</li>
 		<li class="slider2">
-			<img
-				data-srcset="images/slider-2-mobile.jpg 767w,
-					images/slider-2.jpg 1024w"
-				data-src="images/slider-2.jpg"
-				class="lazyload" 
-			/>
+			<picture>
+				<source data-srcset="images/slider-2-mobile.jpg" media="(max-width: 767px)" />
+				<img data-src="images/slider-2.jpg" class="lazyload">
+			</picture>
 			<div class="slider-badge">
 				<img src="images/slider-badge.png" class="lazyload" />
 			</div>
 		</li>
 		<li class="slider3">
-			<img
-				data-srcset="images/slider-3-mobile.jpg 767w,
-					images/slider-3.jpg 1024w"
-				data-src="images/slider-3.jpg"
-				class="lazyload" 
-			/>
+			<picture>
+				<source data-srcset="images/slider-3-mobile.jpg" media="(max-width: 767px)" />
+				<img data-src="images/slider-3.jpg" class="lazyload">
+			</picture>
 			<div class="slider-badge">
 				<img src="images/slider-badge.png" class="lazyload" />
 			</div>
 		</li>
 		<li class="slider4">
-			<img
-				data-srcset="images/slider-4-mobile.jpg 767w,
-					images/slider-4.jpg 1024w"
-				data-src="images/slider-4.jpg"
-				class="lazyload" 
-			/>
+			<picture>
+				<source data-srcset="images/slider-4-mobile.jpg" media="(max-width: 767px)" />
+				<img data-src="images/slider-4.jpg" class="lazyload">
+			</picture>
 			<div class="slider-badge">
 				<img src="images/slider-badge.png" class="lazyload" />
 			</div>
@@ -71,9 +62,11 @@
 	</div>
 	<div class="travel-container">
 		<div class="travel-offer">
-			<span>10万円 相当の</span>
-			<strong>抽選で <br/> 海外旅行が 当たる	</strong>
-			<i class="icon-small-hotel-image"></i>			
+			<a href="form.html">
+				<span>10万円 相当の</span>
+				<strong>抽選で <br/> 海外旅行が 当たる	</strong>
+				<i class="icon-small-hotel-image"></i>
+			</a>		
 		</div>
 		<div class="shell">
 			<div class="travel-intro">
@@ -97,7 +90,8 @@
 					<span>early check-out style</span>
 					<p>早朝に成田空港を出発する場合は、前日に成田ステイをチョイス！ 早めのチェックイン後にのんびり成田を観光、ホテルでゆっくりと家族タイムを過ごせます。</p>
 					<i class="icon-sche1-wave"></i>
-					<i class="icon-timeline"></i>
+					<i class="icon-timeline desktop"></i>
+					<i class="icon-timeline=mobile mobile"></i>
 					<div class="activity-wrapper clearfix">
 						<div class="left-side">
 							<div class="day1">
@@ -105,23 +99,29 @@
 								<span>#Day1</span>
 							</div>
 							<p class="first-section"><span>成田ゆめ牧場 <span>13:00</span></span>
-								<img src="images/sche-image2.png" />
+								<img src="images/sche-image2.jpg" class="lazyload">
 							</p>							
 							<div class="day2">
 								<i class="icon-sche-text-bubble"></i>
 								<span>#Day2</span>
 							</div>
 							<p class="last-section"><span>check out <span>7:00</span></span>
-								<img src="images/sche-image3.png" />
+								<picture>
+									<source data-srcset="images/sche-image3-mobile.jpg" media="(max-width: 767px)" />
+									<img data-src="images/sche-image3.jpg" class="lazyload">
+								</picture>
 								<i class="icon-sche-lines"></i>
 							</p>
 						</div>
 						<div class="right-side">
 							<p class="first-section"><span><span>12:30</span> check in</span>
-								<img src="images/sche-image1.png" />
+								<img src="images/sche-image1.png" class="lazyload">
 							</p>
 							<p class="last-section"><span><span>18:00</span> dinner</span>
-								<img src="images/sche-image4.png" />
+								<picture>
+									<source data-srcset="images/sche-image4-mobile.png" media="(max-width: 767px)" />
+									<img data-src="images/sche-image4.png" class="lazyload">
+								</picture>
 							</p>
 						</div>
 						<i class="icon-sche-bottom-bubble"></i>
@@ -135,7 +135,8 @@
 					<span>nomal check-out style</span>
 					<p>家族旅行の最終日はぜひ成田で宿泊を！出発当日はホテルチェックアウト後に成田周辺のスポットで遊んだ後、ゆとりを持って空港へ。</p>
 					<i class="icon-sche2-wave"></i>
-					<i class="icon-timeline-blue"></i>
+					<i class="icon-timeline-blue desktop"></i>
+					<i class="icon-timeline-blue-mobile mobile"></i>
 					<div class="activity-wrapper clearfix">
 						<div class="left-side">
 							<div class="day1">
@@ -149,18 +150,24 @@
 								<span>#Day2</span>
 							</div>
 							<p class="first-section"><span>morning <span>8:00</span></span>
-								<img src="images/sche-image6.png" />
+								<img src="images/sche-image6.jpg" class="lazyload" />
 							</p>
 							
 							<p class="last-section"><i class="icon-sche-aeroplane"></i> <span>成田空港へ <span>16:00</span></span></p>
 						</div>
 						<div class="right-side">
 							<p class="first-section"><span><span>17:30</span> check in</span>
-								<img src="images/sche-image5.png" />
+								<picture>
+									<source data-srcset="images/sche-image5-mobile.png" media="(max-width: 767px)" />
+									<img data-src="images/sche-image5.png" class="lazyload">
+								</picture>
 							</p>
 							<p class="second-section"><span><span>10:00</span> check out</span></p>
 							<p class="last-section"><span><span>10:30</span> 航空科学博物館</span>
-								<img src="images/sche-image7.png" />
+								<picture>
+									<source data-srcset="images/sche-image7-mobile.png" media="(max-width: 767px)" />
+									<img data-src="images/sche-image7.png" class="lazyload">
+								</picture>
 								<i class="icon-sche-bottom-bubble"></i>
 							</p>
 						</div>
@@ -173,22 +180,18 @@
 	<section class="section-yume">
 	<div class="section-yume-container">
 		<div class="shell">
-			<div class="section-yume">		
-				<img
-					data-srcset="images/yume-background-mobile.png 767w,
-						images/yume-background.png 1024w"
-					data-src="images/yume-background.png"
-					class="lazyload" 
-				/>	
+			<div class="section-yume">			
+				<picture>
+					<source data-srcset="images/yume-background-mobile.jpg" media="(max-width: 767px)" />
+					<img data-src="images/yume-background.jpg" class="lazyload">
+				</picture>
 				<p class="yume-description">季節ごとに様々な遊び方ができる自然たっぷりの牧場です。 牛や馬、ヒツジやうさぎなどかわいくて珍しい動物とたくさん触れ合えます。</p>
 				<div class="yume-attraction1 clearfix">
 					<div class="left-side">
-						<img
-							data-srcset="images/yume-image1-mobile.png 767w,
-								images/yume-image1.png 1024w"
-							data-src="images/yume-image1.png"
-							class="lazyload" 
-						/>
+						<picture>
+							<source data-srcset="images/yume-image1-mobile.png" media="(max-width: 767px)" />
+							<img data-src="images/yume-image1.png" class="lazyload">
+						</picture>
 					</div>
 					<div class="right-side">
 						<span>14:30</span>
@@ -206,22 +209,18 @@
 						</div>				
 					</div>
 					<div class="right-side">
-						<img
-							data-srcset="images/yume-image2-mobile.png 767w,
-								images/yume-image2.png 1024w"
-							data-src="images/yume-image2.png"
-							class="lazyload" 
-						/>
+						<picture>
+							<source data-srcset="images/yume-image2-mobile.png" media="(max-width: 767px)" />
+							<img data-src="images/yume-image2.png" class="lazyload">
+						</picture>
 					</div>
 				</div>
 				<div class="yume-attraction3 clearfix">
 					<div class="left-side">
-						<img
-							data-srcset="images/yume-image4-mobile.png 767w,
-								images/yume-image4.png 1024w"
-							data-src="images/yume-image4.png"
-							class="lazyload" 
-						/>
+						<picture>
+							<source data-srcset="images/yume-image4-mobile.png" media="(max-width: 767px)" />
+							<img data-src="images/yume-image4.png" class="lazyload">
+						</picture>
 					</div>
 					<div class="right-side">
 						<div class="attraction3-description">
@@ -264,21 +263,17 @@
 	<div class="section-museum-container">
 		<div class="shell">
 			<div class="section-museum">
-				<img
-					data-srcset="images/museum-background-mobile.png 767w,
-						images/museum-background.png 1024w"
-					data-src="images/museum-background.png"
-					class="lazyload museum-main-image" 
-				/>
+				<picture>
+					<source data-srcset="images/museum-background-mobile.jpg" media="(max-width: 767px)" />
+					<img data-src="images/museum-background.jpg" class="lazyload">
+				</picture>
 				<p class="museum-description"><i class="icon-aeroplane"></i>季節ごとに様々な遊び方ができる自然たっぷりの牧場です。 牛や馬、ヒツジやうさぎなどかわいくて珍しい動物とたくさん触れ合えます。</p>
 				<div class="museum-attraction1 clearfix">
 					<div class="left-side">
-						<img
-							data-srcset="images/museum-image1-mobile.png 767w,
-								images/museum-image1.png 1024w"
-							data-src="images/museum-image1.png"
-							class="lazyload" 
-						/>
+						<picture>
+							<source data-srcset="images/museum-image1-mobile.jpg" media="(max-width: 767px)" />
+							<img data-src="images/museum-image1.jpg" class="lazyload">
+						</picture>
 					</div>
 					<div class="right-side">
 						<span>12:00</span>
@@ -294,35 +289,29 @@
 						
 					</div>
 					<div class="right-side">
-						<img
-							data-srcset="images/museum-image2-mobile.png 767w,
-								images/museum-image2.png 1024w"
-							data-src="images/museum-image2.png"
-							class="lazyload" 
-						/>
+						<picture>
+							<source data-srcset="images/museum-image2-mobile.jpg" media="(max-width: 767px)" />
+							<img data-src="images/museum-image2.jpg" class="lazyload">
+						</picture>
 					</div>
 				</div>
 				<div class="museum-attraction3 clearfix">
 					<div class="left-side">
 						<img data-src="images/aeroplane2.png" class="aeroplane-img lazyload" />
-						<img
-							data-srcset="images/museum-image3-mobile.png 767w,
-								images/museum-image3.png 1024w"
-							data-src="images/museum-image3.png"
-							class="lazyload" 
-						/>					
+						<picture>
+							<source data-srcset="images/museum-image3-mobile.png" media="(max-width: 767px)" />
+							<img data-src="images/museum-image3.png" class="lazyload">
+						</picture>					
 					</div>
 					<div class="right-side">
 						
 						<span>15:30</span>
 						<h4>かっこいいヘリコプターもたくさん！</h4>
 						<p>中の構造を見学できる実物大の ジャンボジェットや、エンジンなど のりもの大好きキッズの好奇心を 満たす展示物がたくさん！</p>
-						<img
-							data-srcset="images/museum-image4-mobile.png 767w,
-								images/museum-image4.png 1024w"
-							data-src="images/museum-image4.png"
-							class="lazyload" 
-						/>
+						<picture>
+							<source data-srcset="images/museum-image4-mobile.png" media="(max-width: 767px)" />
+							<img data-src="images/museum-image4.png" class="lazyload">
+						</picture>	
 					</div>
 				</div>
 				<div class="museum-contact clearfix">
@@ -360,19 +349,28 @@
 		<div class="attractions-container">
 			<ul>
 				<li>
-					<img src="images/attraction-1.png" />
+					<picture>
+						<source data-srcset="images/attraction-1-mobile.jpg" media="(max-width: 767px)" />
+						<img data-src="images/attraction-1.jpg" class="lazyload">
+					</picture>
 					<h4><i class="icon-number-3"></i> 成田空港見学</h4>
 					<p>人気の展望デッキや、最先端の旅グッズショップ、和洋食が楽しめるレストランなど見どころ盛りだくさんです。</p>
 					<a href="#" class="button">公式サイトへ <span>></span></a>
 				</li>
 				<li>
-					<img src="images/attraction-2.png" />
+					<picture>
+						<source data-srcset="images/attraction-2-mobile.jpg" media="(max-width: 767px)" />
+						<img data-src="images/attraction-2.jpg" class="lazyload">
+					</picture>
 					<h4><i class="icon-number-4"></i> 成田さくらの山公園</h4>
 					<p>成田空港に隣接しているため、飛行機の離着陸が大迫力に撮れるスポットとして有名です。緑豊かな園内には桜だけでなく、四季折々の花が楽しめます。</p>
 					<a href="#" class="button">公式サイトへ <span>></span></a>
 				</li>
 				<li>
-					<img src="images/attraction-3.png" />
+					<picture>
+						<source data-srcset="images/attraction-3-mobile.jpg" media="(max-width: 767px)" />
+						<img data-src="images/attraction-3.jpg" class="lazyload">
+					</picture>
 					<h4><i class="icon-number-5"></i> 佐原</h4>
 					<p>“北総の小江戸”と呼ばれる佐原は、風情ある街並みが味わえます。川沿いを舟に乗って散策したり佐原グルメを満喫してみて。</p>
 					<a href="#" class="button">公式サイトへ <span>></span></a>
@@ -386,7 +384,10 @@
 		<div class="about-info">
 			<p class="bubble-text">
 				<span>10分</span>
-				<img src="images/about-hotel-bubble.png" />
+				<picture>
+				  <source media="(max-width: 767px)" srcset="images/about-hotel-bubble-mobile.png">
+				  <img src="images/about-hotel-bubble.png" class="lazyload">
+				</picture>
 			</p>
 			<span class="first-line">キッズ＆パパママも大満足！</span>
 			<span class="second-line">成田空港までシャトルバスで</span>
@@ -396,37 +397,58 @@
 
 		<div class="first-amenity clearfix">
 			<div class="left-side">
-				<img src="images/amenity1.png" />
-				<img src="images/amenity1-title.png" />
+				<picture>
+				  <source media="(max-width: 767px)" srcset="images/amenity1-mobile.jpg">
+				  <img src="images/amenity1.jpg" class="lazyload">
+				</picture>
 				<p>ホテルマイステイズプレミア成田は成田国際空港から車で10分の好アクセスに位置し、空港や最寄り駅からの無料送迎バスも随時運行しています。 早朝便が多いLCCをご利用の方も出発前のひと時をホテルでゆっくりとお過ごしいただけ、大変便利です。</p>
 			</div>
 			<div class="right-side">
-				<img src="images/about-hotel-map.png" />
+				<picture>
+				  <source media="(max-width: 767px)" srcset="images/about-hotel-map-mobile.png">
+				  <img src="images/about-hotel-map.png" class="lazyload">
+				</picture>
 				<a href="#">お車でのお越しの方も宿泊中は ホテル内の駐車場XX％OFF</a>
 			</div>
 		</div>
 
 		<div class="second-amenity clearfix">
 			<div class="left-side">
-				<img src="images/about-hotel-image1.png" />
-				<img src="images/about-hotel-image2.png" />
+				<picture>
+				  <source media="(max-width: 767px)" srcset="images/about-hotel-image1-mobile.jpg">
+				  <img src="images/about-hotel-image1.jpg" class="lazyload">
+				</picture>
+				<picture>
+				  <source media="(max-width: 767px)" srcset="images/about-hotel-image2-mobile.jpg">
+				  <img src="images/about-hotel-image2.jpg" class="lazyload">
+				</picture>
 			</div>
 			<div class="right-side">
-				<img src="images/amenity2.png" />
-				<img src="images/amenity2-title.png" class="amenity2-title" />
+				<picture>
+				  <source media="(max-width: 767px)" srcset="images/amenity2-mobile.jpg">
+				  <img src="images/amenity2.jpg" class="lazyload">
+				</picture>
 				<p>6:00～10:00の朝食ビュッフェをご利用にならない方には、ホテル内のレストランでランチ・ディナーにご使用いただけるミールチケット（大人2,136円／小学生 1,306円）をご用意。 約70種類の品揃えを誇るビュッフェレストラン「ガーデニア」の他、四季折々のお料理を楽しめる日本料理「あづま」、モダンな店内の中華料理「蓬莱」では空港の夜景を眺めながらお食事いただけます。</p>
 			</div>
 		</div>
 
 		<div class="third-amenity clearfix">
 			<div class="left-side">
-				<img src="images/amenity3.png" />
-				<img src="images/amenity3-title.png" />
+				<picture>
+				  <source media="(max-width: 767px)" srcset="images/amenity3-mobile.jpg">
+				  <img src="images/amenity3.jpg" class="lazyload">
+				</picture>
 				<p>ホテル内の日本庭園では鯉のエサやりもお楽しみいただけます。プールもお子様に好評です。 飛行機が見えるお部屋もご用意がございますので、成田空港に離発着する飛行機を眺めながらご家族でのんびりとしたお時間をお過ごしいただけます。</p>
 			</div>
 			<div class="right-side">
-				<img src="images/about-hotel-image3.png" />
-				<img src="images/about-hotel-image4.png" />
+				<picture>
+				  <source media="(max-width: 767px)" srcset="images/about-hotel-image3-mobile.jpg">
+				  <img src="images/about-hotel-image3.jpg" class="lazyload">
+				</picture>
+				<picture>
+				  <source media="(max-width: 767px)" srcset="images/about-hotel-image4-mobile.jpg">
+				  <img src="images/about-hotel-image4.jpg" class="lazyload">
+				</picture>
 			</div>
 		</div>
 	</div>
@@ -434,16 +456,28 @@
 	<section class="hotels-slider-wrapper clearfix">
 	<ul class="hotels-slider">
 		<li>
-			<img data-lazy="images/hotels-slider1.png" />
+			<picture>
+				<source data-srcset="images/hotels-slider1-mobile.jpg" media="(max-width: 767px)" />
+				<img data-src="images/hotels-slider1.jpg" class="lazyload">
+			</picture>
 		</li>
 		<li>
-			<img data-lazy="images/hotels-slider2.png" />
+			<picture>
+				<source data-srcset="images/hotels-slider2-mobile.jpg" media="(max-width: 767px)" />
+				<img data-src="images/hotels-slider2.jpg" class="lazyload">
+			</picture>
 		</li>
 		<li>
-			<img data-lazy="images/hotels-slider3.png" />
+			<picture>
+				<source data-srcset="images/hotels-slider3-mobile.jpg" media="(max-width: 767px)" />
+				<img data-src="images/hotels-slider3.jpg" class="lazyload">
+			</picture>
 		</li>
 		<li>
-			<img data-lazy="images/hotels-slider4.png" />
+			<picture>
+				<source data-srcset="images/hotels-slider4-mobile.jpg" media="(max-width: 767px)" />
+				<img data-src="images/hotels-slider4.jpg" class="lazyload">
+			</picture>
 		</li>
 	</ul>
 	<i class="icon-hotels-slider-bubble"></i>
@@ -464,7 +498,10 @@
 		<div class="first-section clearfix">
 			<ul>
 				<li>
-					<img src="images/camp1.png" />
+					<picture>
+						<source data-srcset="images/camp1-mobile.jpg" media="(max-width: 767px)" />
+						<img data-src="images/camp1.jpg" class="lazyload">
+					</picture>
 
 					<div class="camp-info clearfix">
 						<span>A賞</span>
@@ -476,7 +513,10 @@
 					</div>					
 				</li>
 				<li>
-					<img src="images/camp2.png" />
+					<picture>
+						<source data-srcset="images/camp2-mobile.jpg" media="(max-width: 767px)" />
+						<img data-src="images/camp2.jpg" class="lazyload">
+					</picture>
 					<div class="camp-info">
 						<span>B賞</span>
 						<p>
@@ -488,7 +528,10 @@
 				</li>
 				<li class="second-section first-element">
 					<h3>アタリ</h3>
-					<img src="images/camp3.png" />
+					<picture>
+						<source data-srcset="images/camp3-mobile.jpg" media="(max-width: 767px)" />
+						<img data-src="images/camp3.jpg" class="lazyload">
+					</picture>
 					<div class="camp-info clearfix">
 						<span>C賞</span>
 						<div class="info-wrapper clearfix">
@@ -499,7 +542,10 @@
 				</li>
 				<li class="second-section">
 					<h3>アタリ</h3>
-					<img src="images/camp4.png" />
+					<picture>
+						<source data-srcset="images/camp4-mobile.jpg" media="(max-width: 767px)" />
+						<img data-src="images/camp4.jpg" class="lazyload">
+					</picture>
 					<div class="camp-info clearfix">
 						<span>D賞</span>
 						<div class="info-wrapper clearfix">
@@ -509,7 +555,10 @@
 					</div>					
 				</li>
 				<li class="second-section">
-					<img src="images/camp5.png" />
+					<picture>
+						<source data-srcset="images/camp5-mobile.jpg" media="(max-width: 767px)" />
+						<img data-src="images/camp5.jpg" class="lazyload">
+					</picture>
 					<div class="camp-info clearfix">
 						<span>E賞</span>
 						<p>MSP 成田レストラン <br/>「ガーデニア」ランチバイキング<span>(ファミリー×5)</span></p>

@@ -306,6 +306,16 @@ ul {
   opacity: 1;
   transition: opacity 300ms; }
 
+@media (max-width: 767px) {
+  .desktop {
+    display: none; } }
+
+.mobile {
+  display: none; }
+  @media (max-width: 767px) {
+    .mobile {
+      display: block; } }
+
 header {
   background: #1a489c;
   padding: 6px 0; }
@@ -316,12 +326,6 @@ header {
     @media (max-width: 767px) {
       header img {
         display: none; } }
-  header .logo-mobile {
-    display: none; }
-    @media (max-width: 767px) {
-      header .logo-mobile {
-        display: block;
-        margin: 0; } }
   @media (max-width: 980px) {
     header {
       padding: 20px 20px; } }
@@ -511,7 +515,8 @@ header {
     background: #ff4178;
     -webkit-box-shadow: 3px 4px 8px 0px rgba(0, 0, 0, 0.36);
     box-shadow: 3px 4px 8px 0px rgba(0, 0, 0, 0.36);
-    overflow: hidden; }
+    overflow: hidden;
+    z-index: 2; }
     @media (max-width: 767px) {
       .travel .travel-container .travel-offer {
         display: none; } }
@@ -1998,17 +2003,10 @@ footer {
         footer .footer-text ul {
           margin: 0; } }
 
-body.form {
-  background: #666666; }
-  @media (max-width: 767px) {
-    body.form {
-      padding: 0 20px; } }
-
 .form-container {
   position: relative;
   color: #213046;
-  max-width: 575px;
-  margin: 64px auto;
+  margin: 0 auto;
   background: #fff;
   border-radius: 10px; }
   .form-container h4 {
@@ -2063,7 +2061,9 @@ body.form {
     color: #213046;
     cursor: pointer; }
   .form-container form {
-    padding: 27px 30px; }
+    padding: 27px 30px;
+    display: table;
+    margin: 0 auto; }
     @media (max-width: 767px) {
       .form-container form {
         padding: 27px 20px; } }
@@ -2153,7 +2153,7 @@ body.form {
         float: none; } }
     .input-wrapper .input-control input {
       display: block;
-      margin: 25px auto;
+      margin: 25px 0;
       border: 1px solid #ebebeb;
       border-radius: 5px;
       min-width: 240px;
@@ -2163,6 +2163,8 @@ body.form {
         .input-wrapper .input-control input {
           width: 100%;
           min-width: auto; } }
+  .input-wrapper .input-control:first-child input {
+    margin-right: 20px; }
 
 .checkbox-control {
   margin-top: 16px;
@@ -2172,9 +2174,7 @@ body.form {
     height: 16px; }
 
 .form-title {
-  background: #1f3147;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px; }
+  background: #1f3147; }
   .form-title p {
     margin: 0;
     color: #fff;

@@ -148,6 +148,7 @@
 			-webkit-box-shadow: 3px 4px 8px 0px rgba(0, 0, 0, 0.36);
 			box-shadow: 3px 4px 8px 0px rgba(0, 0, 0, 0.36);
 			overflow: hidden;
+			z-index: 2;
 			@media (max-width: 767px) {
 				display: none;
 			}

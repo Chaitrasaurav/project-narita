@@ -1,45 +1,37 @@
 <section class="stage">
 	<ul class="stage-slider">
-		<li class="slider1">
-			<img
-				data-srcset="images/slider-1-mobile.jpg 767w,
-					images/slider-1.jpg 1024w"
-				data-src="images/slider-1.jpg"
-				class="lazyload" 
-			/>	
+		<li class="slider1">	
+			<picture>
+			  <source media="(max-width: 767px)" srcset="images/slider-1-mobile.jpg">
+			  <img src="images/slider-1.jpg">
+			</picture>
 			<div class="slider-badge">
 				<img src="images/slider-badge.png" class="lazyload" />
 			</div>
 		</li>
 		<li class="slider2">
-			<img
-				data-srcset="images/slider-2-mobile.jpg 767w,
-					images/slider-2.jpg 1024w"
-				data-src="images/slider-2.jpg"
-				class="lazyload" 
-			/>
+			<picture>
+				<source data-srcset="images/slider-2-mobile.jpg" media="(max-width: 767px)" />
+				<img data-src="images/slider-2.jpg" class="lazyload">
+			</picture>
 			<div class="slider-badge">
 				<img src="images/slider-badge.png" class="lazyload" />
 			</div>
 		</li>
 		<li class="slider3">
-			<img
-				data-srcset="images/slider-3-mobile.jpg 767w,
-					images/slider-3.jpg 1024w"
-				data-src="images/slider-3.jpg"
-				class="lazyload" 
-			/>
+			<picture>
+				<source data-srcset="images/slider-3-mobile.jpg" media="(max-width: 767px)" />
+				<img data-src="images/slider-3.jpg" class="lazyload">
+			</picture>
 			<div class="slider-badge">
 				<img src="images/slider-badge.png" class="lazyload" />
 			</div>
 		</li>
 		<li class="slider4">
-			<img
-				data-srcset="images/slider-4-mobile.jpg 767w,
-					images/slider-4.jpg 1024w"
-				data-src="images/slider-4.jpg"
-				class="lazyload" 
-			/>
+			<picture>
+				<source data-srcset="images/slider-4-mobile.jpg" media="(max-width: 767px)" />
+				<img data-src="images/slider-4.jpg" class="lazyload">
+			</picture>
 			<div class="slider-badge">
 				<img src="images/slider-badge.png" class="lazyload" />
 			</div>
