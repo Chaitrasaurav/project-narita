@@ -5,6 +5,9 @@ footer {
 	.footer-wrapper{
 		border-top: 1px solid #949595;
 		padding-top:30px;
+		@media (max-width: 980px) {
+			padding-bottom: 30px;
+		}
 	}
 
 	@media (max-width: 980px) {
@@ -15,6 +18,9 @@ footer {
 		float: right;
 		margin-right: 60px;
     	margin-top: 3px;
+    	@media (max-width: 980px) {
+    		margin-right: 0;
+    	}
     	@media (max-width: 767px) {
     		float: none;
     		margin-right: 0;
@@ -45,6 +51,10 @@ footer {
 		color: #403d3c;
 		line-height: 1.57;
 		margin-left: 99px;
+		@media (max-width: 980px) {
+    		max-width: 430px;
+    		margin-left: 0;
+    	}
 		@media (max-width: 767px) {
 			margin-left: 0;
 			float: none;
@@ -61,6 +71,9 @@ footer {
 		ul {
 			margin: 0 0 0 70px;
 			line-height: 1.29;
+			@media (max-width: 980px) {
+				margin: 0 0 0 18px;
+			}
 			@media (max-width: 767px) {
 				margin:0;
 			}

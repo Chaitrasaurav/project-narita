@@ -9,12 +9,6 @@
 			padding: 40px 20px 80px;
 		}
 
-		img {
-			@media (max-width: 800px) {
-				max-width: 100%;
-			}
-		}
-
 		.activity-wrapper {
 			font-family: orator;
 		}
@@ -227,6 +221,9 @@
 						letter-spacing: 4px;
 						font-size:17px;
 						font-weight:bold;
+						@media (max-width: 850px) {
+							padding-left: 65px;
+						}
 						span {
 							font-size: 13px;
 							line-height: 2.67;
@@ -237,6 +234,9 @@
 
 					img {
 						margin-top: -69px;
+						@media (max-width: 850px) {
+							margin-left: 56px;
+						}
 					}
 				}
 				.last-section {
@@ -256,6 +256,9 @@
 						top: 68px;
 						font-size:17px;
 						font-weight:bold;
+						@media (max-width: 850px) {
+							padding-left: 65px;
+						}
 						span {
 							font-size: 13px;
 							line-height: 2.67;
@@ -478,6 +481,9 @@
 						position: relative;
 						left: -61px;
 						top: 37px;
+						@media (max-width: 850px) {
+							left: -80px;
+						}
 					}
 				}
 			}
@@ -505,6 +511,9 @@
 						margin-bottom: 10px;
 						font-size:17px;
 						font-weight:bold;
+						@media (max-width: 850px) {
+							padding-left: 65px;
+						}
 
 						span {
 							font-size: 13px;
@@ -534,6 +543,11 @@
 						margin-bottom: 10px;
 						font-size:17px;
 						font-weight:bold;
+						@media (max-width: 850px) {
+							padding-left: 65px;
+							position: relative;
+							z-index: 2;
+						}
 
 						span {
 							font-size: 13px;
@@ -558,6 +572,10 @@
 						margin-bottom: 10px;
 						font-size:17px;
 						font-weight:bold;
+						@media (max-width: 850px) {
+							padding-left: 65px;
+							position: relative;
+						}
 						span {
 							font-size: 13px;
 							line-height: 2.67;
@@ -568,6 +586,10 @@
 
 					img {
 						margin: -95px 0 0 22px;
+						@media (max-width: 850px) {
+							margin: -95px 0 0 25px;
+							z-index: 1;
+						}
 					}
 
 					.icon-sche-bottom-bubble {

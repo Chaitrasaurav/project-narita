@@ -228,8 +228,10 @@ a {
     text-decoration: none; }
 
 img {
-  display: inline-block;
-  max-width: 100%; }
+  display: inline-block; }
+  @media (max-width: 767px) {
+    img {
+      max-width: 100%; } }
 
 article,
 aside,
@@ -334,7 +336,7 @@ header {
     width: 100%; }
   .stage .slick-arrow {
     position: absolute;
-    top: 42%;
+    top: 36%;
     z-index: 1;
     font-size: 0;
     border: none;
@@ -345,7 +347,7 @@ header {
     right: 10px; }
   .stage .slider-badge {
     position: absolute;
-    top: 0;
+    top: 5px;
     z-index: 1;
     left: 50px;
     width: 32%; }
@@ -394,7 +396,7 @@ header {
   margin: 0 auto;
   font-size: 16px;
   line-height: 2.7;
-  padding: 37px 0 17px; }
+  padding: 37px 0 14px; }
   @media (max-width: 767px) {
     .travel .travel-description {
       text-align: left;
@@ -623,9 +625,6 @@ header {
     @media (max-width: 980px) {
       .sche .sche-container {
         padding: 40px 20px 80px; } }
-    @media (max-width: 800px) {
-      .sche .sche-container img {
-        max-width: 100%; } }
     .sche .sche-container .activity-wrapper {
       font-family: orator; }
   .sche .sche1-wrapper {
@@ -799,6 +798,9 @@ header {
             letter-spacing: 4px;
             font-size: 17px;
             font-weight: bold; }
+            @media (max-width: 850px) {
+              .sche .sche1-wrapper .sche1-container .right-side .first-section > span {
+                padding-left: 65px; } }
             .sche .sche1-wrapper .sche1-container .right-side .first-section > span span {
               font-size: 13px;
               line-height: 2.67;
@@ -806,6 +808,9 @@ header {
               color: #ff4178; }
           .sche .sche1-wrapper .sche1-container .right-side .first-section img {
             margin-top: -69px; }
+            @media (max-width: 850px) {
+              .sche .sche1-wrapper .sche1-container .right-side .first-section img {
+                margin-left: 56px; } }
         .sche .sche1-wrapper .sche1-container .right-side .last-section {
           font-size: 15px;
           color: #000000;
@@ -822,6 +827,9 @@ header {
             top: 68px;
             font-size: 17px;
             font-weight: bold; }
+            @media (max-width: 850px) {
+              .sche .sche1-wrapper .sche1-container .right-side .last-section > span {
+                padding-left: 65px; } }
             .sche .sche1-wrapper .sche1-container .right-side .last-section > span span {
               font-size: 13px;
               line-height: 2.67;
@@ -996,6 +1004,9 @@ header {
             position: relative;
             left: -61px;
             top: 37px; }
+            @media (max-width: 850px) {
+              .sche .sche2-wrapper .sche2-container .left-side .last-section .icon-sche-aeroplane {
+                left: -80px; } }
       .sche .sche2-wrapper .sche2-container .right-side {
         width: 50%;
         float: left; }
@@ -1018,6 +1029,9 @@ header {
             margin-bottom: 10px;
             font-size: 17px;
             font-weight: bold; }
+            @media (max-width: 850px) {
+              .sche .sche2-wrapper .sche2-container .right-side .first-section > span {
+                padding-left: 65px; } }
             .sche .sche2-wrapper .sche2-container .right-side .first-section > span span {
               font-size: 13px;
               line-height: 2.67;
@@ -1040,6 +1054,11 @@ header {
             margin-bottom: 10px;
             font-size: 17px;
             font-weight: bold; }
+            @media (max-width: 850px) {
+              .sche .sche2-wrapper .sche2-container .right-side .second-section > span {
+                padding-left: 65px;
+                position: relative;
+                z-index: 2; } }
             .sche .sche2-wrapper .sche2-container .right-side .second-section > span span {
               font-size: 13px;
               line-height: 2.67;
@@ -1059,6 +1078,10 @@ header {
             margin-bottom: 10px;
             font-size: 17px;
             font-weight: bold; }
+            @media (max-width: 850px) {
+              .sche .sche2-wrapper .sche2-container .right-side .last-section > span {
+                padding-left: 65px;
+                position: relative; } }
             .sche .sche2-wrapper .sche2-container .right-side .last-section > span span {
               font-size: 13px;
               line-height: 2.67;
@@ -1066,6 +1089,10 @@ header {
               color: #007bff; }
           .sche .sche2-wrapper .sche2-container .right-side .last-section img {
             margin: -95px 0 0 22px; }
+            @media (max-width: 850px) {
+              .sche .sche2-wrapper .sche2-container .right-side .last-section img {
+                margin: -95px 0 0 25px;
+                z-index: 1; } }
           .sche .sche2-wrapper .sche2-container .right-side .last-section .icon-sche-bottom-bubble {
             position: absolute;
             bottom: -14px;
@@ -1075,19 +1102,21 @@ header {
                 right: 0; } }
 
 .section-yume {
-  background: url(../images/section-yume-pattern.png) repeat-x; }
-  .section-yume img {
-    max-width: 100%; }
+  background: url(../images/section-yume-pattern.png) repeat-x;
+  padding: 20px 0 0; }
   .section-yume .main-image {
     display: block;
     margin: 0 auto; }
+  @media (max-width: 980px) {
+    .section-yume img {
+      max-width: 100%; } }
   .section-yume .section-yume-container {
     background: url(../images/section-museum-pattern.png) repeat-x bottom #ffe6ee; }
     @media (max-width: 980px) {
       .section-yume .section-yume-container {
         padding: 0 20px 0; } }
     .section-yume .section-yume-container .section-yume-wrap {
-      padding: 20px 0 0; }
+      padding: 62px 0 0; }
     .section-yume .section-yume-container .yume-main-image {
       margin: 41px auto 0;
       display: block; }
@@ -1112,7 +1141,7 @@ header {
       line-height: 1.5;
       max-width: 800px;
       margin: 44px auto 0;
-      padding: 32px 20px 80px; }
+      padding: 32px 20px 85px; }
       .section-yume .section-yume-container .yume-contact .first-section {
         width: 45%;
         float: left;
@@ -1143,11 +1172,15 @@ header {
             width: 100%;
             float: none; } }
         .section-yume .section-yume-container .yume-contact .last-section .button {
-          margin: 10px; }
+          margin: 6px; }
     .section-yume .section-yume-container .yume-attraction1 .left-side {
-      width: 50%;
+      width: 49%;
       float: left;
-      margin-top: -37px; }
+      margin-top: -37px;
+      padding: 0 0 0 55px; }
+      @media (max-width: 980px) {
+        .section-yume .section-yume-container .yume-attraction1 .left-side {
+          padding: 0; } }
       @media (max-width: 767px) {
         .section-yume .section-yume-container .yume-attraction1 .left-side {
           width: 100%;
@@ -1159,9 +1192,11 @@ header {
           width: 100%;
           margin: 0 auto; } }
     .section-yume .section-yume-container .yume-attraction1 .right-side {
-      width: 50%;
+      width: 51%;
       float: left;
       padding: 5px 0 0; }
+      .section-yume .section-yume-container .yume-attraction1 .right-side p {
+        max-width: 255px; }
       @media (max-width: 767px) {
         .section-yume .section-yume-container .yume-attraction1 .right-side {
           width: 100%;
@@ -1188,31 +1223,46 @@ header {
         display: flex;
         flex-flow: column-reverse; } }
     .section-yume .section-yume-container .yume-attraction2 .left-side {
-      width: 50%;
-      float: left; }
+      width: 52%;
+      float: left;
+      padding: 0 0 0 75px; }
+      @media (max-width: 980px) {
+        .section-yume .section-yume-container .yume-attraction2 .left-side {
+          padding: 0;
+          width: 54%; } }
       @media (max-width: 767px) {
         .section-yume .section-yume-container .yume-attraction2 .left-side {
           width: 100%;
           float: none; } }
       .section-yume .section-yume-container .yume-attraction2 .left-side img {
         float: left;
-        margin-top: -26px; }
+        margin-top: -26px;
+        position: absolute; }
         @media (max-width: 767px) {
           .section-yume .section-yume-container .yume-attraction2 .left-side img {
             width: 100%;
             width: 40%;
             margin-top: 0; } }
       .section-yume .section-yume-container .yume-attraction2 .left-side .attraction2-description {
-        float: left;
+        float: right;
         margin-left: -27px;
-        margin-top: 9px; }
+        margin-top: 9px;
+        max-width: 240px; }
+        @media (max-width: 980px) {
+          .section-yume .section-yume-container .yume-attraction2 .left-side .attraction2-description {
+            max-width: 225px; } }
         @media (max-width: 767px) {
           .section-yume .section-yume-container .yume-attraction2 .left-side .attraction2-description {
             width: 60%; } }
     .section-yume .section-yume-container .yume-attraction2 .right-side {
-      width: 50%;
+      width: 48%;
       float: left;
-      margin-top: -144px; }
+      margin-top: -144px;
+      padding-left: 24px; }
+      @media (max-width: 980px) {
+        .section-yume .section-yume-container .yume-attraction2 .right-side {
+          margin-top: -85px;
+          width: 46%; } }
       @media (max-width: 767px) {
         .section-yume .section-yume-container .yume-attraction2 .right-side {
           width: 100%;
@@ -1242,14 +1292,18 @@ header {
     .section-yume .section-yume-container .yume-attraction3 {
       margin-top: 39px; }
       .section-yume .section-yume-container .yume-attraction3 .left-side {
-        width: 50%;
-        float: left; }
+        width: 49%;
+        float: left;
+        margin: 8px 0 0; }
         @media (max-width: 767px) {
           .section-yume .section-yume-container .yume-attraction3 .left-side {
             width: 100%;
             float: none; } }
         .section-yume .section-yume-container .yume-attraction3 .left-side img {
           margin-left: 70px; }
+          @media (max-width: 980px) {
+            .section-yume .section-yume-container .yume-attraction3 .left-side img {
+              margin-left: 0; } }
           @media (max-width: 767px) {
             .section-yume .section-yume-container .yume-attraction3 .left-side img {
               margin-left: 0;
@@ -1257,9 +1311,10 @@ header {
               margin: 0 auto;
               width: 100%; } }
       .section-yume .section-yume-container .yume-attraction3 .right-side {
-        width: 50%;
+        width: 51%;
         float: left;
-        margin: 10px 0 0; }
+        margin: 10px 0 0;
+        position: relative; }
         @media (max-width: 767px) {
           .section-yume .section-yume-container .yume-attraction3 .right-side {
             width: 100%;
@@ -1268,7 +1323,13 @@ header {
           float: left;
           font-size: 14px; }
         .section-yume .section-yume-container .yume-attraction3 .right-side img {
-          margin-top: -52px; }
+          margin-top: -52px;
+          position: absolute;
+          right: 82px;
+          top: 10px; }
+          @media (max-width: 980px) {
+            .section-yume .section-yume-container .yume-attraction3 .right-side img {
+              right: 0; } }
           @media (max-width: 767px) {
             .section-yume .section-yume-container .yume-attraction3 .right-side img {
               margin-top: 0;
@@ -1308,11 +1369,14 @@ header {
     .section-yume .section-museum-container .museum-description {
       position: relative;
       max-width: 550px;
-      margin: 37px auto 54px;
+      margin: 43px auto 54px;
       text-align: center;
       font-size: 16px;
       position: relative;
       padding: 0 0 0 30px; }
+      @media (max-width: 980px) {
+        .section-yume .section-museum-container .museum-description {
+          padding: 0 0 0 47px; } }
       @media (max-width: 767px) {
         .section-yume .section-museum-container .museum-description {
           padding: 70px 0 0 0;
@@ -1321,6 +1385,10 @@ header {
         position: absolute;
         left: -238px;
         top: -17px; }
+        @media (max-width: 980px) {
+          .section-yume .section-museum-container .museum-description i {
+            left: -144px;
+            top: -38px; } }
         @media (max-width: 767px) {
           .section-yume .section-museum-container .museum-description i {
             left: 0;
@@ -1364,8 +1432,13 @@ header {
         .section-yume .section-museum-container .museum-contact .last-section .button {
           margin: 10px; }
     .section-yume .section-museum-container .museum-attraction1 .left-side {
-      width: 50%;
-      float: left; }
+      width: 49%;
+      float: left;
+      padding-left: 75px; }
+      @media (max-width: 980px) {
+        .section-yume .section-museum-container .museum-attraction1 .left-side {
+          padding-left: 0;
+          padding-right: 20px; } }
       @media (max-width: 767px) {
         .section-yume .section-museum-container .museum-attraction1 .left-side {
           width: 100%;
@@ -1376,9 +1449,11 @@ header {
           margin: 0 auto;
           display: block; } }
     .section-yume .section-museum-container .museum-attraction1 .right-side {
-      width: 50%;
+      width: 51%;
       float: left;
       margin-top: 10px; }
+      .section-yume .section-museum-container .museum-attraction1 .right-side p {
+        max-width: 315px; }
       @media (max-width: 767px) {
         .section-yume .section-museum-container .museum-attraction1 .right-side {
           width: 100%;
@@ -1402,7 +1477,7 @@ header {
         display: flex;
         flex-flow: column-reverse; } }
     .section-yume .section-museum-container .museum-attraction2 .left-side {
-      width: 50%;
+      width: 49%;
       float: left;
       margin: 61px 0 0;
       text-align: right; }
@@ -1412,8 +1487,9 @@ header {
           float: none;
           margin: 0; } }
     .section-yume .section-museum-container .museum-attraction2 .right-side {
-      width: 50%;
-      float: left; }
+      width: 51%;
+      float: left;
+      padding: 0 0 0 34px; }
       @media (max-width: 767px) {
         .section-yume .section-museum-container .museum-attraction2 .right-side {
           width: 100%;
@@ -1450,8 +1526,13 @@ header {
             left: 0;
             top: 0; } }
       .section-yume .section-museum-container .museum-attraction3 .left-side {
-        width: 50%;
-        float: left; }
+        width: 49%;
+        float: left;
+        padding-left: 75px; }
+        @media (max-width: 980px) {
+          .section-yume .section-museum-container .museum-attraction3 .left-side {
+            padding-left: 0;
+            padding-right: 20px; } }
         @media (max-width: 767px) {
           .section-yume .section-museum-container .museum-attraction3 .left-side {
             width: 100%;
@@ -1464,21 +1545,29 @@ header {
               display: block;
               width: 100%; } }
           .section-yume .section-museum-container .museum-attraction3 .left-side img:first-child {
-            margin-top: -103px; }
+            margin-top: -103px;
+            margin-left: -87px; }
             @media (max-width: 767px) {
               .section-yume .section-museum-container .museum-attraction3 .left-side img:first-child {
                 margin-top: 0;
                 width: 100%; } }
       .section-yume .section-museum-container .museum-attraction3 .right-side {
-        width: 50%;
+        width: 51%;
         float: left;
         margin: 55px 0 0; }
         @media (max-width: 767px) {
           .section-yume .section-museum-container .museum-attraction3 .right-side {
             width: 100%;
             float: none; } }
+        .section-yume .section-museum-container .museum-attraction3 .right-side p {
+          max-width: 250px; }
         .section-yume .section-museum-container .museum-attraction3 .right-side img {
-          margin-top: -100px; }
+          margin-top: -77px;
+          margin-left: 56px; }
+          @media (max-width: 980px) {
+            .section-yume .section-museum-container .museum-attraction3 .right-side img {
+              margin-top: -46px;
+              margin-left: 20px; } }
           @media (max-width: 767px) {
             .section-yume .section-museum-container .museum-attraction3 .right-side img {
               margin-top: 0;
@@ -1542,18 +1631,26 @@ header {
             margin: 0 auto 20px; } }
       .other-attractions ul li h4 {
         margin: 6px 0; }
+        @media (max-width: 980px) {
+          .other-attractions ul li h4 {
+            font-size: 19px; } }
         .other-attractions ul li h4 i {
           position: relative;
           top: 2px; }
-      @media (max-width: 767px) {
-        .other-attractions ul li img {
-          display: block;
-          width: 100%;
-          margin: 0 auto; } }
+      .other-attractions ul li img {
+        max-width: 100%; }
+        @media (max-width: 767px) {
+          .other-attractions ul li img {
+            display: block;
+            width: 100%;
+            margin: 0 auto; } }
 
 .about {
   background: url(../images/about-hotel-pattern.png) repeat-x #ffffea;
   padding: 50px 0 58px; }
+  @media (max-width: 980px) {
+    .about img {
+      max-width: 100%; } }
   @media (max-width: 980px) {
     .about {
       padding: 50px 20px 58px; } }
@@ -1561,6 +1658,10 @@ header {
     position: absolute;
     right: 16px;
     top: -25px; }
+    @media (max-width: 980px) {
+      .about .bubble-text {
+        top: -17px;
+        max-width: 220px; } }
     @media (max-width: 767px) {
       .about .bubble-text {
         position: relative;
@@ -1580,6 +1681,10 @@ header {
       top: 72px;
       position: absolute;
       left: 19px; }
+      @media (max-width: 980px) {
+        .about .bubble-text span {
+          top: 48px;
+          left: 0; } }
       @media (max-width: 767px) {
         .about .bubble-text span {
           top: 58px;
@@ -1623,6 +1728,10 @@ header {
     margin-top: 62px;
     padding-left: 78px;
     padding-right: 20px; }
+    @media (max-width: 980px) {
+      .about .first-amenity .left-side {
+        padding-left: 0;
+        padding-right: 25px; } }
     @media (max-width: 767px) {
       .about .first-amenity .left-side {
         width: 100%;
@@ -1659,8 +1768,11 @@ header {
           margin-left: 0; } }
     .about .first-amenity .right-side img {
       margin-top: -13px;
-      margin-left: 8px;
-      max-width: 100%; }
+      margin-left: 8px; }
+      @media (max-width: 1024px) {
+        .about .first-amenity .right-side img {
+          max-width: 100%;
+          margin-left: 0; } }
       @media (max-width: 767px) {
         .about .first-amenity .right-side img {
           margin-top: 0;
@@ -1676,19 +1788,28 @@ header {
       float: left;
       margin-top: 90px;
       margin-left: 83px; }
+      @media (max-width: 980px) {
+        .about .second-amenity .left-side {
+          margin-left: 0;
+          margin-top: 0;
+          width: 49%;
+          padding-right: 25px; } }
       @media (max-width: 767px) {
         .about .second-amenity .left-side {
           width: 100%;
           float: none;
           margin-top: 0;
           margin-left: 0; } }
-      @media (max-width: 767px) {
+      @media (max-width: 980px) {
         .about .second-amenity .left-side img {
           width: 100%; } }
     .about .second-amenity .right-side {
       width: 50%;
       float: left;
       padding-right: 7%; }
+      @media (max-width: 980px) {
+        .about .second-amenity .right-side {
+          padding-right: 0; } }
       @media (max-width: 767px) {
         .about .second-amenity .right-side {
           width: 100%;
@@ -1710,6 +1831,10 @@ header {
       margin-top: 70px;
       padding-left: 83px;
       padding-right: 25px; }
+      @media (max-width: 980px) {
+        .about .third-amenity .left-side {
+          padding-left: 0;
+          width: 49%; } }
       @media (max-width: 767px) {
         .about .third-amenity .left-side {
           width: 100%;
@@ -1726,7 +1851,7 @@ header {
         .about .third-amenity .right-side {
           width: 100%;
           float: none; } }
-      @media (max-width: 767px) {
+      @media (max-width: 980px) {
         .about .third-amenity .right-side img {
           width: 100%; } }
 
@@ -1794,6 +1919,10 @@ header {
   .camp {
     padding: 0 20px; } }
 
+@media (max-width: 980px) {
+  .camp img {
+    max-width: 100%; } }
+
 .camp .first-section {
   font-family: shingopro; }
   .camp .first-section ul li {
@@ -1853,13 +1982,16 @@ header {
         display: block; }
   .camp .first-section ul .first-element {
     margin-left: 8.5% !important; }
-    @media (max-width: 767px) {
+    @media (max-width: 980px) {
       .camp .first-section ul .first-element {
         margin-left: 0 !important; } }
   .camp .first-section ul .second-section {
     width: 27%;
     position: relative;
     margin: 37px 0 0 14px; }
+    @media (max-width: 980px) {
+      .camp .first-section ul .second-section {
+        width: 31.5%; } }
     @media (max-width: 767px) {
       .camp .first-section ul .second-section {
         width: 100%;
@@ -1907,6 +2039,11 @@ header {
       position: absolute;
       top: 44px;
       left: 55px; }
+      @media (max-width: 980px) {
+        .camp .first-section ul .second-section h3 {
+          top: 12%;
+          left: 16%;
+          font-size: 45px; } }
     .camp .first-section ul .second-section .info-wrapper p {
       max-width: 85px;
       float: left;
@@ -1984,18 +2121,29 @@ header {
     padding: 10px 15px;
     max-width: 176px; }
   .camp .camp-bottom-section .camp-bottom-info i {
-    position: absolute; }
+    position: absolute;
+    right: 63px;
+    top: 0px; }
+    @media (max-width: 980px) {
+      .camp .camp-bottom-section .camp-bottom-info i {
+        right: 0; } }
     @media (max-width: 767px) {
       .camp .camp-bottom-section .camp-bottom-info i {
         position: relative; } }
     .camp .camp-bottom-section .camp-bottom-info i:first-child {
       left: 15%; }
+      @media (max-width: 980px) {
+        .camp .camp-bottom-section .camp-bottom-info i:first-child {
+          left: 0; } }
       @media (max-width: 767px) {
         .camp .camp-bottom-section .camp-bottom-info i:first-child {
           display: none; } }
     .camp .camp-bottom-section .camp-bottom-info i:last-child {
       right: 59px;
       bottom: 0; }
+      @media (max-width: 980px) {
+        .camp .camp-bottom-section .camp-bottom-info i:last-child {
+          right: 0; } }
       @media (max-width: 767px) {
         .camp .camp-bottom-section .camp-bottom-info i:last-child {
           right: auto;
@@ -2020,6 +2168,9 @@ header {
     position: absolute;
     left: 105px;
     top: 15px; }
+    @media (max-width: 980px) {
+      .camp .camp-title .bubble-text-wrap {
+        left: -10px; } }
     @media (max-width: 767px) {
       .camp .camp-title .bubble-text-wrap {
         left: 0;
@@ -2030,6 +2181,9 @@ header {
     position: absolute;
     right: 102px;
     top: 17px; }
+    @media (max-width: 980px) {
+      .camp .camp-title .camp-title-info i {
+        right: -19px; } }
     @media (max-width: 767px) {
       .camp .camp-title .camp-title-info i {
         right: 0;
@@ -2043,6 +2197,9 @@ header {
     width: 44%;
     float: left;
     padding: 25px 0 0 197px; }
+    @media (max-width: 980px) {
+      .camp .camp-title .camp-title-info p {
+        padding: 25px 0 0 75px; } }
     @media (max-width: 767px) {
       .camp .camp-title .camp-title-info p {
         width: 100%;
@@ -2053,6 +2210,9 @@ header {
       line-height: 2.05;
       padding: 0;
       width: 40%; }
+      @media (max-width: 980px) {
+        .camp .camp-title .camp-title-info p:last-child {
+          width: 52%; } }
       @media (max-width: 767px) {
         .camp .camp-title .camp-title-info p:last-child {
           width: 100%; } }
@@ -2079,6 +2239,9 @@ footer {
   footer .footer-wrapper {
     border-top: 1px solid #949595;
     padding-top: 30px; }
+    @media (max-width: 980px) {
+      footer .footer-wrapper {
+        padding-bottom: 30px; } }
   @media (max-width: 980px) {
     footer {
       padding: 0 20px; } }
@@ -2086,6 +2249,9 @@ footer {
     float: right;
     margin-right: 60px;
     margin-top: 3px; }
+    @media (max-width: 980px) {
+      footer .footer-images {
+        margin-right: 0; } }
     @media (max-width: 767px) {
       footer .footer-images {
         float: none;
@@ -2108,6 +2274,10 @@ footer {
     color: #403d3c;
     line-height: 1.57;
     margin-left: 99px; }
+    @media (max-width: 980px) {
+      footer .footer-text {
+        max-width: 430px;
+        margin-left: 0; } }
     @media (max-width: 767px) {
       footer .footer-text {
         margin-left: 0;
@@ -2121,6 +2291,9 @@ footer {
     footer .footer-text ul {
       margin: 0 0 0 70px;
       line-height: 1.29; }
+      @media (max-width: 980px) {
+        footer .footer-text ul {
+          margin: 0 0 0 18px; } }
       @media (max-width: 767px) {
         footer .footer-text ul {
           margin: 0; } }
