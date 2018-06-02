@@ -319,14 +319,10 @@ ul {
 
 header {
   background: #1a489c;
-  padding: 6px 0; }
+  padding: 15px 0; }
   header img {
-    margin: 0px 2px 7px;
     display: block;
     max-width: 100%; }
-    @media (max-width: 767px) {
-      header img {
-        display: none; } }
   @media (max-width: 980px) {
     header {
       padding: 20px 20px; } }
@@ -1079,15 +1075,19 @@ header {
                 right: 0; } }
 
 .section-yume {
-  background: url(../images/section-yume-pattern.png) repeat-x;
-  padding: 20px 0 0; }
+  background: url(../images/section-yume-pattern.png) repeat-x; }
   .section-yume img {
     max-width: 100%; }
+  .section-yume .main-image {
+    display: block;
+    margin: 0 auto; }
   .section-yume .section-yume-container {
     background: url(../images/section-museum-pattern.png) repeat-x bottom #ffe6ee; }
     @media (max-width: 980px) {
       .section-yume .section-yume-container {
         padding: 0 20px 0; } }
+    .section-yume .section-yume-container .section-yume-wrap {
+      padding: 20px 0 0; }
     .section-yume .section-yume-container .yume-main-image {
       margin: 41px auto 0;
       display: block; }
@@ -1115,7 +1115,8 @@ header {
       padding: 32px 20px 80px; }
       .section-yume .section-yume-container .yume-contact .first-section {
         width: 45%;
-        float: left; }
+        float: left;
+        padding-right: 15px; }
         @media (max-width: 767px) {
           .section-yume .section-yume-container .yume-contact .first-section {
             width: 100%;
@@ -1144,16 +1145,14 @@ header {
         .section-yume .section-yume-container .yume-contact .last-section .button {
           margin: 10px; }
     .section-yume .section-yume-container .yume-attraction1 .left-side {
-      width: 43%;
+      width: 50%;
       float: left;
-      margin-top: -37px;
-      margin-left: 56px; }
+      margin-top: -37px; }
       @media (max-width: 767px) {
         .section-yume .section-yume-container .yume-attraction1 .left-side {
           width: 100%;
           float: none;
-          margin-top: 0;
-          margin-left: 0; } }
+          margin-top: 0; } }
       @media (max-width: 767px) {
         .section-yume .section-yume-container .yume-attraction1 .left-side img {
           display: block;
@@ -1162,8 +1161,7 @@ header {
     .section-yume .section-yume-container .yume-attraction1 .right-side {
       width: 50%;
       float: left;
-      padding: 5px 0 0;
-      max-width: 257px; }
+      padding: 5px 0 0; }
       @media (max-width: 767px) {
         .section-yume .section-yume-container .yume-attraction1 .right-side {
           width: 100%;
@@ -1190,7 +1188,7 @@ header {
         display: flex;
         flex-flow: column-reverse; } }
     .section-yume .section-yume-container .yume-attraction2 .left-side {
-      width: 55%;
+      width: 50%;
       float: left; }
       @media (max-width: 767px) {
         .section-yume .section-yume-container .yume-attraction2 .left-side {
@@ -1198,18 +1196,13 @@ header {
           float: none; } }
       .section-yume .section-yume-container .yume-attraction2 .left-side img {
         float: left;
-        margin-left: 70px;
-        margin-top: -26px;
-        margin-right: 0; }
+        margin-top: -26px; }
         @media (max-width: 767px) {
           .section-yume .section-yume-container .yume-attraction2 .left-side img {
             width: 100%;
             width: 40%;
-            margin-left: 0;
-            margin-top: 0;
-            margin-right: 0; } }
+            margin-top: 0; } }
       .section-yume .section-yume-container .yume-attraction2 .left-side .attraction2-description {
-        max-width: 220px;
         float: left;
         margin-left: -27px;
         margin-top: 9px; }
@@ -1217,7 +1210,7 @@ header {
           .section-yume .section-yume-container .yume-attraction2 .left-side .attraction2-description {
             width: 60%; } }
     .section-yume .section-yume-container .yume-attraction2 .right-side {
-      width: 45%;
+      width: 50%;
       float: left;
       margin-top: -144px; }
       @media (max-width: 767px) {
@@ -1249,7 +1242,7 @@ header {
     .section-yume .section-yume-container .yume-attraction3 {
       margin-top: 39px; }
       .section-yume .section-yume-container .yume-attraction3 .left-side {
-        width: 49%;
+        width: 50%;
         float: left; }
         @media (max-width: 767px) {
           .section-yume .section-yume-container .yume-attraction3 .left-side {
@@ -1264,7 +1257,7 @@ header {
               margin: 0 auto;
               width: 100%; } }
       .section-yume .section-yume-container .yume-attraction3 .right-side {
-        width: 51%;
+        width: 50%;
         float: left;
         margin: 10px 0 0; }
         @media (max-width: 767px) {
@@ -1272,16 +1265,13 @@ header {
             width: 100%;
             float: none; } }
         .section-yume .section-yume-container .yume-attraction3 .right-side .attraction3-description {
-          max-width: 295px;
           float: left;
           font-size: 14px; }
         .section-yume .section-yume-container .yume-attraction3 .right-side img {
-          margin-top: -52px;
-          margin-left: -48px; }
+          margin-top: -52px; }
           @media (max-width: 767px) {
             .section-yume .section-yume-container .yume-attraction3 .right-side img {
               margin-top: 0;
-              margin-left: 0;
               display: block;
               max-width: 100%;
               margin: 0 auto;
@@ -1344,7 +1334,8 @@ header {
       padding: 32px 20px 67px; }
       .section-yume .section-museum-container .museum-contact .first-section {
         width: 45%;
-        float: left; }
+        float: left;
+        padding-right: 15px; }
         @media (max-width: 767px) {
           .section-yume .section-museum-container .museum-contact .first-section {
             width: 100%;
@@ -1373,24 +1364,19 @@ header {
         .section-yume .section-museum-container .museum-contact .last-section .button {
           margin: 10px; }
     .section-yume .section-museum-container .museum-attraction1 .left-side {
-      width: 49%;
+      width: 50%;
       float: left; }
       @media (max-width: 767px) {
         .section-yume .section-museum-container .museum-attraction1 .left-side {
           width: 100%;
           float: none; } }
-      .section-yume .section-museum-container .museum-attraction1 .left-side img {
-        margin-left: 80px; }
-        @media (max-width: 900px) {
-          .section-yume .section-museum-container .museum-attraction1 .left-side img {
-            margin-left: 0; } }
-        @media (max-width: 767px) {
-          .section-yume .section-museum-container .museum-attraction1 .left-side img {
-            width: 100%;
-            margin: 0 auto;
-            display: block; } }
+      @media (max-width: 767px) {
+        .section-yume .section-museum-container .museum-attraction1 .left-side img {
+          width: 100%;
+          margin: 0 auto;
+          display: block; } }
     .section-yume .section-museum-container .museum-attraction1 .right-side {
-      width: 36%;
+      width: 50%;
       float: left;
       margin-top: 10px; }
       @media (max-width: 767px) {
@@ -1416,7 +1402,7 @@ header {
         display: flex;
         flex-flow: column-reverse; } }
     .section-yume .section-museum-container .museum-attraction2 .left-side {
-      width: 52%;
+      width: 50%;
       float: left;
       margin: 61px 0 0;
       text-align: right; }
@@ -1426,22 +1412,16 @@ header {
           float: none;
           margin: 0; } }
     .section-yume .section-museum-container .museum-attraction2 .right-side {
-      width: 48%;
+      width: 50%;
       float: left; }
       @media (max-width: 767px) {
         .section-yume .section-museum-container .museum-attraction2 .right-side {
           width: 100%;
           float: none; } }
       .section-yume .section-museum-container .museum-attraction2 .right-side img {
-        margin-left: 28px;
         margin-top: -112px; }
-        @media (max-width: 900px) {
-          .section-yume .section-museum-container .museum-attraction2 .right-side img {
-            margin-left: 0; } }
         @media (max-width: 767px) {
           .section-yume .section-museum-container .museum-attraction2 .right-side img {
-            margin-left: 0;
-            margin-top: 0;
             display: block;
             margin: 0 auto;
             width: 100%; } }
@@ -1470,52 +1450,38 @@ header {
             left: 0;
             top: 0; } }
       .section-yume .section-museum-container .museum-attraction3 .left-side {
-        width: 49%;
+        width: 50%;
         float: left; }
         @media (max-width: 767px) {
           .section-yume .section-museum-container .museum-attraction3 .left-side {
             width: 100%;
             float: none; } }
         .section-yume .section-museum-container .museum-attraction3 .left-side img {
-          margin-top: -91px;
-          margin-left: 77px; }
-          @media (max-width: 900px) {
-            .section-yume .section-museum-container .museum-attraction3 .left-side img {
-              margin-left: 0; } }
+          margin-top: -91px; }
           @media (max-width: 767px) {
             .section-yume .section-museum-container .museum-attraction3 .left-side img {
               margin-top: -24px;
-              margin-left: 0;
               display: block;
               width: 100%; } }
           .section-yume .section-museum-container .museum-attraction3 .left-side img:first-child {
-            margin-top: -103px;
-            margin-left: -8px; }
+            margin-top: -103px; }
             @media (max-width: 767px) {
               .section-yume .section-museum-container .museum-attraction3 .left-side img:first-child {
                 margin-top: 0;
-                margin-left: 0;
                 width: 100%; } }
       .section-yume .section-museum-container .museum-attraction3 .right-side {
-        width: 51%;
+        width: 50%;
         float: left;
         margin: 55px 0 0; }
         @media (max-width: 767px) {
           .section-yume .section-museum-container .museum-attraction3 .right-side {
             width: 100%;
             float: none; } }
-        .section-yume .section-museum-container .museum-attraction3 .right-side p {
-          max-width: 223px; }
         .section-yume .section-museum-container .museum-attraction3 .right-side img {
-          margin-top: -100px;
-          margin-left: 64px; }
-          @media (max-width: 900px) {
-            .section-yume .section-museum-container .museum-attraction3 .right-side img {
-              margin-left: 0; } }
+          margin-top: -100px; }
           @media (max-width: 767px) {
             .section-yume .section-museum-container .museum-attraction3 .right-side img {
               margin-top: 0;
-              margin-left: 0;
               display: block;
               max-width: 100%;
               clear: both; } }
