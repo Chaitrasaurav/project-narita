@@ -630,7 +630,7 @@ header {
       position: relative; }
     @media (max-width: 767px) {
       .sche .sche-container .shell {
-        max-width: 330px; } }
+        max-width: 318px; } }
   .sche .sche1-wrapper {
     max-width: 800px;
     margin: 0 auto;
@@ -931,6 +931,9 @@ header {
       border: 1px solid #575453;
       margin: 5px;
       padding: 0 0 22px; }
+      @media (max-width: 767px) {
+        .sche .sche2-wrapper .sche2-container {
+          padding: 0 0 40px; } }
       .sche .sche2-wrapper .sche2-container > span {
         font-size: 13px;
         line-height: 2;
@@ -1079,6 +1082,10 @@ header {
         text-transform: uppercase;
         position: relative;
         top: 20px; }
+        @media (max-width: 767px) {
+          .sche .sche2-wrapper .sche2-container .last-section-left {
+            margin-top: -89px;
+            line-height: 2; } }
         .sche .sche2-wrapper .sche2-container .last-section-left > span {
           display: block;
           text-align: right;
@@ -1086,11 +1093,21 @@ header {
           margin-bottom: 10px;
           font-size: 17px;
           font-weight: bold; }
+          @media (max-width: 767px) {
+            .sche .sche2-wrapper .sche2-container .last-section-left > span {
+              padding-left: 40px;
+              text-align: left;
+              padding-right: 0;
+              font-size: 15px; } }
           .sche .sche2-wrapper .sche2-container .last-section-left > span span {
             font-size: 13px;
             line-height: 2.67;
             letter-spacing: 0.7px;
             color: #007bff; }
+            @media (max-width: 767px) {
+              .sche .sche2-wrapper .sche2-container .last-section-left > span span {
+                float: left;
+                padding-right: 10px; } }
         .sche .sche2-wrapper .sche2-container .last-section-left img {
           margin: 0 0 0 26px; }
         .sche .sche2-wrapper .sche2-container .last-section-left .icon-sche-aeroplane {
@@ -1100,6 +1117,10 @@ header {
           @media (max-width: 850px) {
             .sche .sche2-wrapper .sche2-container .last-section-left .icon-sche-aeroplane {
               left: -80px; } }
+          @media (max-width: 767px) {
+            .sche .sche2-wrapper .sche2-container .last-section-left .icon-sche-aeroplane {
+              left: auto;
+              right: -115px; } }
       .sche .sche2-wrapper .sche2-container .first-section-right {
         font-size: 15px;
         color: #000000;
@@ -1201,7 +1222,7 @@ header {
               z-index: 1; } }
           @media (max-width: 767px) {
             .sche .sche2-wrapper .sche2-container .last-section-right img {
-              margin: -10px 0 0 10px;
+              margin: -13px 0 0 10px;
               max-width: 95%; } }
         .sche .sche2-wrapper .sche2-container .last-section-right .icon-sche-bottom-bubble {
           position: absolute;
@@ -1237,6 +1258,9 @@ header {
         padding: 0 20px 0; } }
     .section-yume .section-yume-container .section-yume-wrap {
       padding: 62px 0 0; }
+      @media (max-width: 767px) {
+        .section-yume .section-yume-container .section-yume-wrap {
+          padding: 30px 0 0; } }
     .section-yume .section-yume-container .yume-main-image {
       margin: 41px auto 0;
       display: block; }
@@ -1253,7 +1277,7 @@ header {
       font-size: 16px; }
       @media (max-width: 767px) {
         .section-yume .section-yume-container .yume-description {
-          margin: 20px auto 45px;
+          margin: 20px auto 10px;
           top: 0; } }
     .section-yume .section-yume-container .yume-contact {
       border-top: 1px solid #a8a4a6;
@@ -1293,6 +1317,10 @@ header {
             float: none; } }
         .section-yume .section-yume-container .yume-contact .last-section .button {
           margin: 6px; }
+        @media (max-width: 767px) {
+          .section-yume .section-yume-container .yume-contact .last-section img {
+            display: block;
+            margin: 0 auto 20px; } }
     .section-yume .section-yume-container .yume-attraction1 .left-side {
       width: 49%;
       float: left;
@@ -1322,7 +1350,8 @@ header {
           width: 100%;
           float: none;
           padding: 0;
-          margin-top: -25px; } }
+          margin-top: -27%;
+          margin-bottom: 15%; } }
     .section-yume .section-yume-container .yume-attraction1 h4 {
       position: relative;
       display: inline-block;
@@ -1387,7 +1416,8 @@ header {
         .section-yume .section-yume-container .yume-attraction2 .right-side {
           width: 100%;
           float: none;
-          margin-top: 0; } }
+          margin-top: 0;
+          padding-left: 0; } }
       @media (max-width: 767px) {
         .section-yume .section-yume-container .yume-attraction2 .right-side img {
           display: block;
@@ -1438,7 +1468,8 @@ header {
         @media (max-width: 767px) {
           .section-yume .section-yume-container .yume-attraction3 .right-side {
             width: 100%;
-            float: none; } }
+            float: none;
+            margin: -30px 0 0; } }
         .section-yume .section-yume-container .yume-attraction3 .right-side .attraction3-description {
           float: left;
           font-size: 14px; }
@@ -1456,7 +1487,8 @@ header {
               display: block;
               max-width: 100%;
               margin: 0 auto;
-              clear: both; } }
+              clear: both;
+              position: relative; } }
       .section-yume .section-yume-container .yume-attraction3 h4 {
         position: relative;
         display: inline-block; }
@@ -1551,6 +1583,10 @@ header {
             float: none; } }
         .section-yume .section-museum-container .museum-contact .last-section .button {
           margin: 10px; }
+        @media (max-width: 767px) {
+          .section-yume .section-museum-container .museum-contact .last-section img {
+            display: block;
+            margin: 0 auto; } }
     .section-yume .section-museum-container .museum-attraction1 .left-side {
       width: 49%;
       float: left;
@@ -1562,7 +1598,8 @@ header {
       @media (max-width: 767px) {
         .section-yume .section-museum-container .museum-attraction1 .left-side {
           width: 100%;
-          float: none; } }
+          float: none;
+          padding-right: 0; } }
       @media (max-width: 767px) {
         .section-yume .section-museum-container .museum-attraction1 .left-side img {
           width: 100%;
@@ -1613,7 +1650,8 @@ header {
       @media (max-width: 767px) {
         .section-yume .section-museum-container .museum-attraction2 .right-side {
           width: 100%;
-          float: none; } }
+          float: none;
+          padding: 0; } }
       .section-yume .section-museum-container .museum-attraction2 .right-side img {
         margin-top: -112px; }
         @media (max-width: 767px) {
@@ -1669,8 +1707,7 @@ header {
             margin-left: -87px; }
             @media (max-width: 767px) {
               .section-yume .section-museum-container .museum-attraction3 .left-side img:first-child {
-                margin-top: 0;
-                width: 100%; } }
+                display: none; } }
       .section-yume .section-museum-container .museum-attraction3 .right-side {
         width: 51%;
         float: left;
@@ -1693,7 +1730,8 @@ header {
               margin-top: 0;
               display: block;
               max-width: 100%;
-              clear: both; } }
+              clear: both;
+              margin-left: 0; } }
       .section-yume .section-museum-container .museum-attraction3 h4 {
         position: relative;
         display: inline-block; }
@@ -1789,7 +1827,9 @@ header {
         top: 0; } }
     @media (max-width: 767px) {
       .about .bubble-text img {
-        max-width: 100%; } }
+        max-width: 100%;
+        margin-bottom: -55px;
+        margin-left: 100px; } }
     .about .bubble-text span {
       color: #ff4178;
       font-size: 17px;
@@ -1807,8 +1847,9 @@ header {
           left: 0; } }
       @media (max-width: 767px) {
         .about .bubble-text span {
-          top: 58px;
-          left: 2%; } }
+          top: 99px;
+          right: -47%;
+          left: auto; } }
   .about .about-info {
     text-align: center;
     font-family: shingopro;
@@ -1825,6 +1866,9 @@ header {
       letter-spacing: 1px;
       background: #ffff96;
       display: inline-block; }
+      @media (max-width: 767px) {
+        .about .about-info .first-line {
+          font-size: 14px; } }
     .about .about-info .second-line {
       font-size: 18px;
       font-weight: bold;
@@ -1919,7 +1963,8 @@ header {
           width: 100%;
           float: none;
           margin-top: 0;
-          margin-left: 0; } }
+          margin-left: 0;
+          padding-right: 0; } }
       @media (max-width: 980px) {
         .about .second-amenity .left-side img {
           width: 100%; } }
@@ -2335,7 +2380,8 @@ header {
           width: 52%; } }
       @media (max-width: 767px) {
         .camp .camp-title .camp-title-info p:last-child {
-          width: 100%; } }
+          width: 100%;
+          font-size: 16px; } }
       .camp .camp-title .camp-title-info p:last-child span {
         font-size: 44px;
         font-weight: 700;

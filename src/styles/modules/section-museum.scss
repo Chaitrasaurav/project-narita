@@ -17,6 +17,9 @@
 		}
 		.section-yume-wrap{
 			padding: 62px 0 0;
+			@media (max-width: 767px) {
+				padding: 30px 0 0;
+			}
 		}
 		.yume-main-image {
 			margin: 41px auto 0;
@@ -34,7 +37,7 @@
 			text-align: center;
 			font-size: 16px;
 			@media (max-width: 767px) {
-				margin: 20px auto 45px;
+				margin: 20px auto 10px;
 				top: 0;
 			}
 		}
@@ -85,6 +88,12 @@
 				.button {
 					margin: 6px;
 				}
+				img{
+					@media (max-width: 767px) {
+						display: block;
+    					margin: 0 auto 20px;
+					}
+				}
 			}
 		}
 
@@ -121,7 +130,8 @@
 					width: 100%;
 					float: none;
 					padding: 0;
-					margin-top: -25px;
+				    margin-top: -27%;
+				    margin-bottom: 15%;
 				}
 			}
 			h4 {
@@ -198,6 +208,7 @@
 					width: 100%;
 					float: none;
 					margin-top: 0;
+					padding-left:0;
 				}
 
 				img {
@@ -261,6 +272,7 @@
 				@media (max-width: 767px) {
 					width: 100%;
 					float: none;
+					margin: -30px 0 0;
 				}
 				.attraction3-description {
 					float: left;
@@ -281,6 +293,7 @@
 						max-width: 100%;
 						margin: 0 auto;
 						clear: both;
+						position:relative;
 					}
 				}
 			}
@@ -397,6 +410,12 @@
 				.button {
 					margin: 10px;
 				}
+				img{
+					@media (max-width: 767px) {
+						display: block;
+						margin: 0 auto;
+					}
+				}
 			}
 		}
 
@@ -412,6 +431,7 @@
 				@media (max-width: 767px) {
 					width: 100%;
 					float: none;
+					padding-right: 0;
 				}
 				img {
 					@media (max-width: 767px) {						
@@ -475,6 +495,7 @@
 				@media (max-width: 767px) {
 					width: 100%;
 					float: none;
+					padding: 0;
 				}
 				img {
 					margin-top: -112px;
@@ -539,8 +560,7 @@
 						margin-top: -103px;
 						margin-left: -87px;
 						@media (max-width: 767px) {
-							margin-top: 0;
-							width: 100%;
+							display: none;
 						}
 					}
 				}
@@ -568,6 +588,7 @@
 						display: block;
 						max-width: 100%;
 						clear: both;
+						margin-left: 0;
 					}
 				}
 			}

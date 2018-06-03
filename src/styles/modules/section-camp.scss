@@ -364,6 +364,7 @@
 					}
 					@media (max-width: 767px) {
 						width: 100%;
+						font-size: 16px;
 					}
 					span {
 						font-size: 44px;
@@ -372,6 +373,9 @@
 						letter-spacing: 3.1px;
 						position: relative;
 						display: inline-block;
+						@media (max-width: 767px) {
+							font-size: 38px;
+						}
 
 						&:after {
 							content: '';

@@ -16,7 +16,7 @@
 
 		.shell{
 			@media (max-width: 767px) {
-				max-width: 330px;
+				max-width: 318px;
 			}
 		}
 	}
@@ -376,6 +376,9 @@
 			border: 1px solid #575453;
 			margin: 5px;
 			padding: 0 0 22px;
+			@media (max-width: 767px) {
+				padding: 0 0 40px;
+			}
 
 			> span {
 				font-size: 13px;
@@ -554,6 +557,10 @@
 				text-transform: uppercase;
 				position: relative;
 				top: 20px;
+				@media (max-width: 767px) {
+					margin-top: -89px;
+					line-height: 2;
+				}
 
 				> span {
 					display: block;
@@ -562,12 +569,22 @@
 					margin-bottom: 10px;
 					font-size:17px;
 					font-weight:bold;
+					@media (max-width: 767px) {
+						padding-left: 40px;
+						text-align: left;
+    					padding-right: 0;
+    					font-size:15px;
+					}
 
 					span {
 						font-size: 13px;
 						line-height: 2.67;
 						letter-spacing: 0.7px;
 						color: #007bff;
+						@media (max-width: 767px) {
+							float: left;
+							padding-right: 10px;
+						}
 					}
 				}
 
@@ -581,6 +598,10 @@
 					top: 37px;
 					@media (max-width: 850px) {
 						left: -80px;
+					}
+					@media (max-width: 767px) {
+						left: auto;
+    					right: -115px;
 					}
 				}
 			}
@@ -699,7 +720,7 @@
 						z-index: 1;
 					}
 					@media (max-width: 767px) {
-						margin: -10px 0 0 10px;
+						margin: -13px 0 0 10px;
 						max-width: 95%;
 					}
 				}

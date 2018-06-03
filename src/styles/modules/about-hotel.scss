@@ -27,6 +27,8 @@
 		img{
 			@media (max-width: 767px) {
 				max-width: 100%;
+				margin-bottom: -55px;
+    			margin-left: 100px;
 			}
 		}
 		span {
@@ -45,8 +47,9 @@
 				left:0;
 			}
 			@media (max-width: 767px) {
-				top: 58px;
-				left: 2%;
+				top: 99px;
+    			right: -47%;
+    			left:auto;
 			}
 		}
 	}
@@ -67,6 +70,9 @@
 			letter-spacing: 1px;
 			background: #ffff96;
 			display: inline-block;
+			@media (max-width: 767px) {
+				font-size: 14px;
+			}
 		}
 
 		.second-line {
@@ -186,6 +192,7 @@
 				float: none;
 				margin-top: 0;
 				margin-left: 0;
+				padding-right: 0;
 			}
 
 			img{
