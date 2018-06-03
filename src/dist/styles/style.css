@@ -626,7 +626,11 @@ header {
       .sche .sche-container {
         padding: 40px 20px 80px; } }
     .sche .sche-container .activity-wrapper {
-      font-family: orator; }
+      font-family: orator;
+      position: relative; }
+    @media (max-width: 767px) {
+      .sche .sche-container .shell {
+        max-width: 330px; } }
   .sche .sche1-wrapper {
     max-width: 800px;
     margin: 0 auto;
@@ -665,6 +669,9 @@ header {
         top: -53px;
         position: absolute;
         left: 42%; }
+        @media (max-width: 767px) {
+          .sche .sche1-wrapper .sche1-container .icon-sche1 {
+            left: 33%; } }
         .sche .sche1-wrapper .sche1-container .icon-sche1:after {
           content: '';
           position: absolute;
@@ -685,8 +692,8 @@ header {
           .sche .sche1-wrapper .sche1-container .day1 {
             display: table;
             margin: 0 auto;
-            left: 0;
-            top: 0; } }
+            top: 0;
+            left: -10px; } }
         .sche .sche1-wrapper .sche1-container .day1 span {
           position: absolute;
           left: 9%;
@@ -704,7 +711,7 @@ header {
         @media (max-width: 767px) {
           .sche .sche1-wrapper .sche1-container .day2 {
             display: table;
-            margin: 0 auto;
+            margin: 30px auto 25px;
             left: 0;
             top: 0; } }
         .sche .sche1-wrapper .sche1-container .day2 span {
@@ -727,56 +734,163 @@ header {
           .sche .sche1-wrapper .sche1-container .left-side {
             width: 100%;
             float: none; } }
-        .sche .sche1-wrapper .sche1-container .left-side .first-section {
+      .sche .sche1-wrapper .sche1-container .first-section-left {
+        font-size: 17px;
+        color: #000000;
+        line-height: 1.74;
+        text-transform: uppercase;
+        position: relative;
+        top: -13px; }
+        @media (max-width: 767px) {
+          .sche .sche1-wrapper .sche1-container .first-section-left {
+            top: 0; } }
+        .sche .sche1-wrapper .sche1-container .first-section-left > span {
+          display: block;
+          text-align: right;
+          padding-right: 59px;
+          margin-bottom: 10px;
           font-size: 17px;
-          color: #000000;
-          line-height: 1.74;
-          text-transform: uppercase;
-          position: relative;
-          top: -13px; }
-          .sche .sche1-wrapper .sche1-container .left-side .first-section > span {
-            display: block;
-            text-align: right;
-            padding-right: 59px;
-            margin-bottom: 10px;
-            font-size: 17px;
-            font-weight: bold; }
-            .sche .sche1-wrapper .sche1-container .left-side .first-section > span span {
-              font-size: 13px;
-              line-height: 2.67;
-              letter-spacing: 0.7px;
-              color: #ff4178; }
-          .sche .sche1-wrapper .sche1-container .left-side .first-section img {
-            margin: 0 0 0 26px; }
-        .sche .sche1-wrapper .sche1-container .left-side .last-section {
-          font-size: 15px;
-          color: #000000;
-          line-height: 1.74;
-          text-transform: uppercase;
-          position: relative;
-          top: 28px; }
-          .sche .sche1-wrapper .sche1-container .left-side .last-section > span {
-            display: block;
-            text-align: right;
-            padding-right: 59px;
-            margin-bottom: 10px;
-            letter-spacing: 4px;
-            font-size: 17px;
-            font-weight: bold; }
-            .sche .sche1-wrapper .sche1-container .left-side .last-section > span span {
-              font-size: 13px;
-              line-height: 2.67;
-              letter-spacing: 0.7px;
-              color: #ff4178; }
-          .sche .sche1-wrapper .sche1-container .left-side .last-section img {
-            margin: -17px 0 0 26px; }
-          .sche .sche1-wrapper .sche1-container .left-side .last-section .icon-sche-lines {
-            position: absolute;
-            right: -124px;
-            top: 38px; }
+          font-weight: bold; }
+          @media (max-width: 767px) {
+            .sche .sche1-wrapper .sche1-container .first-section-left > span {
+              padding-left: 40px;
+              text-align: left;
+              padding-right: 0;
+              font-size: 15px;
+              line-height: 2; } }
+          .sche .sche1-wrapper .sche1-container .first-section-left > span span {
+            font-size: 13px;
+            line-height: 2.67;
+            letter-spacing: 0.7px;
+            color: #ff4178; }
             @media (max-width: 767px) {
-              .sche .sche1-wrapper .sche1-container .left-side .last-section .icon-sche-lines {
-                right: 0; } }
+              .sche .sche1-wrapper .sche1-container .first-section-left > span span {
+                float: left;
+                padding-right: 10px; } }
+        .sche .sche1-wrapper .sche1-container .first-section-left img {
+          margin: 0 0 0 26px; }
+          @media (max-width: 767px) {
+            .sche .sche1-wrapper .sche1-container .first-section-left img {
+              max-width: 90%;
+              margin: -6px 0 8px 0; } }
+      .sche .sche1-wrapper .sche1-container .last-section-left {
+        font-size: 15px;
+        color: #000000;
+        line-height: 1.74;
+        text-transform: uppercase;
+        position: relative;
+        top: 28px; }
+        .sche .sche1-wrapper .sche1-container .last-section-left > span {
+          display: block;
+          text-align: right;
+          padding-right: 59px;
+          margin-bottom: 10px;
+          letter-spacing: 4px;
+          font-size: 17px;
+          font-weight: bold; }
+          @media (max-width: 767px) {
+            .sche .sche1-wrapper .sche1-container .last-section-left > span {
+              padding-left: 40px;
+              margin-top: -43px;
+              text-align: left;
+              padding-right: 0;
+              font-size: 15px;
+              line-height: 2; } }
+          .sche .sche1-wrapper .sche1-container .last-section-left > span span {
+            font-size: 13px;
+            line-height: 2.67;
+            letter-spacing: 0.7px;
+            color: #ff4178; }
+            @media (max-width: 767px) {
+              .sche .sche1-wrapper .sche1-container .last-section-left > span span {
+                float: left;
+                padding-right: 10px; } }
+        .sche .sche1-wrapper .sche1-container .last-section-left img {
+          margin: -17px 0 0 26px; }
+          @media (max-width: 767px) {
+            .sche .sche1-wrapper .sche1-container .last-section-left img {
+              margin: -10px 0 0 35px; } }
+        .sche .sche1-wrapper .sche1-container .last-section-left .icon-sche-lines {
+          position: absolute;
+          right: -124px;
+          top: 38px; }
+          @media (max-width: 767px) {
+            .sche .sche1-wrapper .sche1-container .last-section-left .icon-sche-lines {
+              display: none; } }
+      .sche .sche1-wrapper .sche1-container .first-section-right {
+        font-size: 15px;
+        color: #000000;
+        line-height: 1.74;
+        text-transform: uppercase;
+        position: relative;
+        top: 25px; }
+        @media (max-width: 767px) {
+          .sche .sche1-wrapper .sche1-container .first-section-right {
+            top: 0; } }
+        .sche .sche1-wrapper .sche1-container .first-section-right > span {
+          display: block;
+          text-align: left;
+          padding-left: 50px;
+          letter-spacing: 4px;
+          font-size: 17px;
+          font-weight: bold; }
+          @media (max-width: 850px) {
+            .sche .sche1-wrapper .sche1-container .first-section-right > span {
+              padding-left: 65px; } }
+          @media (max-width: 767px) {
+            .sche .sche1-wrapper .sche1-container .first-section-right > span {
+              padding-left: 40px;
+              font-size: 15px; } }
+          .sche .sche1-wrapper .sche1-container .first-section-right > span span {
+            font-size: 13px;
+            line-height: 2.67;
+            letter-spacing: 0.7px;
+            color: #ff4178; }
+        .sche .sche1-wrapper .sche1-container .first-section-right img {
+          margin-top: -69px; }
+          @media (max-width: 850px) {
+            .sche .sche1-wrapper .sche1-container .first-section-right img {
+              margin-left: 56px; } }
+          @media (max-width: 767px) {
+            .sche .sche1-wrapper .sche1-container .first-section-right img {
+              margin: -63px 0 0 20px; } }
+      .sche .sche1-wrapper .sche1-container .last-section-right {
+        font-size: 15px;
+        color: #000000;
+        line-height: 1.74;
+        text-transform: uppercase;
+        position: relative;
+        top: 62px; }
+        @media (max-width: 767px) {
+          .sche .sche1-wrapper .sche1-container .last-section-right {
+            top: 0; } }
+        .sche .sche1-wrapper .sche1-container .last-section-right > span {
+          display: block;
+          text-align: left;
+          padding-left: 50px;
+          letter-spacing: 4px;
+          position: relative;
+          top: 68px;
+          font-size: 17px;
+          font-weight: bold; }
+          @media (max-width: 850px) {
+            .sche .sche1-wrapper .sche1-container .last-section-right > span {
+              padding-left: 65px; } }
+          @media (max-width: 767px) {
+            .sche .sche1-wrapper .sche1-container .last-section-right > span {
+              padding-left: 40px;
+              top: -24px;
+              font-size: 15px; } }
+          .sche .sche1-wrapper .sche1-container .last-section-right > span span {
+            font-size: 13px;
+            line-height: 2.67;
+            letter-spacing: 0.7px;
+            color: #ff4178; }
+        .sche .sche1-wrapper .sche1-container .last-section-right img {
+          margin: 0 0 0 10px; }
+          @media (max-width: 767px) {
+            .sche .sche1-wrapper .sche1-container .last-section-right img {
+              margin: -40px 0 0 -10px; } }
       .sche .sche1-wrapper .sche1-container .right-side {
         width: 50%;
         float: left; }
@@ -784,59 +898,6 @@ header {
           .sche .sche1-wrapper .sche1-container .right-side {
             width: 100%;
             float: none; } }
-        .sche .sche1-wrapper .sche1-container .right-side .first-section {
-          font-size: 15px;
-          color: #000000;
-          line-height: 1.74;
-          text-transform: uppercase;
-          position: relative;
-          top: 25px; }
-          .sche .sche1-wrapper .sche1-container .right-side .first-section > span {
-            display: block;
-            text-align: left;
-            padding-left: 50px;
-            letter-spacing: 4px;
-            font-size: 17px;
-            font-weight: bold; }
-            @media (max-width: 850px) {
-              .sche .sche1-wrapper .sche1-container .right-side .first-section > span {
-                padding-left: 65px; } }
-            .sche .sche1-wrapper .sche1-container .right-side .first-section > span span {
-              font-size: 13px;
-              line-height: 2.67;
-              letter-spacing: 0.7px;
-              color: #ff4178; }
-          .sche .sche1-wrapper .sche1-container .right-side .first-section img {
-            margin-top: -69px; }
-            @media (max-width: 850px) {
-              .sche .sche1-wrapper .sche1-container .right-side .first-section img {
-                margin-left: 56px; } }
-        .sche .sche1-wrapper .sche1-container .right-side .last-section {
-          font-size: 15px;
-          color: #000000;
-          line-height: 1.74;
-          text-transform: uppercase;
-          position: relative;
-          top: 62px; }
-          .sche .sche1-wrapper .sche1-container .right-side .last-section > span {
-            display: block;
-            text-align: left;
-            padding-left: 50px;
-            letter-spacing: 4px;
-            position: relative;
-            top: 68px;
-            font-size: 17px;
-            font-weight: bold; }
-            @media (max-width: 850px) {
-              .sche .sche1-wrapper .sche1-container .right-side .last-section > span {
-                padding-left: 65px; } }
-            .sche .sche1-wrapper .sche1-container .right-side .last-section > span span {
-              font-size: 13px;
-              line-height: 2.67;
-              letter-spacing: 0.7px;
-              color: #ff4178; }
-          .sche .sche1-wrapper .sche1-container .right-side .last-section img {
-            margin: 0 0 0 10px; }
     .sche .sche1-wrapper .icon-sche-bottom-bubble {
       position: absolute;
       bottom: -58px;
@@ -844,9 +905,15 @@ header {
       @media (max-width: 900px) {
         .sche .sche1-wrapper .icon-sche-bottom-bubble {
           right: 0; } }
+      @media (max-width: 767px) {
+        .sche .sche1-wrapper .icon-sche-bottom-bubble {
+          right: auto;
+          left: -25px;
+          bottom: 30px; } }
     .sche .sche1-wrapper .icon-timeline-mobile {
       position: absolute;
-      left: 20px; }
+      left: 20px;
+      top: 100px; }
   .sche .sche2-wrapper {
     max-width: 812px;
     margin: 112px auto 0;
@@ -857,6 +924,9 @@ header {
     .sche .sche2-wrapper .icon-timeline-blue-mobile {
       position: absolute;
       left: 20px; }
+      @media (max-width: 767px) {
+        .sche .sche2-wrapper .icon-timeline-blue-mobile {
+          top: 100px; } }
     .sche .sche2-wrapper .sche2-container {
       border: 1px solid #575453;
       margin: 5px;
@@ -888,6 +958,9 @@ header {
         top: -53px;
         position: absolute;
         left: 42%; }
+        @media (max-width: 767px) {
+          .sche .sche2-wrapper .sche2-container .icon-sche2 {
+            left: 33%; } }
         .sche .sche2-wrapper .sche2-container .icon-sche2:after {
           content: '';
           position: absolute;
@@ -925,7 +998,7 @@ header {
           bottom: -139px; }
           @media (max-width: 767px) {
             .sche .sche2-wrapper .sche2-container .day1 .icon-sche-bottom-bubble {
-              left: 0; } }
+              display: none; } }
       .sche .sche2-wrapper .sche2-container .day2 {
         position: relative;
         margin-top: 154px;
@@ -950,6 +1023,9 @@ header {
         display: block;
         position: absolute;
         left: 28%; }
+      @media (max-width: 767px) {
+        .sche .sche2-wrapper .sche2-container .con-timeline-blue-mobile {
+          position: absolute; } }
       .sche .sche2-wrapper .sche2-container .left-side {
         width: 50%;
         float: left; }
@@ -957,56 +1033,186 @@ header {
           .sche .sche2-wrapper .sche2-container .left-side {
             width: 100%;
             float: none; } }
-        .sche .sche2-wrapper .sche2-container .left-side .first-section {
-          font-size: 15px;
-          color: #000000;
-          line-height: 1.74;
-          text-transform: uppercase;
-          position: relative;
-          top: 2px;
-          letter-spacing: 4px; }
-          .sche .sche2-wrapper .sche2-container .left-side .first-section > span {
-            display: block;
-            text-align: right;
-            padding-right: 59px;
-            margin-bottom: 10px;
-            font-size: 17px;
-            font-weight: bold; }
-            .sche .sche2-wrapper .sche2-container .left-side .first-section > span span {
-              font-size: 13px;
-              line-height: 2.67;
-              letter-spacing: 0.7px;
-              color: #007bff; }
-          .sche .sche2-wrapper .sche2-container .left-side .first-section img {
-            margin: -2px 0 0 0; }
-        .sche .sche2-wrapper .sche2-container .left-side .last-section {
+      .sche .sche2-wrapper .sche2-container .first-section-left {
+        font-size: 15px;
+        color: #000000;
+        line-height: 1.74;
+        text-transform: uppercase;
+        position: relative;
+        top: 2px;
+        letter-spacing: 4px; }
+        @media (max-width: 767px) {
+          .sche .sche2-wrapper .sche2-container .first-section-left {
+            top: 0px; } }
+        .sche .sche2-wrapper .sche2-container .first-section-left > span {
+          display: block;
+          text-align: right;
+          padding-right: 59px;
+          margin-bottom: 10px;
           font-size: 17px;
-          color: #000000;
-          line-height: 1.74;
-          text-transform: uppercase;
+          font-weight: bold; }
+          @media (max-width: 767px) {
+            .sche .sche2-wrapper .sche2-container .first-section-left > span {
+              font-size: 15px;
+              text-align: left;
+              padding-right: 0;
+              padding-left: 40px; } }
+          .sche .sche2-wrapper .sche2-container .first-section-left > span span {
+            font-size: 13px;
+            line-height: 2.67;
+            letter-spacing: 0.7px;
+            color: #007bff; }
+            @media (max-width: 767px) {
+              .sche .sche2-wrapper .sche2-container .first-section-left > span span {
+                float: left;
+                padding-right: 10px;
+                line-height: 2; } }
+        .sche .sche2-wrapper .sche2-container .first-section-left img {
+          margin: -2px 0 0 0; }
+          @media (max-width: 767px) {
+            .sche .sche2-wrapper .sche2-container .first-section-left img {
+              margin: -2px 0 0 5px; } }
+      .sche .sche2-wrapper .sche2-container .last-section-left {
+        font-size: 17px;
+        color: #000000;
+        line-height: 1.74;
+        text-transform: uppercase;
+        position: relative;
+        top: 20px; }
+        .sche .sche2-wrapper .sche2-container .last-section-left > span {
+          display: block;
+          text-align: right;
+          padding-right: 59px;
+          margin-bottom: 10px;
+          font-size: 17px;
+          font-weight: bold; }
+          .sche .sche2-wrapper .sche2-container .last-section-left > span span {
+            font-size: 13px;
+            line-height: 2.67;
+            letter-spacing: 0.7px;
+            color: #007bff; }
+        .sche .sche2-wrapper .sche2-container .last-section-left img {
+          margin: 0 0 0 26px; }
+        .sche .sche2-wrapper .sche2-container .last-section-left .icon-sche-aeroplane {
           position: relative;
-          top: 20px; }
-          .sche .sche2-wrapper .sche2-container .left-side .last-section > span {
-            display: block;
-            text-align: right;
-            padding-right: 59px;
-            margin-bottom: 10px;
-            font-size: 17px;
-            font-weight: bold; }
-            .sche .sche2-wrapper .sche2-container .left-side .last-section > span span {
-              font-size: 13px;
-              line-height: 2.67;
-              letter-spacing: 0.7px;
-              color: #007bff; }
-          .sche .sche2-wrapper .sche2-container .left-side .last-section img {
-            margin: 0 0 0 26px; }
-          .sche .sche2-wrapper .sche2-container .left-side .last-section .icon-sche-aeroplane {
-            position: relative;
-            left: -61px;
-            top: 37px; }
-            @media (max-width: 850px) {
-              .sche .sche2-wrapper .sche2-container .left-side .last-section .icon-sche-aeroplane {
-                left: -80px; } }
+          left: -61px;
+          top: 37px; }
+          @media (max-width: 850px) {
+            .sche .sche2-wrapper .sche2-container .last-section-left .icon-sche-aeroplane {
+              left: -80px; } }
+      .sche .sche2-wrapper .sche2-container .first-section-right {
+        font-size: 15px;
+        color: #000000;
+        line-height: 1.74;
+        text-transform: uppercase;
+        position: relative;
+        margin-top: 24px;
+        letter-spacing: 4px; }
+        @media (max-width: 767px) {
+          .sche .sche2-wrapper .sche2-container .first-section-right {
+            margin-top: -2px; } }
+        .sche .sche2-wrapper .sche2-container .first-section-right > span {
+          display: block;
+          text-align: left;
+          padding-left: 50px;
+          margin-bottom: 10px;
+          font-size: 17px;
+          font-weight: bold; }
+          @media (max-width: 850px) {
+            .sche .sche2-wrapper .sche2-container .first-section-right > span {
+              padding-left: 65px; } }
+          @media (max-width: 767px) {
+            .sche .sche2-wrapper .sche2-container .first-section-right > span {
+              padding-left: 40px;
+              font-size: 15px; } }
+          .sche .sche2-wrapper .sche2-container .first-section-right > span span {
+            font-size: 13px;
+            line-height: 2.67;
+            letter-spacing: 0.7px;
+            color: #007bff; }
+        .sche .sche2-wrapper .sche2-container .first-section-right img {
+          margin: -29px 0 0 -212px; }
+          @media (max-width: 767px) {
+            .sche .sche2-wrapper .sche2-container .first-section-right img {
+              margin: -35px 0 0 5px; } }
+      .sche .sche2-wrapper .sche2-container .second-section {
+        font-size: 15px;
+        color: #000000;
+        line-height: 1.74;
+        text-transform: uppercase;
+        position: relative;
+        margin-top: 94px;
+        letter-spacing: 4px; }
+        @media (max-width: 767px) {
+          .sche .sche2-wrapper .sche2-container .second-section {
+            margin-top: -5px; } }
+        .sche .sche2-wrapper .sche2-container .second-section > span {
+          display: block;
+          text-align: left;
+          padding-left: 50px;
+          margin-bottom: 10px;
+          font-size: 17px;
+          font-weight: bold; }
+          @media (max-width: 850px) {
+            .sche .sche2-wrapper .sche2-container .second-section > span {
+              padding-left: 65px;
+              position: relative;
+              z-index: 2; } }
+          @media (max-width: 767px) {
+            .sche .sche2-wrapper .sche2-container .second-section > span {
+              padding-left: 40px;
+              font-size: 15px; } }
+          .sche .sche2-wrapper .sche2-container .second-section > span span {
+            font-size: 13px;
+            line-height: 2.67;
+            letter-spacing: 0.7px;
+            color: #007bff; }
+      .sche .sche2-wrapper .sche2-container .last-section-right {
+        font-size: 17px;
+        color: #000000;
+        line-height: 1.74;
+        text-transform: uppercase;
+        position: relative;
+        top: -11px; }
+        .sche .sche2-wrapper .sche2-container .last-section-right > span {
+          display: block;
+          text-align: left;
+          padding-left: 50px;
+          margin-bottom: 10px;
+          font-size: 17px;
+          font-weight: bold; }
+          @media (max-width: 850px) {
+            .sche .sche2-wrapper .sche2-container .last-section-right > span {
+              padding-left: 65px;
+              position: relative; } }
+          @media (max-width: 767px) {
+            .sche .sche2-wrapper .sche2-container .last-section-right > span {
+              padding-left: 40px; } }
+          .sche .sche2-wrapper .sche2-container .last-section-right > span span {
+            font-size: 13px;
+            line-height: 2.67;
+            letter-spacing: 0.7px;
+            color: #007bff; }
+        .sche .sche2-wrapper .sche2-container .last-section-right img {
+          margin: -95px 0 0 22px; }
+          @media (max-width: 850px) {
+            .sche .sche2-wrapper .sche2-container .last-section-right img {
+              margin: -95px 0 0 25px;
+              z-index: 1; } }
+          @media (max-width: 767px) {
+            .sche .sche2-wrapper .sche2-container .last-section-right img {
+              margin: -10px 0 0 10px;
+              max-width: 95%; } }
+        .sche .sche2-wrapper .sche2-container .last-section-right .icon-sche-bottom-bubble {
+          position: absolute;
+          bottom: -14px;
+          right: -42px; }
+          @media (max-width: 900px) {
+            .sche .sche2-wrapper .sche2-container .last-section-right .icon-sche-bottom-bubble {
+              right: 0; } }
+          @media (max-width: 767px) {
+            .sche .sche2-wrapper .sche2-container .last-section-right .icon-sche-bottom-bubble {
+              display: none; } }
       .sche .sche2-wrapper .sche2-container .right-side {
         width: 50%;
         float: left; }
@@ -1014,92 +1220,6 @@ header {
           .sche .sche2-wrapper .sche2-container .right-side {
             width: 100%;
             float: none; } }
-        .sche .sche2-wrapper .sche2-container .right-side .first-section {
-          font-size: 15px;
-          color: #000000;
-          line-height: 1.74;
-          text-transform: uppercase;
-          position: relative;
-          margin-top: 24px;
-          letter-spacing: 4px; }
-          .sche .sche2-wrapper .sche2-container .right-side .first-section > span {
-            display: block;
-            text-align: left;
-            padding-left: 50px;
-            margin-bottom: 10px;
-            font-size: 17px;
-            font-weight: bold; }
-            @media (max-width: 850px) {
-              .sche .sche2-wrapper .sche2-container .right-side .first-section > span {
-                padding-left: 65px; } }
-            .sche .sche2-wrapper .sche2-container .right-side .first-section > span span {
-              font-size: 13px;
-              line-height: 2.67;
-              letter-spacing: 0.7px;
-              color: #007bff; }
-          .sche .sche2-wrapper .sche2-container .right-side .first-section img {
-            margin: -29px 0 0 -212px; }
-        .sche .sche2-wrapper .sche2-container .right-side .second-section {
-          font-size: 15px;
-          color: #000000;
-          line-height: 1.74;
-          text-transform: uppercase;
-          position: relative;
-          margin-top: 94px;
-          letter-spacing: 4px; }
-          .sche .sche2-wrapper .sche2-container .right-side .second-section > span {
-            display: block;
-            text-align: left;
-            padding-left: 50px;
-            margin-bottom: 10px;
-            font-size: 17px;
-            font-weight: bold; }
-            @media (max-width: 850px) {
-              .sche .sche2-wrapper .sche2-container .right-side .second-section > span {
-                padding-left: 65px;
-                position: relative;
-                z-index: 2; } }
-            .sche .sche2-wrapper .sche2-container .right-side .second-section > span span {
-              font-size: 13px;
-              line-height: 2.67;
-              letter-spacing: 0.7px;
-              color: #007bff; }
-        .sche .sche2-wrapper .sche2-container .right-side .last-section {
-          font-size: 17px;
-          color: #000000;
-          line-height: 1.74;
-          text-transform: uppercase;
-          position: relative;
-          top: -11px; }
-          .sche .sche2-wrapper .sche2-container .right-side .last-section > span {
-            display: block;
-            text-align: left;
-            padding-left: 50px;
-            margin-bottom: 10px;
-            font-size: 17px;
-            font-weight: bold; }
-            @media (max-width: 850px) {
-              .sche .sche2-wrapper .sche2-container .right-side .last-section > span {
-                padding-left: 65px;
-                position: relative; } }
-            .sche .sche2-wrapper .sche2-container .right-side .last-section > span span {
-              font-size: 13px;
-              line-height: 2.67;
-              letter-spacing: 0.7px;
-              color: #007bff; }
-          .sche .sche2-wrapper .sche2-container .right-side .last-section img {
-            margin: -95px 0 0 22px; }
-            @media (max-width: 850px) {
-              .sche .sche2-wrapper .sche2-container .right-side .last-section img {
-                margin: -95px 0 0 25px;
-                z-index: 1; } }
-          .sche .sche2-wrapper .sche2-container .right-side .last-section .icon-sche-bottom-bubble {
-            position: absolute;
-            bottom: -14px;
-            right: -42px; }
-            @media (max-width: 900px) {
-              .sche .sche2-wrapper .sche2-container .right-side .last-section .icon-sche-bottom-bubble {
-                right: 0; } }
 
 .section-yume {
   background: url(../images/section-yume-pattern.png) repeat-x;
