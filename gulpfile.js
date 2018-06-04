@@ -21,6 +21,18 @@ gulp.task('fileinclude', function() {
     .pipe(gulp.dest('src/dist/'));
 });
 
+gulp.task('fileinclude-thankyou', function() {
+  gulp
+    .src(['src/views/thank-you.html'])
+    .pipe(
+      fileinclude({
+        prefix: '@@',
+        basepath: '@file'
+      })
+    )
+    .pipe(gulp.dest('src/dist/'));
+});
+
 gulp.task('sprites', function() {
   var spriteData = gulp.src('src/images/sprite/*.*').pipe(
     spritesmith({

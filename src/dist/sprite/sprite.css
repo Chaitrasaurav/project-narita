@@ -25,8 +25,8 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 .icon-arrow-left-mobile {
   background-image: url(sprite.png);
   background-position: -748px -193px;
-  width: 8px;
-  height: 17px;
+  width: 14px;
+  height: 29px;
 }
 .icon-arrow-left {
   background-image: url(sprite.png);
@@ -36,9 +36,9 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-arrow-right-mobile {
   background-image: url(sprite.png);
-  background-position: -756px -193px;
-  width: 7px;
-  height: 17px;
+  background-position: -745px -237px;
+  width: 14px;
+  height: 29px;
 }
 .icon-arrow-right {
   background-image: url(sprite.png);
@@ -60,9 +60,15 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-camp-title-bubble {
   background-image: url(sprite.png);
-  background-position: -64px -925px;
+  background-position: -64px -1002px;
   width: 85px;
   height: 80px;
+}
+.icon-camp-title-lines-mobile {
+  background-image: url(sprite.png);
+  background-position: -64px -852px;
+  width: 79px;
+  height: 150px;
 }
 .icon-camp-title-lines {
   background-image: url(sprite.png);
@@ -112,6 +118,12 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 106px;
   height: 35px;
 }
+.icon-sche-bottom-bubble-mobile {
+  background-image: url(sprite.png);
+  background-position: -367px -852px;
+  width: 76px;
+  height: 63px;
+}
 .icon-sche-bottom-bubble {
   background-image: url(sprite.png);
   background-position: -617px -633px;
@@ -138,7 +150,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-sche1 {
   background-image: url(sprite.png);
-  background-position: -176px -852px;
+  background-position: -143px -852px;
   width: 112px;
   height: 73px;
 }
@@ -150,13 +162,13 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-sche2 {
   background-image: url(sprite.png);
-  background-position: -64px -852px;
+  background-position: -255px -852px;
   width: 112px;
   height: 73px;
 }
 .icon-small-hotel-image {
   background-image: url(sprite.png);
-  background-position: -288px -852px;
+  background-position: -443px -852px;
   width: 78px;
   height: 45px;
 }
