@@ -387,6 +387,53 @@ header {
     .stage .slick-dots li.slick-active {
       background: #1e489d; }
 
+.travel-offer {
+  font-family: shingopro;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  border-right: 0;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  max-width: 157px;
+  max-height: 116px;
+  background: #ff4178;
+  -webkit-box-shadow: 3px 4px 8px 0px rgba(0, 0, 0, 0.36);
+  box-shadow: 3px 4px 8px 0px rgba(0, 0, 0, 0.36);
+  overflow: hidden;
+  z-index: 2; }
+  @media (max-width: 767px) {
+    .travel-offer {
+      display: none; } }
+  .travel-offer strong {
+    color: #fff; }
+  .travel-offer span {
+    background: #ffff96;
+    display: block;
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    text-align: center;
+    color: #ff4178;
+    line-height: 1.19;
+    letter-spacing: 0.4px;
+    font-size: 10.5px;
+    font-weight: bold;
+    border: 1px solid #4f4f4f;
+    position: absolute;
+    right: 4px;
+    padding: 11px 0;
+    top: -5px; }
+  .travel-offer i {
+    float: right;
+    bottom: 19px;
+    position: relative; }
+  .travel-offer strong {
+    padding-left: 25px;
+    display: block;
+    padding-top: 24px;
+    max-width: 130px; }
+
 .sche {
   background: url(../images/sche-pattern.png) repeat-x;
   padding: 20px 0; }
