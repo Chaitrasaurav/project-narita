@@ -24,6 +24,9 @@
 			right: 0;
 			top: 0;
 		}
+		@media (max-width: 350px) {
+			right: 25px;
+		}
 		img {
 			@media (max-width: 767px) {
 				max-width: 100%;

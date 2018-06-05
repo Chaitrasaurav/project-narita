@@ -157,6 +157,14 @@
 						left: 16%;
 						font-size: 45px;
 					}
+					@media (max-width: 767px) {
+						top: 34%;
+						left: 40%;
+					}
+					@media (max-width: 540px) {
+						top: 19%;
+						left: 25%;
+					}
 				}
 
 				.info-wrapper {
@@ -209,9 +217,13 @@
 		> p {
 			padding-left: 80px;
 			margin-bottom: 8px;
-			text-align: right;
 			@media (max-width: 767px) {
 				padding-left: 0;
+				text-align: right;
+			}
+			@media (max-width: 540px) {
+				margin-bottom: 15px;
+				margin-top: 20px;
 			}
 		}
 		.camp-bottom-info {
@@ -287,6 +299,9 @@
 						display: table;
 						margin: 30px auto 0;
 					}
+					@media (max-width: 540px) {
+						right: 18px;
+					}
 				}
 			}
 		}
@@ -295,6 +310,10 @@
 	.camp-title {
 		font-family: $font-family-secondary;
 		position: relative;
+		@media (max-width: 767px) {
+			display: table;
+			margin: 0 auto 25px;
+		}
 		.bubble-text {
 			color: $text-color-primary;
 			font-size: 17px;
@@ -313,11 +332,17 @@
 			left: 105px;
 			top: 15px;
 			@media (max-width: 980px) {
-				left: -10px;
+				left: 5%;
+			}
+			@media (max-width: 800px) {
+				left: -2%;
 			}
 			@media (max-width: 767px) {
+				left: -90px;
+				top: 0px;
+			}
+			@media (max-width: 540px) {
 				left: 0;
-				top: -72px;
 			}
 		}
 		.icon-camp-title-bubble {
@@ -333,9 +358,17 @@
 					right: -19px;
 				}
 				@media (max-width: 767px) {
-					right: 0;
+					right: -35px;
 					bottom: -32px;
 					top: auto;
+				}
+				@media (max-width: 540px) {
+					right: 0;
+					bottom: -27px;
+				}
+				@media (max-width: 380px) {
+					right: -40px;
+					bottom: -40px;
 				}
 			}
 
@@ -348,12 +381,22 @@
 				float: left;
 				padding: 25px 0 0 197px;
 				@media (max-width: 980px) {
-					padding: 25px 0 0 75px;
+					padding: 25px 15px 0 75px;
+					text-align: right;
+				}
+				@media (max-width: 800px) {
+					padding: 25px 0 0 50px;
+					width: 42%;
 				}
 				@media (max-width: 767px) {
 					width: 100%;
 					float: none;
+					text-align: left;
 					padding: 0;
+				}
+				@media (max-width: 540px) {
+					font-size: 16px;
+					padding: 0 0 0 90px;
 				}
 				&:last-child {
 					font-size: 18px;
@@ -362,10 +405,19 @@
 					width: 40%;
 					@media (max-width: 980px) {
 						width: 52%;
+						text-align: right;
+						padding-right: 15px;
+					}
+					@media (max-width: 800px) {
+						width: 58%;
+						text-align: left;
 					}
 					@media (max-width: 767px) {
 						width: 100%;
 						font-size: 16px;
+					}
+					@media (max-width: 540px) {
+						font-size: 12px;
 					}
 					span {
 						font-size: 44px;
@@ -376,8 +428,14 @@
 						display: inline-block;
 						@media (max-width: 767px) {
 							font-size: 38px;
+							display: table;
 						}
-
+						@media (max-width: 540px) {
+							font-size: 35px;
+						}
+						@media (max-width: 380px) {
+							font-size: 28px;
+						}
 						&:after {
 							content: '';
 							position: absolute;

@@ -18,31 +18,31 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-aeroplane {
   background-image: url(sprite.png);
-  background-position: -64px -782px;
+  background-position: -771px 0px;
   width: 270px;
   height: 70px;
 }
 .icon-arrow-left-mobile {
   background-image: url(sprite.png);
-  background-position: -748px -193px;
+  background-position: -1004px -189px;
   width: 14px;
   height: 29px;
 }
 .icon-arrow-left {
   background-image: url(sprite.png);
-  background-position: -725px -237px;
+  background-position: -995px -339px;
   width: 20px;
   height: 45px;
 }
 .icon-arrow-right-mobile {
   background-image: url(sprite.png);
-  background-position: -745px -237px;
+  background-position: -1018px -189px;
   width: 14px;
   height: 29px;
 }
 .icon-arrow-right {
   background-image: url(sprite.png);
-  background-position: -725px -193px;
+  background-position: -981px -189px;
   width: 23px;
   height: 44px;
 }
@@ -60,19 +60,19 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-camp-title-bubble {
   background-image: url(sprite.png);
-  background-position: -64px -1002px;
+  background-position: -771px -412px;
   width: 85px;
   height: 80px;
 }
 .icon-camp-title-lines-mobile {
   background-image: url(sprite.png);
-  background-position: -64px -852px;
+  background-position: -771px -189px;
   width: 79px;
   height: 150px;
 }
 .icon-camp-title-lines {
   background-image: url(sprite.png);
-  background-position: -632px -499px;
+  background-position: -916px -70px;
   width: 75px;
   height: 114px;
 }
@@ -90,43 +90,43 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-logo-footer {
   background-image: url(sprite.png);
-  background-position: -334px -782px;
+  background-position: -850px -272px;
   width: 185px;
   height: 27px;
 }
 .icon-number-3 {
   background-image: url(sprite.png);
-  background-position: -707px -530px;
+  background-position: -991px -101px;
   width: 49px;
   height: 31px;
 }
 .icon-number-4 {
   background-image: url(sprite.png);
-  background-position: -707px -499px;
+  background-position: -991px -132px;
   width: 49px;
   height: 31px;
 }
 .icon-number-5 {
   background-image: url(sprite.png);
-  background-position: -707px -561px;
+  background-position: -991px -70px;
   width: 49px;
   height: 31px;
 }
 .icon-sche-aeroplane {
   background-image: url(sprite.png);
-  background-position: -640px -440px;
+  background-position: -850px -299px;
   width: 106px;
   height: 35px;
 }
 .icon-sche-bottom-bubble-mobile {
   background-image: url(sprite.png);
-  background-position: -367px -852px;
+  background-position: -856px -412px;
   width: 76px;
   height: 63px;
 }
 .icon-sche-bottom-bubble {
   background-image: url(sprite.png);
-  background-position: -617px -633px;
+  background-position: -771px -70px;
   width: 145px;
   height: 119px;
 }
@@ -138,57 +138,45 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-sche-text-bubble {
   background-image: url(sprite.png);
-  background-position: -640px -357px;
+  background-position: -850px -189px;
   width: 131px;
   height: 83px;
 }
 .icon-sche1-wave {
   background-image: url(sprite.png);
-  background-position: -519px -782px;
+  background-position: -771px -492px;
   width: 190px;
   height: 13px;
 }
 .icon-sche1 {
   background-image: url(sprite.png);
-  background-position: -143px -852px;
+  background-position: -771px -339px;
   width: 112px;
   height: 73px;
 }
 .icon-sche2-wave {
   background-image: url(sprite.png);
-  background-position: -519px -795px;
+  background-position: -771px -505px;
   width: 190px;
   height: 13px;
 }
 .icon-sche2 {
   background-image: url(sprite.png);
-  background-position: -255px -852px;
+  background-position: -883px -339px;
   width: 112px;
   height: 73px;
 }
 .icon-small-hotel-image {
   background-image: url(sprite.png);
-  background-position: -443px -852px;
+  background-position: -932px -412px;
   width: 78px;
   height: 45px;
-}
-.icon-timeline-blue-mobile {
-  background-image: url(sprite.png);
-  background-position: 0px -782px;
-  width: 32px;
-  height: 979px;
 }
 .icon-timeline-blue {
   background-image: url(sprite.png);
   background-position: -223px 0px;
   width: 222px;
   height: 782px;
-}
-.icon-timeline-mobile {
-  background-image: url(sprite.png);
-  background-position: -32px -782px;
-  width: 32px;
-  height: 837px;
 }
 .icon-timeline {
   background-image: url(sprite.png);

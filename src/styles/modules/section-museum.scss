@@ -139,6 +139,9 @@
 				position: relative;
 				display: inline-block;
 				font-size: 22px;
+				@media (max-width: 500px) {
+					font-size: 17px;
+				}
 				&:after {
 					content: '';
 					position: absolute;
@@ -148,6 +151,9 @@
 					bottom: 5px;
 					right: 0;
 					opacity: 0.5;
+					@media (max-width: 500px) {
+						height: 5px;
+					}
 				}
 			}
 			span {
@@ -178,7 +184,7 @@
 					position: absolute;
 					@media (max-width: 767px) {
 						width: 100%;
-						width: 40%;
+						width: 35%;
 						margin-top: 0;
 					}
 				}
@@ -224,6 +230,9 @@
 				position: relative;
 				display: inline-block;
 				font-size: 22px;
+				@media (max-width: 500px) {
+					font-size: 17px;
+				}
 				&:after {
 					content: '';
 					position: absolute;
@@ -233,6 +242,9 @@
 					bottom: 5px;
 					right: 0;
 					opacity: 0.5;
+					@media (max-width: 500px) {
+						height: 5px;
+					}
 				}
 			}
 			span {
@@ -301,6 +313,9 @@
 			h4 {
 				position: relative;
 				display: inline-block;
+				@media (max-width: 500px) {
+					font-size: 17px;
+				}
 				&:after {
 					content: '';
 					position: absolute;
@@ -310,6 +325,9 @@
 					bottom: 5px;
 					right: 0;
 					opacity: 0.5;
+					@media (max-width: 500px) {
+						height: 5px;
+					}
 				}
 			}
 			span {
@@ -457,6 +475,9 @@
 			h4 {
 				position: relative;
 				display: inline-block;
+				@media (max-width: 500px) {
+					font-size: 17px;
+				}
 				&:after {
 					content: '';
 					position: absolute;
@@ -466,6 +487,9 @@
 					bottom: 5px;
 					right: 0;
 					opacity: 0.5;
+					@media (max-width: 500px) {
+						height: 5px;
+					}
 				}
 			}
 			span {
@@ -510,6 +534,9 @@
 			h4 {
 				position: relative;
 				display: inline-block;
+				@media (max-width: 500px) {
+					font-size: 17px;
+				}
 				&:after {
 					content: '';
 					position: absolute;
@@ -519,6 +546,9 @@
 					bottom: 5px;
 					right: 0;
 					opacity: 0.5;
+					@media (max-width: 500px) {
+						height: 5px;
+					}
 				}
 			}
 			span {
@@ -596,6 +626,9 @@
 			h4 {
 				position: relative;
 				display: inline-block;
+				@media (max-width: 500px) {
+					font-size: 17px;
+				}
 				&:after {
 					content: '';
 					position: absolute;
@@ -605,6 +638,9 @@
 					bottom: 5px;
 					right: 0;
 					opacity: 0.5;
+					@media (max-width: 500px) {
+						height: 5px;
+					}
 				}
 			}
 			span {

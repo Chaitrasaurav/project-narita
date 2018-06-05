@@ -5,6 +5,7 @@ body {
 	line-height: 1.5;
 	font-family: $font-family-primary;
 	color: $text-color-base;
+	overflow-x: hidden;
 }
 
 * {
@@ -28,7 +29,7 @@ a {
 img {
 	display: inline-block;
 	@media (max-width: 767px) {
-		max-width:100%;
+		max-width: 100%;
 	}
 }
 
