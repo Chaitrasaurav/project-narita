@@ -2645,6 +2645,9 @@ footer {
     height: 16px; }
   .checkbox-control input.error {
     outline: 1px solid red; }
+  .checkbox-control a {
+    text-decoration: underline;
+    cursor: pointer; }
 
 .form-title {
   background: #1f3147; }
@@ -2680,3 +2683,63 @@ footer {
     @media (max-width: 767px) {
       .form-description span {
         border-bottom: none; } }
+
+.form-popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding: 100px 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4); }
+  @media (max-width: 500px) {
+    .form-popup {
+      padding: 100px 20px; } }
+  .form-popup .popup-content {
+    background-color: #fff;
+    margin: auto;
+    border: 1px solid #888;
+    max-width: 500px;
+    padding: 40px 0 50px;
+    max-height: 90%;
+    overflow-y: scroll; }
+  .form-popup .close {
+    color: #213046;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #ffff96;
+    width: 30px;
+    height: 30px; }
+  .form-popup .close:hover,
+  .form-popup .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer; }
+  .form-popup .popup-header {
+    background: #1f3147;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    position: fixed;
+    max-width: 500px;
+    width: 100%;
+    top: 6%; }
+    @media (max-width: 500px) {
+      .form-popup .popup-header {
+        width: 91.5%; } }
+    @media (max-width: 400px) {
+      .form-popup .popup-header {
+        width: 88.5%; } }
+  .form-popup p {
+    padding: 0 30px; }
+
+body.not-scrollable,
+html.not-scrollable {
+  overflow-y: hidden; }
